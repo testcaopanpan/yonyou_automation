@@ -21,5 +21,6 @@ def test_font_upload(login):
     #等待字体编码框出现并进行检查点验证
     WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@id="fontCode"]')))
     element = driver.find_element(By.XPATH,'//*[@id="fontCode"]')
+    #元素存在性验证
     assert element is not None
 

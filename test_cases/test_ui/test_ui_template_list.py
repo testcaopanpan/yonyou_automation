@@ -26,6 +26,7 @@ def test_print_template_search(login):
     #等待并检查进入打印模板节点成功
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid = "iprint-distribution-relations_btn"]')))
     element = driver.find_element(By.XPATH, '//*[@fieldid = "iprint-distribution-relations_btn"]')
+    #元素文本验证
     assert element.text == "分配关系查询"
 
 def test_search_lingyujieidan(login):
@@ -46,4 +47,13 @@ def test_search_lingyujieidan(login):
     WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_add-iconfont"]')))
     #新增模板按钮标识存在验证
     element = driver.find_element(By.XPATH,'//*[@fieldid="iprint_add-iconfont"]')
+    #元素存在性验证
     assert element is not None
+
+def test_template_status(login):
+    driver = login
+    #等待并复制系统模板并验证目标模板存在
+
+    #模板启停验证
+    #模板默认标签验证
+    #模板删除验证
