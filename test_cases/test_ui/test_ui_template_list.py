@@ -97,6 +97,8 @@ def test_template_status(login):
     WebDriverWait(driver,20).until(lambda a:len(a.window_handles)>1)
     for handle in driver.window_handles:
         if handle !=print_handle:
+            driver.switch_to.window(handle)
+            driver.close()
             driver.switch_to.window(print_handle)
             break
     WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]')))
