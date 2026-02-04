@@ -1,7 +1,10 @@
 # _*_ coding:utf-8 _*_
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.keys import Keys
 import time
 
 def test_print_template_search(login):
@@ -51,9 +54,97 @@ def test_search_lingyujieidan(login):
     assert element is not None
 
 def test_template_status(login):
+    '''
+    这条用例用于检查打印模板的复制-启停-默认设置-删除
+    '''
     driver = login
+    #用例前置：检查当前预用模板是否存在，存在就删掉
+    try:
+        element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]')
+        if element is not None:
+            more = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[@fieldid="iprint_more-btn"]')
+            ActionChains(driver).move_to_element(more).perform()
+            time.sleep(5)
+            driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
+            driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
+            WebDriverWait(driver, 20).until(
+                EC.invisibility_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]')))
+    except NoSuchElementException:
+        pass
     #等待并复制系统模板并验证目标模板存在
-
+    #等待系统级模板并点击复制按钮
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@class="card_name"][text()="生产订单"]')))
+    driver.find_element(By.XPATH,'//*[text()="生产订单"]/..//*[@fieldid="iprint_copy-btn"]').click()
+    #获取当前窗口句柄
+    print_handle = driver.current_window_handle
+    #修改复制模板名称并确定
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@fieldid="print_multilang_requireNoAutoComplete"]')))
+    #清空原内容
+    #clear方法使用无效，改为模拟键盘删除方法
+    #driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').clear()
+    element = driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')
+    #模拟control+a键盘全选
+    element.send_keys(Keys.CONTROL + 'a')
+    #模拟键盘的删除delete
+    element.send_keys(Keys.DELETE)
+    #写入新内容
+    driver.find_element(By.XPATH,'//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys("复制_状态验证")
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
+    driver.find_element(By.XPATH,'//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
+    #返回打印模板浏览器页面
+    WebDriverWait(driver,20).until(lambda a:len(a.window_handles)>1)
+    for handle in driver.window_handles:
+        if handle !=print_handle:
+            driver.switch_to.window(print_handle)
+            break
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]')))
+    element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]')
+    assert element.text == "复制_状态验证"
+    print("新增复制模板验证通过")
+    #验证新增模板为已启用状态
+    element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
+    assert element is not None
     #模板启停验证
+    more = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[@fieldid="iprint_more-btn"]')
+    ActionChains(driver).move_to_element(more).perform()
+    #点击停用按钮
+    driver.find_element(By.XPATH,'//*[@fieldid="iprint_disuse-btn"]').click()
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已停用"]')))
+    element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已停用"]')
+    assert element is not None
+    #点击启动按钮
+    ActionChains(driver).move_to_element(more).perform()
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_use-btn"]').click()
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')))
+    element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
+    assert element is not None
+    print("打印模板的启停状态切换验证通过")
     #模板默认标签验证
-    #模板删除验证
+    #设置默认
+    ActionChains(driver).move_to_element(more).perform()
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_default-btn"]').click()
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')))
+    element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')
+    assert element is not None
+    #取消默认设置
+    time.sleep(3)
+    ActionChains(driver).move_to_element(more).perform()
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_cancel_default-btn"]').click()
+    WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')))
+    element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')
+    assert len(element) == 0
+    print("打印模板的默认标签配置取消验证通过")
+    #执行打印模板的删除操作
+    ActionChains(driver).move_to_element(more).perform()
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
+    WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]')))
+    tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]')
+    assert len(tem_element) == 0
+    print("新增打印模板删除完成")
