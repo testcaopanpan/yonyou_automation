@@ -124,3 +124,33 @@
 2026-02-04 15:05:47,586 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_150450.html
 2026-02-04 15:05:47,639 - automation_test - INFO - 网络连接正常
 2026-02-04 15:05:48,911 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 15:43:21,743 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_154216.html
+2026-02-04 15:43:21,855 - automation_test - INFO - 网络连接正常
+2026-02-04 15:43:23,165 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 15:44:53,320 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_154345.html
+2026-02-04 15:44:53,370 - automation_test - INFO - 网络连接正常
+2026-02-04 15:44:54,637 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 15:55:48,367 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_155434.html
+2026-02-04 15:55:48,463 - automation_test - INFO - 网络连接正常
+2026-02-04 15:55:50,337 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:06:01,612 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_160501.html
+2026-02-04 16:06:01,670 - automation_test - INFO - 网络连接正常
+2026-02-04 16:06:02,966 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:12:58,355 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_161155.html
+2026-02-04 16:12:58,454 - automation_test - INFO - 网络连接正常
+2026-02-04 16:13:00,072 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:22:29,290 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_162124.html
+2026-02-04 16:22:29,347 - automation_test - INFO - 网络连接正常
+2026-02-04 16:22:30,720 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:43:46,280 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_164240.html
+2026-02-04 16:43:46,363 - automation_test - INFO - 网络连接正常
+2026-02-04 16:43:47,706 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:46:18,271 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_164512.html
+2026-02-04 16:46:18,339 - automation_test - INFO - 网络连接正常
+2026-02-04 16:46:19,693 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:48:30,548 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_164725.html
+2026-02-04 16:48:30,601 - automation_test - INFO - 网络连接正常
+2026-02-04 16:48:31,980 - automation_test - INFO - 测试报告邮件已发送
+2026-02-04 16:50:13,864 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_164911.html
+2026-02-04 16:50:13,915 - automation_test - INFO - 网络连接正常
+2026-02-04 16:50:15,321 - automation_test - INFO - 测试报告邮件已发送

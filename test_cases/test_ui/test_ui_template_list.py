@@ -150,3 +150,71 @@ def test_template_status(login):
     tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]')
     assert len(tem_element) == 0
     print("新增打印模板删除完成")
+
+def test_design_properties_default_value(login):
+    '''
+    这条用例仅作打印模板模板属性默认值检查
+    '''
+    driver = login
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
+    driver.find_element(By.XPATH, '//*[text()="生产订单"]/..//*[@fieldid="iprint_copy-btn"]').click()
+    # 获取当前窗口句柄
+    printlist_handle = driver.current_window_handle
+    # 修改复制模板名称并确定
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')))
+    # 清空原内容
+    # clear方法使用无效，改为模拟键盘删除方法
+    # driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').clear()
+    element = driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')
+    # 模拟control+a键盘全选
+    element.send_keys(Keys.CONTROL + 'a')
+    # 模拟键盘的删除delete
+    element.send_keys(Keys.DELETE)
+    # 写入新内容
+    driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys("复制_模板属性验证")
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
+    # 返回打印模板浏览器页面
+    WebDriverWait(driver, 20).until(lambda a: len(a.window_handles) > 1)
+    for handle in driver.window_handles:
+        if handle != printlist_handle:
+            driver.switch_to.window(handle)
+    WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH,'//*[@id="set-propty"]')))
+    driver.find_element(By.XPATH,'//*[@id="set-propty"]').click()
+    #验证模板编码框不可编辑
+    element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputText|tenantPageCode|Input"]')
+    assert not element.is_enabled()
+    #验证模板名称与新增该模板配置的名称一致
+    element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputText|uititle|Input"]')
+    assert element.get_attribute("value") == "复制_模板属性验证"
+    #验证横向矩阵默认值为1
+    element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputNumber|MergePrintPagesX|InputNumber"]')
+    assert element.get_attribute("value") == "1"
+    #验证总想矩阵默认值为1
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputNumber|MergePrintPagesY|InputNumber"]')
+    assert element.get_attribute("value") == "1"
+    #验证循环主体为【暂无】
+    element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputSelect|mainTable|Select_search_input"]')
+    assert element.get_attribute("value") == "暂无"
+    #验证多页面打印方式默认值为【按单据】
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputSelect|pageTemplateCircle|Select_search_input"]')
+    assert element.get_attribute("value") == "按模板页面"
+    #下边这几个验证项是检查属性按钮开关状态的
+    #单据间隔打印默认关闭
+    element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputBool|intervalPrinting|Switch"]')
+    assert 'checked' not in element.get_attribute("class")
+    #双面打印默认关闭
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|duplexPrinting|Switch"]')
+    assert 'checked' not in element.get_attribute("class")
+    #仅打印有效审批意见默认关闭
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|noPrintReverse|Switch"]')
+    assert 'checked' not in element.get_attribute("class")
+    #不打印无效抢占审批默认关闭
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|excludeGrab|Switch"]')
+    assert 'checked' not in element.get_attribute("class")
+    #不打印自动跳过审批默认关闭
+    element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|excludeNoUserCompleteAuto|Switch"]')
+    assert 'checked' not in element.get_attribute("class")
