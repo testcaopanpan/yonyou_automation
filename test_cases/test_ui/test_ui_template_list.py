@@ -218,3 +218,17 @@ def test_design_properties_default_value(login):
     #不打印自动跳过审批默认关闭
     element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|excludeNoUserCompleteAuto|Switch"]')
     assert 'checked' not in element.get_attribute("class")
+    print("打印模板设计器模板属性默认值验证通过")
+    driver.close()
+    driver.switch_to.window(printlist_handle)
+    more = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+    # 执行打印模板的删除操作
+    ActionChains(driver).move_to_element(more).perform()
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
+    WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_模板属性验证"]')))
+    tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_模板属性验证"]')
+    assert len(tem_element) == 0
+    print("新增打印模板删除完成")
