@@ -182,9 +182,10 @@ def test_design_properties_default_value(login):
     for handle in driver.window_handles:
         if handle != printlist_handle:
             driver.switch_to.window(handle)
-    WebDriverWait(driver,10).until(EC.presence_of_element_located((By.XPATH,'//*[@id="set-propty"]')))
+    WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@id="set-propty"]')))
     driver.find_element(By.XPATH,'//*[@id="set-propty"]').click()
     #验证模板编码框不可编辑
+    WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="design|InputText|tenantPageCode|Input"]')))
     element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputText|tenantPageCode|Input"]')
     assert not element.is_enabled()
     #验证模板名称与新增该模板配置的名称一致
@@ -232,3 +233,82 @@ def test_design_properties_default_value(login):
     tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_模板属性验证"]')
     assert len(tem_element) == 0
     print("新增打印模板删除完成")
+def test_kongjian_list_drag_default_value(login):
+    '''
+    该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+    '''
+    driver = login
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
+    driver.find_element(By.XPATH, '//*[text()="生产订单"]/..//*[@fieldid="iprint_copy-btn"]').click()
+    # 获取当前窗口句柄
+    printlist_handle = driver.current_window_handle
+    # 修改复制模板名称并确定
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')))
+    # 清空原内容
+    # clear方法使用无效，改为模拟键盘删除方法
+    # driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').clear()
+    element = driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')
+    # 模拟control+a键盘全选
+    element.send_keys(Keys.CONTROL + 'a')
+    # 模拟键盘的删除delete
+    element.send_keys(Keys.DELETE)
+    # 写入新内容
+    driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys(
+        "复制_列表属性验证")
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
+    driver.find_element(By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
+    # 返回打印模板浏览器页面
+    WebDriverWait(driver, 20).until(lambda a: len(a.window_handles) > 1)
+    for handle in driver.window_handles:
+        if handle != printlist_handle:
+            driver.switch_to.window(handle)
+    WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@id="set-propty"]')))
+    #开始进行列表控件的新增、验证过程
+    #等待并删除画布上已经配置好的列表控件
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@title="列表: 生产订单表体"]')))
+    element = driver.find_element(By.XPATH,'//*[@title="列表: 生产订单表体"]')
+    if element:
+        element.click()
+        #等待删除按钮出现并点击
+        WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@title="列表: 生产订单表体"]/..//*[contains(@class,"delete-button")]')))
+        driver.find_element(By.XPATH,'//*[@title="列表: 生产订单表体"]/..//*[contains(@class,"delete-button")]').click()
+        element = driver.find_elements(By.XPATH, '//*[@title="列表: 生产订单表体"]')
+        assert len(element) ==0
+        print("系统预置的列表在画布删除成功")
+    #通过拖拽添加新列表控件并进行元素配置
+    #配置列表控件element
+    list_element = driver.find_element(By.XPATH,'//*[@fieldid="design|ComponentGroup|Panel|tableGroup|table"]')
+    print("获取到列表控件")
+    #配置画布目标element
+    targ_element = driver.find_element(By.XPATH,'//*[@id="watermarkWordCover"]')
+    print("获取到画布")
+    #将列表控件移动到目标位置
+    #ActionChains(driver).drag_and_drop(list_element,targ_element).perform()
+    action = ActionChains(driver)
+    action.move_to_element(list_element).perform()
+    action.click_and_hold()
+    # 3. 将鼠标移动到画布的中心位置
+    # 计算画布中心坐标
+    print("x坐标是"+str(targ_element.location['x']))
+    print("y坐标是"+str(targ_element.location['y']))
+    canvas_center_x = targ_element.location['x'] + 200
+    canvas_center_y = targ_element.location['y'] + 250
+    action.move_by_offset(canvas_center_x - list_element.location['x'],
+                           canvas_center_y - list_element.location['y']).perform()
+    action.release().perform()
+    print("列表控件完成向画布拖入操作")
+    #验证列表设置弹窗弹出正常
+    WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@id="inputDesignModalHeader"]')))
+    list_settings_element = driver.find_element(By.XPATH,'//*[@id="inputDesignModalHeader"]')
+    assert list_settings_element is not None
+
+    #搜索选择字段
+
+    #点击确定保存列表
+
+    #检查列表配置后在画布上展示正常
+
+    #点击并检查列表的各默认属性值是否正常

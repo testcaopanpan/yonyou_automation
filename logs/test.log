@@ -157,3 +157,21 @@
 2026-02-04 17:17:34,048 - __main__ - INFO - 测试报告已生成: reports\test_report_20260204_171543.html
 2026-02-04 17:17:34,129 - automation_test - INFO - 网络连接正常
 2026-02-04 17:17:35,491 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:17:24,102 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_161706.html
+2026-02-05 16:17:24,234 - automation_test - INFO - 网络连接正常
+2026-02-05 16:17:26,280 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:21:45,478 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_162128.html
+2026-02-05 16:21:45,660 - automation_test - INFO - 网络连接正常
+2026-02-05 16:21:48,220 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:23:34,613 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_162206.html
+2026-02-05 16:23:34,716 - automation_test - INFO - 网络连接正常
+2026-02-05 16:23:36,560 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:29:24,473 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_162906.html
+2026-02-05 16:29:24,722 - automation_test - INFO - 网络连接正常
+2026-02-05 16:29:27,076 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:31:09,478 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_162945.html
+2026-02-05 16:31:09,580 - automation_test - INFO - 网络连接正常
+2026-02-05 16:31:11,628 - automation_test - INFO - 测试报告邮件已发送
+2026-02-05 16:37:10,991 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_163540.html
+2026-02-05 16:37:11,156 - automation_test - INFO - 网络连接正常
+2026-02-05 16:37:13,303 - automation_test - INFO - 测试报告邮件已发送

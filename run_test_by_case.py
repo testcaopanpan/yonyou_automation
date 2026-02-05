@@ -8,10 +8,9 @@ from common.send_email import send_email
 
 def main():
     test_case_list = [
-        "test_cases/test_ui/test_ui_font.py",
         "test_cases/test_ui/test_ui_template_list.py::test_print_template_search",
         "test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan",
-        "test_cases/test_ui/test_ui_template_list.py::test_design_properties_default_value"
+        "test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value"
     ]
     #构建pytest命令行参数
     pytest_avg = []
@@ -56,8 +55,8 @@ def main():
     except Exception as e:
         print(f"执行 pytest 时出错：{e}")
         sys.exit(1)
-    send_email = send_email(report_path)
-    send_email.send_report()
+   # send_email = send_email()
+    #send_email.send_report()
 
 
 if __name__ == "__main__":
