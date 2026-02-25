@@ -175,3 +175,23 @@
 2026-02-05 16:37:10,991 - __main__ - INFO - 测试报告已生成: reports\test_report_20260205_163540.html
 2026-02-05 16:37:11,156 - automation_test - INFO - 网络连接正常
 2026-02-05 16:37:13,303 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:23:06,335 - selenium.webdriver.common.selenium_manager - WARNING - There was an error managing chromedriver (error decoding response body); using driver found in the cache
+2026-02-25 10:23:06,337 - selenium.webdriver.common.selenium_manager - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-02-25 10:25:03,785 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_101803.html
+2026-02-25 10:25:04,871 - automation_test - INFO - 网络连接正常
+2026-02-25 10:25:14,634 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:39:02,612 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_103407.html
+2026-02-25 10:39:02,741 - automation_test - INFO - 网络连接正常
+2026-02-25 10:39:04,939 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:47:14,584 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_104545.html
+2026-02-25 10:47:14,638 - automation_test - INFO - 网络连接正常
+2026-02-25 10:47:16,180 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 12:04:22,574 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_120243.html
+2026-02-25 12:04:22,656 - automation_test - INFO - 网络连接正常
+2026-02-25 12:04:23,985 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 12:29:10,904 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_122659.html
+2026-02-25 12:29:11,157 - automation_test - INFO - 网络连接正常
+2026-02-25 12:29:12,595 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 12:38:39,269 - __main__ - INFO - 测试报告已生成: reports\test_report_20260225_123624.html
+2026-02-25 12:38:39,326 - automation_test - INFO - 网络连接正常
+2026-02-25 12:38:40,638 - automation_test - INFO - 测试报告邮件已发送

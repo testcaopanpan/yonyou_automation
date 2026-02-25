@@ -1,0 +1,18 @@
+2026-02-25 10:25:04,871 - automation_test - INFO - 网络连接正常
+2026-02-25 10:25:14,634 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:39:02,741 - automation_test - INFO - 网络连接正常
+2026-02-25 10:39:04,939 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:47:14,638 - automation_test - INFO - 网络连接正常
+2026-02-25 10:47:16,180 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 10:49:20,526 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 11:25:18,360 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 11:29:33,415 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 11:30:48,625 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 11:34:53,507 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 11:47:29,116 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_print_template_search', 'test_cases/test_ui/test_ui_template_list.py::test_search_lingyujieidan', 'test_cases/test_ui/test_ui_template_list.py::test_kongjian_list_drag_default_value']
+2026-02-25 12:04:22,656 - automation_test - INFO - 网络连接正常
+2026-02-25 12:04:23,985 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 12:29:11,157 - automation_test - INFO - 网络连接正常
+2026-02-25 12:29:12,595 - automation_test - INFO - 测试报告邮件已发送
+2026-02-25 12:38:39,326 - automation_test - INFO - 网络连接正常
+2026-02-25 12:38:40,638 - automation_test - INFO - 测试报告邮件已发送
