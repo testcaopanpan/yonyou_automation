@@ -9,6 +9,9 @@ class Logger:
         # 创建logger
         self.logger = logging.getLogger(logger_name)
         self.logger.setLevel(logging.DEBUG)
+        # 关键：如果已经有 handler 了，就直接返回，避免重复添加
+        if self.logger.handlers:
+            return
 
         # 创建日志目录
         log_dir = 'logs'

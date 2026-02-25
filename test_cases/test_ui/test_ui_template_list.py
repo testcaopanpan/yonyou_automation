@@ -1,4 +1,5 @@
 # _*_ coding:utf-8 _*_
+import pytest
 from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -6,11 +7,13 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import time
+from common.logger import logger
 
-def test_print_template_search(login):
+@pytest.fixture(autouse=True)
+def print_template_jinrushengchandingdan(login):
     '''
     用例名称：验证打印模板节点进入正常
-    该用例需要与test_tenant_id_check串行，否则后续需要优化到该租户下执行
+    左侧树搜索并点击进入生产订单节点验证
     '''
     driver = login
     driver.refresh()
@@ -32,12 +35,6 @@ def test_print_template_search(login):
     #元素文本验证
     assert element.text == "分配关系查询"
 
-def test_search_lingyujieidan(login):
-    '''
-    用例名称：左侧树搜索并点击进入生产订单节点验证
-    该用例建议与test_print_template_search串行
-    '''
-    driver = login
     #等待左侧树搜索框并录入生产订单节点名称
     WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@title="搜索模板分类"]')))
     driver.find_element(By.XPATH,'//*[@title="搜索模板分类"]').send_keys("生产订单")
@@ -58,6 +55,8 @@ def test_template_status(login):
     这条用例用于检查打印模板的复制-启停-默认设置-删除
     '''
     driver = login
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
     #用例前置：检查当前预用模板是否存在，存在就删掉
     try:
         element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]')
@@ -104,7 +103,7 @@ def test_template_status(login):
     WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]')))
     element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]')
     assert element.text == "复制_状态验证"
-    print("新增复制模板验证通过")
+    logger.info("新增复制模板验证通过")
     #验证新增模板为已启用状态
     element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
     assert element is not None
@@ -123,7 +122,7 @@ def test_template_status(login):
         EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')))
     element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
     assert element is not None
-    print("打印模板的启停状态切换验证通过")
+    logger.info("打印模板的启停状态切换验证通过")
     #模板默认标签验证
     #设置默认
     ActionChains(driver).move_to_element(more).perform()
@@ -139,7 +138,7 @@ def test_template_status(login):
     WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')))
     element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')
     assert len(element) == 0
-    print("打印模板的默认标签配置取消验证通过")
+    logger.info("打印模板的默认标签配置取消验证通过")
     #执行打印模板的删除操作
     ActionChains(driver).move_to_element(more).perform()
     driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
@@ -149,7 +148,7 @@ def test_template_status(login):
     WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]')))
     tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]')
     assert len(tem_element) == 0
-    print("新增打印模板删除完成")
+    logger.info("新增打印模板删除完成")
 
 def test_design_properties_default_value(login):
     '''
@@ -157,6 +156,8 @@ def test_design_properties_default_value(login):
     '''
     driver = login
     # 用例前置：检查当前预用模板是否存在，存在就删掉
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
     try:
         element = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]')
         if element is not None:
@@ -172,8 +173,7 @@ def test_design_properties_default_value(login):
     except NoSuchElementException:
         pass
 
-    WebDriverWait(driver, 20).until(
-        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
+
     driver.find_element(By.XPATH, '//*[text()="生产订单"]/..//*[@fieldid="iprint_copy-btn"]').click()
     # 获取当前窗口句柄
     printlist_handle = driver.current_window_handle
@@ -245,7 +245,7 @@ def test_design_properties_default_value(login):
     time.sleep(3)
     element = driver.find_element(By.XPATH, '//*[@fieldid="design|InputBool|excludeNoUserCompleteAuto|Switch"]')
     assert 'checked' not in element.get_attribute("class")
-    print("打印模板设计器模板属性默认值验证通过")
+    logger.info("打印模板设计器模板属性默认值验证通过")
     driver.close()
     driver.switch_to.window(printlist_handle)
     more = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
@@ -258,13 +258,15 @@ def test_design_properties_default_value(login):
     WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_模板属性验证"]')))
     tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_模板属性验证"]')
     assert len(tem_element) == 0
-    print("新增打印模板删除完成")
+    logger.info("新增打印模板删除完成")
 def test_kongjian_list_drag_default_value(login):
     '''
     该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
     '''
     driver = login
     # 用例前置：检查当前预用模板是否存在，存在就删掉
+    WebDriverWait(driver, 20).until(
+        EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
     try:
         element = driver.find_element(By.XPATH, '//*[text()="复制_列表属性验证"]')
         if element is not None:
@@ -319,14 +321,14 @@ def test_kongjian_list_drag_default_value(login):
         driver.find_element(By.XPATH,'//*[@title="列表: 生产订单表体"]/..//*[contains(@class,"delete-button")]').click()
         element = driver.find_elements(By.XPATH, '//*[@title="列表: 生产订单表体"]')
         assert len(element) ==0
-        print("系统预置的列表在画布删除成功")
+        logger.info("系统预置的列表在画布删除成功")
     #通过拖拽添加新列表控件并进行元素配置
     #配置列表控件element
     list_element = driver.find_element(By.XPATH,'//*[@fieldid="design|ComponentGroup|Panel|tableGroup|table"]')
-    print("获取到列表控件")
+    logger.info("获取到列表控件")
     #配置画布目标element
     targ_element = driver.find_element(By.XPATH,'//*[@id="watermarkWordCover"]')
-    print("获取到画布")
+    logger.info("获取到画布")
     #将列表控件移动到目标位置
     #ActionChains(driver).drag_and_drop(list_element,targ_element).perform()
     action = ActionChains(driver)
@@ -334,14 +336,14 @@ def test_kongjian_list_drag_default_value(login):
     action.click_and_hold()
     # 3. 将鼠标移动到画布的中心位置
     # 计算画布中心坐标
-    print("x坐标是"+str(targ_element.location['x']))
-    print("y坐标是"+str(targ_element.location['y']))
+    logger.info("x坐标是"+str(targ_element.location['x']))
+    logger.info("y坐标是"+str(targ_element.location['y']))
     canvas_center_x = targ_element.location['x'] + 200
     canvas_center_y = targ_element.location['y'] + 250
     action.move_by_offset(canvas_center_x - list_element.location['x'],
                            canvas_center_y - list_element.location['y']).perform()
     action.release().perform()
-    print("列表控件完成向画布拖入操作")
+    logger.info("列表控件完成向画布拖入操作")
     #验证列表设置弹窗弹出正常
     WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@id="inputDesignModalHeader"]')))
     list_settings_element = driver.find_element(By.XPATH,'//*[@id="inputDesignModalHeader"]')
@@ -416,6 +418,6 @@ def test_kongjian_list_drag_default_value(login):
             WebDriverWait(driver, 20).until(
                 EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
             driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
-            print("本次用例新增模板删除完成，用例执行成功")
+            logger.info("本次用例新增模板删除完成，用例执行成功")
     except NoSuchElementException:
         pass

@@ -6,6 +6,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import time
+import os
+from datetime import datetime
 
 def handle_notification_popup(driver):
     """处理浏览器通知权限弹窗"""
@@ -74,6 +76,52 @@ def login(driver):
         time.sleep(5)
         WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="userAvatorNew_img"]')))
         driver.find_element(By.XPATH, '//*[@fieldid="userAvatorNew_img"]').click()
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, '//*[@fieldid="menu_img"]'))
+        )
+        print("登录成功！")
+        element = driver.find_element(By.XPATH, '//*[@fieldid="menu_img"]')
+        assert element is not None
     else:
         driver.refresh()
     return driver
+
+@pytest.hookimpl(hookwrapper=True, tryfirst=True)
+def pytest_runtest_makereport(item, call):
+    """
+    在每个测试阶段结束后，把结果对象挂在 item 上：
+    - item.rep_setup
+    - item.rep_call
+    - item.rep_teardown
+    方便后面的 fixture 判断用例是否失败。
+    """
+    outcome = yield
+    rep = outcome.get_result()
+    setattr(item, "rep_" + rep.when, rep)
+
+
+@pytest.fixture(autouse=True)
+def screenshot_on_failure(request,driver):
+    '''
+    所有使用了driver的ui用例都会自动套上这个fixture，
+    用例执行完成后会自动检查是否失败，失败则调用save_screenshort
+    '''
+    yield
+    #只关注用例主体阶段的结果(rep_call)
+    rep = getattr(request.node,"rep_call",None)
+    #rep可能为None；确保有结果且用例失败的时候才截图
+    if rep and rep.failed:
+        # 以日期分目录：screenshots/20260225/xxx.png
+        date_str = datetime.now().strftime("%Y%m%d")
+        screenshot_dir = os.path.join("screenshorts",date_str)
+        os.makedirs(screenshot_dir,exist_ok=True)
+        # 用例名 + 时间戳 作为文件名，方便定位
+        test_name = request.node.name
+        timestamp = datetime.now().strftime("%H%M%S")
+        filename = f"{test_name}_{timestamp}.png"
+        file_path = os.path.join(screenshot_dir,filename)
+        try:
+            driver.save_screenshot(file_path)
+            print(f"用例执行失败，失败已截图至:{file_path}")
+        except Exception as e:
+            print(f"用例失败时截图失败：{e}")

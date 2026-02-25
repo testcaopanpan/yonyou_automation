@@ -5,19 +5,8 @@ import pytest
 import os
 from datetime import datetime
 import argparse
-import logging
 from common.send_email import send_email
-
-# 配置日志
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
-    handlers=[
-        logging.FileHandler('logs/test.log'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
+from common.logger import logger
 
 
 # 执行测试
@@ -45,7 +34,6 @@ def run_test(test_case=None, report_path=None):
 
         pytest.main(pytest_args)
 
-        logger.info(f"测试报告已生成: {report_path}")
 
         # 发送测试报告
         send_email(report_path)
