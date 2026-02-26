@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 import time
 import os
+import allure
 from datetime import datetime
 
 def handle_notification_popup(driver):
@@ -123,5 +124,14 @@ def screenshot_on_failure(request,driver):
         try:
             driver.save_screenshot(file_path)
             print(f"用例执行失败，失败已截图至:{file_path}")
+            # 新增：把截图挂到 Allure 报告里
+            try:
+                allure.attach.file(
+                    file_path,
+                    name=f"{test_name}_screenshot",
+                    attachment_type=allure.attachment_type.PNG
+                )
+            except Exception as attach_err:
+                print(f"将截图附加到 Allure 报告时出错：{attach_err}")
         except Exception as e:
             print(f"用例失败时截图失败：{e}")

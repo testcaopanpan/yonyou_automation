@@ -23,16 +23,22 @@ def run_test(test_case=None, report_path=None):
             report_path = os.path.join(report_dir, report_name)
 
         # 执行测试并生成测试报告
+        allure_dir = os.path.join("reports","allure_results")
+        if not os.path.exists(allure_dir):
+            os.makedirs(allure_dir)
         pytest_args = [
-            '-v',
-            '--html=' + report_path,
-            '--self-contained-html'
+            "-v",
+            f"--html={report_path}",
+            "--self-contained-html",  # 这里末尾要有逗号
+            f"--alluredir={allure_dir}",  # 这个是单独一个参数
         ]
 
         if test_case:
             pytest_args.append(test_case)
 
-        pytest.main(pytest_args)
+        logger.info(f"开始执行 pytest：{pytest_args}")
+        exit_code = pytest.main(pytest_args)
+        logger.info(f"pytest 执行结束，退出码：{exit_code}")
 
 
         # 发送测试报告

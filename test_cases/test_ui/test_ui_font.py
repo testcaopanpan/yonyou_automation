@@ -2,8 +2,12 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import allure
 import time
 
+@allure.epic("UI自动化")
+@allure.feature("字体管理")
+@allure.story("字体上传检查")
 def test_font_upload(login):
     driver = login
     WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="menu_img"]')))
