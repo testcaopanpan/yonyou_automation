@@ -1,8 +1,12 @@
 # _*_ coding:utf-8 _*_
 import requests
 from common.logger import logger
+import allure
 
 
+@allure.epic("API自动化")
+@allure.feature("基础接口")
+@allure.story("demo接口验证")
 def test_api_demo(login_cookie):
     # 将cookie转换为字典
     cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}

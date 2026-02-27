@@ -1,0 +1,12 @@
+2026-02-27 15:15:03,771 - automation_test - INFO - 开始复制系统模板
+2026-02-27 15:15:09,469 - automation_test - INFO - 新增复制模板验证通过
+2026-02-27 15:15:09,470 - automation_test - INFO - 验证新增模板为已启用状态
+2026-02-27 15:15:09,503 - automation_test - INFO - 模板启停验证
+2026-02-27 15:15:09,823 - automation_test - INFO - 点击停用按钮
+2026-02-27 15:15:12,444 - automation_test - INFO - 点击启动按钮
+2026-02-27 15:15:13,554 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-02-27 15:15:13,554 - automation_test - INFO - 模板默认标签验证
+2026-02-27 15:15:13,555 - automation_test - INFO - 设置默认
+2026-02-27 15:15:14,563 - automation_test - INFO - 取消默认设置
+2026-02-27 15:15:18,604 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-02-27 15:15:20,621 - automation_test - INFO - 新增打印模板删除完成

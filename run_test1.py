@@ -13,17 +13,22 @@ from common.logger import logger
 def run_test(test_case=None, report_path=None):
     try:
         # 创建测试报告目录
+        timestmp = datetime.now().strftime("%Y%m%d_%H%M%S")
         if not report_path:
             report_dir = 'reports'
             if not os.path.exists(report_dir):
                 os.makedirs(report_dir)
 
             # 生成测试报告文件名
-            report_name = f"test_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.html"
+            report_name = f"test_report_{datetime.now().strftime(timestmp)}.html"
             report_path = os.path.join(report_dir, report_name)
 
+            # JUnit XML 报告（新加）
+            junit_name = f"junit_result_{timestmp}.xml"
+            junit_path = os.path.join(report_dir, junit_name)
+
         # 执行测试并生成测试报告
-        allure_dir = os.path.join("reports","allure_results")
+        allure_dir = os.path.join("reports","allure_results",timestmp)
         if not os.path.exists(allure_dir):
             os.makedirs(allure_dir)
         pytest_args = [
@@ -31,6 +36,7 @@ def run_test(test_case=None, report_path=None):
             f"--html={report_path}",
             "--self-contained-html",  # 这里末尾要有逗号
             f"--alluredir={allure_dir}",  # 这个是单独一个参数
+            f"--junitxml={junit_path}", #生成junit结果
         ]
 
         if test_case:
@@ -42,7 +48,7 @@ def run_test(test_case=None, report_path=None):
 
 
         # 发送测试报告
-        send_email(report_path)
+        send_email(report_path,junit_path)
     except Exception as e:
         logger.error(f"执行测试失败: {e}")
 
@@ -53,6 +59,7 @@ if __name__ == "__main__":
     parser.add_argument('--test_case', help='指定测试用例')
     parser.add_argument('--report_path', help='指定测试报告路径')
     args = parser.parse_args()
+
 
     # 执行测试
     run_test(args.test_case, args.report_path)
