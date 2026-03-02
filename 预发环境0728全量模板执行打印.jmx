@@ -1,0 +1,1395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jmeterTestPlan version="1.2" properties="5.0" jmeter="5.6.2">
+  <hashTree>
+    <TestPlan guiclass="TestPlanGui" testclass="TestPlan" testname="预发环境0728全量模板执行打印" enabled="true">
+      <boolProp name="TestPlan.functional_mode">false</boolProp>
+      <boolProp name="TestPlan.tearDown_on_shutdown">false</boolProp>
+      <boolProp name="TestPlan.serialize_threadgroups">false</boolProp>
+      <elementProp name="TestPlan.user_defined_variables" elementType="Arguments" guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+        <collectionProp name="Arguments.arguments"/>
+      </elementProp>
+    </TestPlan>
+    <hashTree>
+      <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+        <collectionProp name="HeaderManager.headers">
+          <elementProp name="accept" elementType="Header">
+            <stringProp name="Header.name">accept</stringProp>
+            <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+          </elementProp>
+          <elementProp name="accept-language" elementType="Header">
+            <stringProp name="Header.name">accept-language</stringProp>
+            <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+          </elementProp>
+          <elementProp name="cache-control" elementType="Header">
+            <stringProp name="Header.name">cache-control</stringProp>
+            <stringProp name="Header.value">no-cache</stringProp>
+          </elementProp>
+          <elementProp name="content-type" elementType="Header">
+            <stringProp name="Header.name">content-type</stringProp>
+            <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+          </elementProp>
+          <elementProp name="origin" elementType="Header">
+            <stringProp name="Header.name">origin</stringProp>
+            <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+          </elementProp>
+          <elementProp name="pragma" elementType="Header">
+            <stringProp name="Header.name">pragma</stringProp>
+            <stringProp name="Header.value">no-cache</stringProp>
+          </elementProp>
+          <elementProp name="priority" elementType="Header">
+            <stringProp name="Header.name">priority</stringProp>
+            <stringProp name="Header.value">u=1, i</stringProp>
+          </elementProp>
+          <elementProp name="referer" elementType="Header">
+            <stringProp name="Header.name">referer</stringProp>
+            <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c1768288903000&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=b5e5191f-2252-4c2f-8078-502b131354ce&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua</stringProp>
+            <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-mobile" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+            <stringProp name="Header.value">?0</stringProp>
+          </elementProp>
+          <elementProp name="sec-ch-ua-platform" elementType="Header">
+            <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+            <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+          </elementProp>
+          <elementProp name="sec-fetch-dest" elementType="Header">
+            <stringProp name="Header.name">sec-fetch-dest</stringProp>
+            <stringProp name="Header.value">empty</stringProp>
+          </elementProp>
+          <elementProp name="sec-fetch-mode" elementType="Header">
+            <stringProp name="Header.name">sec-fetch-mode</stringProp>
+            <stringProp name="Header.value">cors</stringProp>
+          </elementProp>
+          <elementProp name="sec-fetch-site" elementType="Header">
+            <stringProp name="Header.name">sec-fetch-site</stringProp>
+            <stringProp name="Header.value">same-origin</stringProp>
+          </elementProp>
+          <elementProp name="user-agent" elementType="Header">
+            <stringProp name="Header.name">user-agent</stringProp>
+            <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+          </elementProp>
+          <elementProp name="x-xsrf-token" elementType="Header">
+            <stringProp name="Header.name">x-xsrf-token</stringProp>
+            <stringProp name="Header.value">MDF_W2HNQ2J8KO8M1PA7AIM5ZGM5Y!143035</stringProp>
+          </elementProp>
+          <elementProp name="Cookie" elementType="Header">
+            <stringProp name="Header.name">Cookie</stringProp>
+            <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=67a6a6e8-512d-4d4c-b339-4373b8bb77d7; multilingualFlag=true; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; defaultOrg=&quot;&quot;; JSESSIONID=0000FOcLsHGwO1uRGZHb9h2uKDhot6WcEg5vgZ16m9NH-ms4iQ8ACQJUPk69nT0x5Lko:2dbb535a-30a4-43d4-a7f3-6fa6e8052081; yht_username_diwork=ST-441600486-dSIAfBpmxx5qN5Vu3dw9-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=8oNBI%2FjqFMrnxD7gSqAPgwvFfAArCaWIDqH6DMiB6QdAqekUK5I8SQRMeu0N0ipFoAGmqSbUWrJ9sNAsRZlKAQ%3D%3D; timezone=UTC+08:00; acw_tc=0b32972e17684585555588552e3f81add9eb25a8ef8002d2a71ed673ef18a7; print_tenantid=0000MJI0SZZA1TIK990000; yht_access_token=bttTnUyem4zeWV0R3JoQUFxWDFmTVNhYjNYa2dFTDJ4Wkt0UEVjL1U3YjhZK1ZoTEtwUGxNak5mRS9XcmJyUmwyVl9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1768458980574TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; language=001; locale=zh_CN; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=bx72VuyN-9NOoW7r6VCEgGJo0s7033b_WhRqVvCEnnMwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2ODQ1ODk4MDU4M2B5bXNzZXM6MjhkMjc0OTVlYzM1Y2M3MGNmOGIxZGFiOTc1NzI0NDBgZGl3b3JrYA; a10=MDEyNDc0NjU0OTg2MzQ5ODA1ODM; XSRF-TOKEN=MDF_NUAS669CV2VJJWEHSK0QQZHSR!144243; UBA_LAST_EID=huhn47f31ylg</stringProp>
+          </elementProp>
+        </collectionProp>
+      </HeaderManager>
+      <hashTree/>
+      <ConfigTestElement guiclass="HttpDefaultsGui" testclass="ConfigTestElement" testname="HTTP Request Defaults" enabled="true">
+        <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+          <collectionProp name="Arguments.arguments"/>
+        </elementProp>
+        <stringProp name="HTTPSampler.domain">bip-pre.yonyoucloud.com</stringProp>
+        <stringProp name="HTTPSampler.port">443</stringProp>
+        <stringProp name="HTTPSampler.protocol">https</stringProp>
+      </ConfigTestElement>
+      <hashTree/>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="生产订单全量验证" enabled="true">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="关闭openpdf" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.path">/iuap-apcom-print/u8cprint/cache/deleteTenantId/0000L64FMRN8GSISCU0000</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="打印模板打印据发起打印请求" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;param&quot;:&quot;{\&quot;classifyCode\&quot;:\&quot;PO.po_production_order\&quot;,\&quot;billno\&quot;:\&quot;po_production_order\&quot;,\&quot;printcountswitch\&quot;:true,\&quot;printrefreshinterval\&quot;:1000,\&quot;context_path\&quot;:\&quot;/mdf-node/uniform\&quot;,\&quot;ids\&quot;:[\&quot;2007393480175255554\&quot;,\&quot;2019797491760234499\&quot;,\&quot;2215883270186336259\&quot;,\&quot;1892147808139476996\&quot;,\&quot;1892286200592465925\&quot;,\&quot;1902519690309664769\&quot;,\&quot;1962001869203046409\&quot;],\&quot;printAction\&quot;:\&quot;preview\&quot;,\&quot;sysParams\&quot;:{},\&quot;domainParams\&quot;:{\&quot;billno\&quot;:\&quot;po_production_order\&quot;,\&quot;printcountswitch\&quot;:true,\&quot;printrefreshinterval\&quot;:1000,\&quot;context_path\&quot;:\&quot;/mdf-node/uniform\&quot;,\&quot;ids\&quot;:[\&quot;2007393480175255554\&quot;,\&quot;2019797491760234499\&quot;,\&quot;2215883270186336259\&quot;,\&quot;1892147808139476996\&quot;,\&quot;1892286200592465925\&quot;,\&quot;1902519690309664769\&quot;,\&quot;1962001869203046409\&quot;],\&quot;printAction\&quot;:\&quot;preview\&quot;,\&quot;datas\&quot;:[{\&quot;id\&quot;:\&quot;2007393480175255554\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1685190110140694535\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;2007393480175255554\&quot;},{\&quot;id\&quot;:\&quot;2019797491760234499\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1685190110140694535\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;2019797491760234499\&quot;},{\&quot;id\&quot;:\&quot;2215883270186336259\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1509907598675019637\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;2215883270186336259\&quot;},{\&quot;id\&quot;:\&quot;1892147808139476996\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1685190110140694535\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;1892147808139476996\&quot;},{\&quot;id\&quot;:\&quot;1892286200592465925\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1685190110140694535\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;1892286200592465925\&quot;},{\&quot;id\&quot;:\&quot;1902519690309664769\&quot;,\&quot;orgId\&quot;:\&quot;1798805756358688776\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1509907598675019637\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;1902519690309664769\&quot;},{\&quot;id\&quot;:\&quot;1962001869203046409\&quot;,\&quot;orgId\&quot;:\&quot;1738639062723461128\&quot;,\&quot;printTranstypeCode\&quot;:\&quot;1509907598675019637\&quot;,\&quot;businessType\&quot;:\&quot;yonbip-mm-mfpo\&quot;,\&quot;businessId\&quot;:\&quot;1962001869203046409\&quot;}]},\&quot;serviceCode\&quot;:\&quot;po_production_order_list\&quot;}&quot;,&quot;billno&quot;:&quot;po_production_order&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.path">/mdf-node/cachePrint?serviceCode=po_production_order_list&amp;terminalType=1&amp;locale=zh_CN</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1024379219">&quot;key&quot;:&quot;</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="提取领域生成的key" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">print_key</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$.key</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">1</stringProp>
+            <stringProp name="Sample.scope">all</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">*/*</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+              </elementProp>
+              <elementProp name="cache-control" elementType="Header">
+                <stringProp name="Header.name">cache-control</stringProp>
+                <stringProp name="Header.value">no-cache</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/json;charset=UTF-8</stringProp>
+              </elementProp>
+              <elementProp name="domain-key" elementType="Header">
+                <stringProp name="Header.name">domain-key</stringProp>
+                <stringProp name="Header.value">productionorder</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+              </elementProp>
+              <elementProp name="pragma" elementType="Header">
+                <stringProp name="Header.name">pragma</stringProp>
+                <stringProp name="Header.value">no-cache</stringProp>
+              </elementProp>
+              <elementProp name="priority" elementType="Header">
+                <stringProp name="Header.name">priority</stringProp>
+                <stringProp name="Header.value">u=1, i</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua</stringProp>
+                <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                <stringProp name="Header.value">?0</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-platform" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">empty</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">cors</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">same-origin</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="x-xsrf-token" elementType="Header">
+                <stringProp name="Header.name">x-xsrf-token</stringProp>
+                <stringProp name="Header.value">MDF_W2HNQ2J8KO8M1PA7AIM5ZGM5Y!143035</stringProp>
+              </elementProp>
+              <elementProp name="Cookie" elementType="Header">
+                <stringProp name="Header.name">Cookie</stringProp>
+                <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=67a6a6e8-512d-4d4c-b339-4373b8bb77d7; multilingualFlag=true; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; defaultOrg=&quot;&quot;; JSESSIONID=0000FOcLsHGwO1uRGZHb9h2uKDhot6WcEg5vgZ16m9NH-ms4iQ8ACQJUPk69nT0x5Lko:2dbb535a-30a4-43d4-a7f3-6fa6e8052081; yht_username_diwork=ST-441600486-dSIAfBpmxx5qN5Vu3dw9-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=8oNBI%2FjqFMrnxD7gSqAPgwvFfAArCaWIDqH6DMiB6QdAqekUK5I8SQRMeu0N0ipFoAGmqSbUWrJ9sNAsRZlKAQ%3D%3D; timezone=UTC+08:00; acw_tc=0b32972e17684585555588552e3f81add9eb25a8ef8002d2a71ed673ef18a7; print_tenantid=0000MJI0SZZA1TIK990000; yht_access_token=bttTnUyem4zeWV0R3JoQUFxWDFmTVNhYjNYa2dFTDJ4Wkt0UEVjL1U3YjhZK1ZoTEtwUGxNak5mRS9XcmJyUmwyVl9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1768458980574TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; language=001; locale=zh_CN; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=bx72VuyN-9NOoW7r6VCEgGJo0s7033b_WhRqVvCEnnMwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2ODQ1ODk4MDU4M2B5bXNzZXM6MjhkMjc0OTVlYzM1Y2M3MGNmOGIxZGFiOTc1NzI0NDBgZGl3b3JrYA; a10=MDEyNDc0NjU0OTg2MzQ5ODA1ODM; XSRF-TOKEN=MDF_NUAS669CV2VJJWEHSK0QQZHSR!144243; UBA_LAST_EID=huhn47f31ylg</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="获取生产订单打印模板" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">{&quot;meta&quot;:5,&quot;parentcode&quot;:&quot;PO&quot;,&quot;busiObj&quot;:&quot;productionorder.po_production_order&quot;,&quot;classifyCodeName&quot;:&quot;生产订单&quot;,&quot;billNum&quot;:&quot;[\&quot;po_production_order\&quot;,\&quot;po_production_order_list\&quot;,\&quot;po_production_order_ustock\&quot;,\&quot;po_production_order_std\&quot;,\&quot;po_production_order_inner_pull\&quot;,\&quot;po_production_order_materialprint\&quot;,\&quot;po_order_dimensional_materialprint\&quot;,\&quot;po_daily_production_schedule_list\&quot;,\&quot;po_cost_collect_order_list\&quot;,\&quot;po_cost_collect_order\&quot;,\&quot;dcrp_production_order_list\&quot;,\&quot;po_order_material_sum_list\&quot;]&quot;,&quot;queryDomain&quot;:&quot;productionorder&quot;}</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.path">/iuap-apcom-print/u8cprint/web/template/getTemplatesPrintForQuery</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1575630339">\[.+\]</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+          <JSONPostProcessor guiclass="JSONPostProcessorGui" testclass="JSONPostProcessor" testname="JSON Extractor" enabled="true">
+            <stringProp name="JSONPostProcessor.referenceNames">template_code</stringProp>
+            <stringProp name="JSONPostProcessor.jsonPathExprs">$[*].code</stringProp>
+            <stringProp name="JSONPostProcessor.match_numbers">-1</stringProp>
+            <stringProp name="Sample.scope">all</stringProp>
+          </JSONPostProcessor>
+          <hashTree/>
+          <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="true">
+            <collectionProp name="HeaderManager.headers">
+              <elementProp name="accept" elementType="Header">
+                <stringProp name="Header.name">accept</stringProp>
+                <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+              </elementProp>
+              <elementProp name="accept-language" elementType="Header">
+                <stringProp name="Header.name">accept-language</stringProp>
+                <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+              </elementProp>
+              <elementProp name="cache-control" elementType="Header">
+                <stringProp name="Header.name">cache-control</stringProp>
+                <stringProp name="Header.value">no-cache</stringProp>
+              </elementProp>
+              <elementProp name="content-type" elementType="Header">
+                <stringProp name="Header.name">content-type</stringProp>
+                <stringProp name="Header.value">application/json</stringProp>
+              </elementProp>
+              <elementProp name="origin" elementType="Header">
+                <stringProp name="Header.name">origin</stringProp>
+                <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+              </elementProp>
+              <elementProp name="pragma" elementType="Header">
+                <stringProp name="Header.name">pragma</stringProp>
+                <stringProp name="Header.value">no-cache</stringProp>
+              </elementProp>
+              <elementProp name="priority" elementType="Header">
+                <stringProp name="Header.name">priority</stringProp>
+                <stringProp name="Header.value">u=1, i</stringProp>
+              </elementProp>
+              <elementProp name="referer" elementType="Header">
+                <stringProp name="Header.name">referer</stringProp>
+                <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua</stringProp>
+                <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                <stringProp name="Header.value">?0</stringProp>
+              </elementProp>
+              <elementProp name="sec-ch-ua-platform" elementType="Header">
+                <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-dest" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                <stringProp name="Header.value">empty</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-mode" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                <stringProp name="Header.value">cors</stringProp>
+              </elementProp>
+              <elementProp name="sec-fetch-site" elementType="Header">
+                <stringProp name="Header.name">sec-fetch-site</stringProp>
+                <stringProp name="Header.value">same-origin</stringProp>
+              </elementProp>
+              <elementProp name="user-agent" elementType="Header">
+                <stringProp name="Header.name">user-agent</stringProp>
+                <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+              </elementProp>
+              <elementProp name="x-xsrf-token" elementType="Header">
+                <stringProp name="Header.name">x-xsrf-token</stringProp>
+                <stringProp name="Header.value">AX_70A6YN4DUXLP7A9EM6VG2SXFN!181843</stringProp>
+              </elementProp>
+              <elementProp name="Cookie" elementType="Header">
+                <stringProp name="Header.name">Cookie</stringProp>
+                <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=67a6a6e8-512d-4d4c-b339-4373b8bb77d7; multilingualFlag=true; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; defaultOrg=&quot;&quot;; JSESSIONID=0000FOcLsHGwO1uRGZHb9h2uKDhot6WcEg5vgZ16m9NH-ms4iQ8ACQJUPk69nT0x5Lko:2dbb535a-30a4-43d4-a7f3-6fa6e8052081; yht_username_diwork=ST-441600486-dSIAfBpmxx5qN5Vu3dw9-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=8oNBI%2FjqFMrnxD7gSqAPgwvFfAArCaWIDqH6DMiB6QdAqekUK5I8SQRMeu0N0ipFoAGmqSbUWrJ9sNAsRZlKAQ%3D%3D; timezone=UTC+08:00; acw_tc=0b32972e17684585555588552e3f81add9eb25a8ef8002d2a71ed673ef18a7; print_tenantid=0000MJI0SZZA1TIK990000; yht_access_token=bttTnUyem4zeWV0R3JoQUFxWDFmTVNhYjNYa2dFTDJ4Wkt0UEVjL1U3YjhZK1ZoTEtwUGxNak5mRS9XcmJyUmwyVl9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1768458980574TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; language=001; locale=zh_CN; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=bx72VuyN-9NOoW7r6VCEgGJo0s7033b_WhRqVvCEnnMwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2ODQ1ODk4MDU4M2B5bXNzZXM6MjhkMjc0OTVlYzM1Y2M3MGNmOGIxZGFiOTc1NzI0NDBgZGl3b3JrYA; a10=MDEyNDc0NjU0OTg2MzQ5ODA1ODM; XSRF-TOKEN=MDF_NUAS669CV2VJJWEHSK0QQZHSR!144243; UBA_LAST_EID=huhn47f31ylg</stringProp>
+              </elementProp>
+            </collectionProp>
+          </HeaderManager>
+          <hashTree/>
+        </hashTree>
+        <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
+          <boolProp name="displayJMeterProperties">false</boolProp>
+          <boolProp name="displayJMeterVariables">true</boolProp>
+          <boolProp name="displaySystemProperties">false</boolProp>
+        </DebugSampler>
+        <hashTree/>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">500</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <ForeachController guiclass="ForeachControlPanel" testclass="ForeachController" testname="循环执行该组件下的各请求" enabled="true">
+          <stringProp name="ForeachController.inputVal">template_code</stringProp>
+          <stringProp name="ForeachController.returnVal">current_code</stringProp>
+          <boolProp name="ForeachController.useSeparator">true</boolProp>
+          <stringProp name="ForeachController.startIndex">1</stringProp>
+          <stringProp name="ForeachController.endIndex">${template_code_matchNr}</stringProp>
+        </ForeachController>
+        <hashTree>
+          <DebugSampler guiclass="TestBeanGUI" testclass="DebugSampler" testname="Debug Sampler" enabled="false">
+            <boolProp name="displayJMeterProperties">false</boolProp>
+            <boolProp name="displayJMeterVariables">true</boolProp>
+            <boolProp name="displaySystemProperties">false</boolProp>
+          </DebugSampler>
+          <hashTree/>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="打印预览print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=false&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/pdf/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="110834">pdf</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_OH19P3AI6VIR4PKBSF94UJMH7!172706</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; XSRF-TOKEN=AX_OH19P3AI6VIR4PKBSF94UJMH7!172706; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=duxzgcl8yg1k</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="输出excel的print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=false</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/excel/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="46164359">.xlsx</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_IIB63476HGLZ3GU721O364ZTX!173814</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=ymdxjcl8zwih; XSRF-TOKEN=AX_IIB63476HGLZ3GU721O364ZTX!173814</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="jpg_print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/jpg/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="3076010">data</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="direct_print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/direct/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="3076010">data</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="分割打印请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=true&amp;isCache=1&amp;keepAlive=false&amp;classifyCodeForCount=PO.po_production_order&amp;microServiceCode=test</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/pdf/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="110834">pdf</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_OH19P3AI6VIR4PKBSF94UJMH7!172706</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; XSRF-TOKEN=AX_OH19P3AI6VIR4PKBSF94UJMH7!172706; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=duxzgcl8yg1k</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">500</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="开启openpdf" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">false</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments" guiclass="HTTPArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
+            <collectionProp name="Arguments.arguments"/>
+          </elementProp>
+          <stringProp name="HTTPSampler.path">/iuap-apcom-print/u8cprint/cache/updateTenantId/0000L64FMRN8GSISCU0000</stringProp>
+          <stringProp name="HTTPSampler.method">GET</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+        </HTTPSamplerProxy>
+        <hashTree/>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">500</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <ForeachController guiclass="ForeachControlPanel" testclass="ForeachController" testname="循环执行该组件下的各请求" enabled="true">
+          <stringProp name="ForeachController.inputVal">template_code</stringProp>
+          <stringProp name="ForeachController.returnVal">current_code</stringProp>
+          <boolProp name="ForeachController.useSeparator">true</boolProp>
+          <stringProp name="ForeachController.startIndex">1</stringProp>
+          <stringProp name="ForeachController.endIndex">${template_code_matchNr}</stringProp>
+        </ForeachController>
+        <hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="打印预览print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/pdf/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="110834">pdf</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_OH19P3AI6VIR4PKBSF94UJMH7!172706</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; XSRF-TOKEN=AX_OH19P3AI6VIR4PKBSF94UJMH7!172706; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=duxzgcl8yg1k</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="输出excel的print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=false</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/excel/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="46164359">.xlsx</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_IIB63476HGLZ3GU721O364ZTX!173814</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=ymdxjcl8zwih; XSRF-TOKEN=AX_IIB63476HGLZ3GU721O364ZTX!173814</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="jpg_print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/jpg/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="3076010">data</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="direct_print请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/direct/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="3076010">data</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+          </hashTree>
+          <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="分割打印请求" enabled="true">
+            <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+            <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+              <collectionProp name="Arguments.arguments">
+                <elementProp name="" elementType="HTTPArgument">
+                  <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                  <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=${current_code}&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;params=${print_key}&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=true&amp;isCache=1&amp;keepAlive=false&amp;classifyCodeForCount=PO.po_production_order&amp;microServiceCode=test</stringProp>
+                  <stringProp name="Argument.metadata">=</stringProp>
+                </elementProp>
+              </collectionProp>
+            </elementProp>
+            <stringProp name="HTTPSampler.path">/iuap-apcom-print/iuap-print-pdf/pdf/print</stringProp>
+            <stringProp name="HTTPSampler.method">POST</stringProp>
+            <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+            <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+            <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+            <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+            <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+            <boolProp name="HTTPSampler.image_parser">false</boolProp>
+            <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+            <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+            <boolProp name="HTTPSampler.md5">false</boolProp>
+            <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          </HTTPSamplerProxy>
+          <hashTree>
+            <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+              <collectionProp name="Asserion.test_strings">
+                <stringProp name="110834">pdf</stringProp>
+              </collectionProp>
+              <stringProp name="Assertion.custom_message"></stringProp>
+              <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+              <boolProp name="Assertion.assume_success">false</boolProp>
+              <intProp name="Assertion.test_type">2</intProp>
+            </ResponseAssertion>
+            <hashTree/>
+            <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="HTTP Header Manager" enabled="false">
+              <collectionProp name="HeaderManager.headers">
+                <elementProp name="accept" elementType="Header">
+                  <stringProp name="Header.name">accept</stringProp>
+                  <stringProp name="Header.value">application/json, text/plain, */*</stringProp>
+                </elementProp>
+                <elementProp name="accept-language" elementType="Header">
+                  <stringProp name="Header.name">accept-language</stringProp>
+                  <stringProp name="Header.value">zh-CN,zh;q=0.9,en;q=0.8</stringProp>
+                </elementProp>
+                <elementProp name="cache-control" elementType="Header">
+                  <stringProp name="Header.name">cache-control</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="content-type" elementType="Header">
+                  <stringProp name="Header.name">content-type</stringProp>
+                  <stringProp name="Header.value">application/x-www-form-urlencoded; charset=UTF-8</stringProp>
+                </elementProp>
+                <elementProp name="origin" elementType="Header">
+                  <stringProp name="Header.name">origin</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com</stringProp>
+                </elementProp>
+                <elementProp name="pragma" elementType="Header">
+                  <stringProp name="Header.name">pragma</stringProp>
+                  <stringProp name="Header.value">no-cache</stringProp>
+                </elementProp>
+                <elementProp name="priority" elementType="Header">
+                  <stringProp name="Header.name">priority</stringProp>
+                  <stringProp name="Header.value">u=1, i</stringProp>
+                </elementProp>
+                <elementProp name="referer" elementType="Header">
+                  <stringProp name="Header.name">referer</stringProp>
+                  <stringProp name="Header.value">https://bip-pre.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview?appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2433307760394764295&amp;meta=1&amp;sendType=7&amp;lang=zh_CN&amp;orgId=1798805756358688776&amp;sysLocale=zh_CN&amp;classifyCode=PO.po_production_order&amp;params=bbc7aa00-cfa3-43c6-bf25-9188a6b73204&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua</stringProp>
+                  <stringProp name="Header.value">&quot;Google Chrome&quot;;v=&quot;143&quot;, &quot;Chromium&quot;;v=&quot;143&quot;, &quot;Not A(Brand&quot;;v=&quot;24&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-mobile" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-mobile</stringProp>
+                  <stringProp name="Header.value">?0</stringProp>
+                </elementProp>
+                <elementProp name="sec-ch-ua-platform" elementType="Header">
+                  <stringProp name="Header.name">sec-ch-ua-platform</stringProp>
+                  <stringProp name="Header.value">&quot;Windows&quot;</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-dest" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-dest</stringProp>
+                  <stringProp name="Header.value">empty</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-mode" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-mode</stringProp>
+                  <stringProp name="Header.value">cors</stringProp>
+                </elementProp>
+                <elementProp name="sec-fetch-site" elementType="Header">
+                  <stringProp name="Header.name">sec-fetch-site</stringProp>
+                  <stringProp name="Header.value">same-origin</stringProp>
+                </elementProp>
+                <elementProp name="user-agent" elementType="Header">
+                  <stringProp name="Header.name">user-agent</stringProp>
+                  <stringProp name="Header.value">Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36</stringProp>
+                </elementProp>
+                <elementProp name="x-xsrf-token" elementType="Header">
+                  <stringProp name="Header.name">x-xsrf-token</stringProp>
+                  <stringProp name="Header.value">AX_OH19P3AI6VIR4PKBSF94UJMH7!172706</stringProp>
+                </elementProp>
+                <elementProp name="Cookie" elementType="Header">
+                  <stringProp name="Header.name">Cookie</stringProp>
+                  <stringProp name="Header.value">_WorkbenchCross_=Ultraman; loginLocale=zh_CN; at=580a7fe7-a4f4-444a-af70-d65507c9d075; multilingualFlag=true; timezone=UTC+08:00; language=001; locale=zh_CN; orgId=&quot;&quot;; theme=&quot;&quot;; newArch=true; sysid=diwork; defaultLocale=zh_CN; n_f_f=true; c800=dccore0; jDiowrkTokenMock=; print_tenantid=0000L64FMRN8GSISCU0000; XSRF-TOKEN=AX_OH19P3AI6VIR4PKBSF94UJMH7!172706; acw_tc=0bdd34ba17666548264691028e8acee5398139a3f3743efb44f777f5df52a7; JSESSIONID=0000Zhvc08cCUrlkg7UaC9u0yXXacYHHCg7noZ_GLIfkYo8cx7BoiYKSdhOyphK94n-9:39f80ebf-64d0-4f52-a64a-a0309994ef12; yht_username_diwork=ST-11188427-6S6SmY36GucqgxkLIwcc-pre__734f0f63-013d-4e03-9ffa-1bb79e51e99f; yht_usertoken_diwork=jyUpNVvCHBYO7hT56AQ%2Fd%2F6AFviqw3M5rKTVRVVwbR0cGBMf9%2F4i7qt8cI4ChPq30%2BbrYX%2BXIAmr5url8DVEzw%3D%3D; yht_access_token=bttN2tHMk1tY3ZFR1pQUVRoZ3U1cjkvOWFDNmdYS3IwRkVIRlM3eE5Yb1BFNXExMWoydVRRK2k4cTNIWERpend0RF9feWh0LXByZS55b255b3VjbG91ZC5jb20.__7279de07b4743bc34d314ea2db16c75f_1766655096284TGYonBip-core2-pre-all-serviceTGdccore0iuap-apcom-workbenchc020e7c8YT; defaultOrg=&quot;&quot;; tenantid=0000L64FMRN8GSISCU0000; languages=1_3-2_1-3_1; a00=lrjK52NV0TehSDd7f21noiPrlNLQIaAVbMd3I2EpsNkwMDAwTDY0Rk1STjhHU0lTQ1UwMDAwYDI4Nzk5MTg0Njc5OTU4NDBgMDAwMEw2NEZNUk44R1NJU0NVMDAwMGA3MzRmMGY2My0wMTNkLTRlMDMtOWZmYS0xYmI3OWU1MWU5OWZgMWBgZTViYzgwZTU4ZjkxZTViN2E1ZTU4NWI3ZTZiNThiZThhZjk1ZTdhZWExZTc5MDg2ZTU5MTk4YGBgMTUxMDA3NzM4NzMzNzg5MTg0NGBmYWxzZWBgMTc2NjY1NTA5NjI5MGB5bXNzZXM6YjU4OTM3Y2VkMWU4N2ViMzAxOTVhYjU2MmFhYjg0YmVgZGl3b3JrYA; a10=MDE4NzY0OTc1OTY4MzEwOTYyOTA; UBA_LAST_EID=duxzgcl8yg1k</stringProp>
+                </elementProp>
+              </collectionProp>
+            </HeaderManager>
+            <hashTree/>
+          </hashTree>
+        </hashTree>
+        <ConstantTimer guiclass="ConstantTimerGui" testclass="ConstantTimer" testname="Constant Timer" enabled="true">
+          <stringProp name="ConstantTimer.delay">500</stringProp>
+        </ConstantTimer>
+        <hashTree/>
+        <ResultCollector guiclass="ViewResultsFullVisualizer" testclass="ResultCollector" testname="View Results Tree" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SummaryReport" testclass="ResultCollector" testname="Summary Report" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+        <ResultCollector guiclass="SimpleDataWriter" testclass="ResultCollector" testname="Simple Data Writer" enabled="true">
+          <boolProp name="ResultCollector.error_logging">false</boolProp>
+          <objProp>
+            <name>saveConfig</name>
+            <value class="SampleSaveConfiguration">
+              <time>true</time>
+              <latency>true</latency>
+              <timestamp>true</timestamp>
+              <success>true</success>
+              <label>true</label>
+              <code>true</code>
+              <message>true</message>
+              <threadName>true</threadName>
+              <dataType>true</dataType>
+              <encoding>false</encoding>
+              <assertions>true</assertions>
+              <subresults>true</subresults>
+              <responseData>false</responseData>
+              <samplerData>false</samplerData>
+              <xml>false</xml>
+              <fieldNames>true</fieldNames>
+              <responseHeaders>false</responseHeaders>
+              <requestHeaders>false</requestHeaders>
+              <responseDataOnError>false</responseDataOnError>
+              <saveAssertionResultsFailureMessage>true</saveAssertionResultsFailureMessage>
+              <assertionsResultsToSave>0</assertionsResultsToSave>
+              <bytes>true</bytes>
+              <sentBytes>true</sentBytes>
+              <url>true</url>
+              <threadCounts>true</threadCounts>
+              <idleTime>true</idleTime>
+              <connectTime>true</connectTime>
+            </value>
+          </objProp>
+          <stringProp name="filename"></stringProp>
+        </ResultCollector>
+        <hashTree/>
+      </hashTree>
+      <ThreadGroup guiclass="ThreadGroupGui" testclass="ThreadGroup" testname="常见单接口验证" enabled="false">
+        <stringProp name="ThreadGroup.on_sample_error">continue</stringProp>
+        <elementProp name="ThreadGroup.main_controller" elementType="LoopController" guiclass="LoopControlPanel" testclass="LoopController" testname="Loop Controller" enabled="true">
+          <stringProp name="LoopController.loops">1</stringProp>
+          <boolProp name="LoopController.continue_forever">false</boolProp>
+        </elementProp>
+        <stringProp name="ThreadGroup.num_threads">1</stringProp>
+        <stringProp name="ThreadGroup.ramp_time">1</stringProp>
+        <boolProp name="ThreadGroup.delayedStart">false</boolProp>
+        <boolProp name="ThreadGroup.scheduler">false</boolProp>
+        <stringProp name="ThreadGroup.duration"></stringProp>
+        <stringProp name="ThreadGroup.delay"></stringProp>
+        <boolProp name="ThreadGroup.same_user_on_next_iteration">true</boolProp>
+      </ThreadGroup>
+      <hashTree>
+        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="多语公式归档验证:取值应该也是多语的才对" enabled="true">
+          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
+          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
+            <collectionProp name="Arguments.arguments">
+              <elementProp name="" elementType="HTTPArgument">
+                <boolProp name="HTTPArgument.always_encode">false</boolProp>
+                <stringProp name="Argument.value">appSource=PO&amp;domainDataBaseByCode=MF&amp;tenantId=0000L64FMRN8GSISCU0000&amp;printcode=u8c2007275265522663433&amp;meta=5&amp;sendType=7&amp;lang=zh_CN&amp;sysLocale=zh_CN&amp;params=39b93ae3-464b-4a9b-8ecf-fdccd0512060&amp;serviceCode=po_production_order_list&amp;serverUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fmdf-node%2Fformdata%2F%2Fbill%2FgetPrintData%3FdomainKey%3Dproductionorder%26serviceCode%3Dpo_production_order_list&amp;newArch=true&amp;multilingualFlag=true&amp;locale=zh_CN&amp;canAutoMatch=true&amp;jump=fromSelectBtn&amp;selected=true&amp;previewLangValue=2&amp;previewLang=en_US&amp;previewUrl=https%3A%2F%2Fbip-pre.yonyoucloud.com%2Fiuap-apcom-print%2Fu8cprint%2Fdesign%2FgetPreview&amp;split=false&amp;isCache=1&amp;keepAlive=true&amp;classifyCodeForCount=PO.po_production_order&amp;microServiceCode=test</stringProp>
+                <stringProp name="Argument.metadata">=</stringProp>
+              </elementProp>
+            </collectionProp>
+          </elementProp>
+          <stringProp name="HTTPSampler.path">/iuap-apcom-print/external/archives/v2/print</stringProp>
+          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
+          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
+          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
+          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
+          <boolProp name="HTTPSampler.BROWSER_COMPATIBLE_MULTIPART">false</boolProp>
+          <boolProp name="HTTPSampler.image_parser">false</boolProp>
+          <boolProp name="HTTPSampler.concurrentDwn">false</boolProp>
+          <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
+          <boolProp name="HTTPSampler.md5">false</boolProp>
+          <intProp name="HTTPSampler.ipSourceType">0</intProp>
+          <stringProp name="TestPlan.comments">该接口执行后，需要去事件查询检查归档结果中pdf是否正常，</stringProp>
+        </HTTPSamplerProxy>
+        <hashTree>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-110469960">&quot;data&quot;: &quot;test</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">2</intProp>
+          </ResponseAssertion>
+          <hashTree/>
+        </hashTree>
+      </hashTree>
+    </hashTree>
+  </hashTree>
+</jmeterTestPlan>

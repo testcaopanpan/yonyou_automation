@@ -374,7 +374,7 @@ def test_kongjian_list_drag_default_value(login):
         logger.info("x坐标是"+str(targ_element.location['x']))
         logger.info("y坐标是"+str(targ_element.location['y']))
         canvas_center_x = targ_element.location['x'] + 200
-        canvas_center_y = targ_element.location['y'] + 200
+        canvas_center_y = targ_element.location['y'] + 400
         action.move_by_offset(canvas_center_x - list_element.location['x'],
                                canvas_center_y - list_element.location['y']).perform()
         action.release().perform()

@@ -9,6 +9,7 @@ import time
 import os
 import allure
 from datetime import datetime
+from selenium.webdriver.chrome.options import Options
 
 def handle_notification_popup(driver):
     """处理浏览器通知权限弹窗"""
@@ -26,7 +27,16 @@ def handle_notification_popup(driver):
 
 @pytest.fixture(scope="session")
 def driver():
-    driver = webdriver.Chrome()
+    options = Options()
+    if os.getenv("HEADLESS","false").lower() in ("1","true","yes"):
+        options.add_argument("--headless")
+        options.add_argument("--disablue-gpu")
+        options.add_argument("--no-sandbox")
+    remote = os.getenv("SELENIUM_REMOTE_URL")
+    if remote:
+        driver = webdriver.Remote(command_executor=remote,options=options)
+    else:
+        driver = webdriver.Chrome(options=options)
     yield driver
     driver.quit()
 
