@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="4" failures="1" skipped="0" tests="5" time="36.708" timestamp="2026-03-02T13:12:42.795779" hostname="LAPTOP-AKAH6LMA"><testcase classname="test_cases.test_api.test_api_demo" name="test_api_demo" time="9.653"><failure message="assert 'success' in '\n&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n  &lt;head&gt;\n    &lt;meta charset=&quot;utf-8&quot; /&gt;\n    &lt;meta\n      name=&quot;viewport&quot;\n      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;\n    /&gt;\n    &lt;link rel=&quot;stylesheet&quot; href=&quot;/style.css&quot; /&gt;\n    &lt;link\n      rel=&quot;stylesheet&quot;\n      href=&quot;https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-lucario.min.css&quot;\n    /&gt;\n    &lt;title&gt;JSONPlaceholder - Free Fake REST API&lt;/title&gt;\n    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n    &lt;script\n      async\n      src=&quot;https://www.googletagmanager.com/gtag/js?id=G-E3C3GCQVBN&quot;\n    &gt;&lt;/script&gt;\n    &lt;script&gt;\n      window.dataLayer = window.dataLayer || []\n      function gtag() {\n        dataLayer.push(arguments)\n      }\n      gtag(\'js\', new Date())\n\n      gtag(\'config\', \'G-E3C3GCQVBN\')\n    &lt;/script&gt;\n    &lt;script\n      async\n      src=&quot;https://media.ethicalads.io/media/client/ethicalads.min.js&quot;\n    &gt;&lt;/script&gt;\n  &lt;/head&gt;\n\n  &lt;body&gt;\n    &lt;!-- Banner --&gt;\n    &lt;div class=&quot;bg-blue-500 text-center py-2&quot;&gt;\n      &lt;div class=&quot;container mx-auto&quot;&gt;\n        &lt;a href=&quot;https://github.com/typicode/mistcss&quot; class=&quot;text-white&quot;&gt;Check my new project &lt;strong&gt;#x1F4A7 MistCSS&lt;/strong&gt; writ...ton = document.getElementById(&quot;run-button&quot;);\n  runButton.onclick = function () {\n    var root = location.protocol + &quot;//jsonplaceholder.typicode.com&quot;;\n    var runMessage = document.getElementById(&quot;run-message&quot;);\n\n    fetch(&quot;https://jsonplaceholder.typicode.com/todos/1&quot;)\n      .then((response) =&gt; response.json())\n      .then((json) =&gt; {\n        var str = JSON.stringify(json, null, &quot;  &quot;);\n\n        // Format result\n        result.innerHTML = Prism.highlight(\n          str,\n          Prism.languages.javascript,\n          &quot;javascript&quot;\n        );\n\n        runMessage.className = &quot;&quot;;\n      });\n  };\n&lt;/script&gt;\n&lt;/div&gt;\n\n    &lt;!-- Footer --&gt;\n    &lt;footer class=&quot;container mx-auto max-w-4xl mt-four&quot;&gt;\n      &lt;div class=&quot;mb-one&quot;&gt;\n        &lt;a href=&quot;https://github.com/users/typicode/sponsorship&quot;&gt;\n          &lt;strong&gt;You can sponsor this project (and others) on GitHub&lt;/strong&gt;\n        &lt;/a&gt;\n      &lt;/div&gt;\n      &lt;div class=&quot;mb-one&quot;&gt;\n        Coded and maintained with ❤️ by\n        &lt;a href=&quot;https://github.com/typicode&quot;&gt;typicode&lt;/a&gt; © 2024\n      &lt;/div&gt;\n    &lt;/footer&gt;\n    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js&quot;&gt;&lt;/script&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n'&#10; +  where '\n&lt;!DOCTYPE html&gt;\n&lt;html lang=&quot;en&quot;&gt;\n  &lt;head&gt;\n    &lt;meta charset=&quot;utf-8&quot; /&gt;\n    &lt;meta\n      name=&quot;viewport&quot;\n      content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;\n    /&gt;\n    &lt;link rel=&quot;stylesheet&quot; href=&quot;/style.css&quot; /&gt;\n    &lt;link\n      rel=&quot;stylesheet&quot;\n      href=&quot;https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-lucario.min.css&quot;\n    /&gt;\n    &lt;title&gt;JSONPlaceholder - Free Fake REST API&lt;/title&gt;\n    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n    &lt;script\n      async\n      src=&quot;https://www.googletagmanager.com/gtag/js?id=G-E3C3GCQVBN&quot;\n    &gt;&lt;/script&gt;\n    &lt;script&gt;\n      window.dataLayer = window.dataLayer || []\n      function gtag() {\n        dataLayer.push(arguments)\n      }\n      gtag(\'js\', new Date())\n\n      gtag(\'config\', \'G-E3C3GCQVBN\')\n    &lt;/script&gt;\n    &lt;script\n      async\n      src=&quot;https://media.ethicalads.io/media/client/ethicalads.min.js&quot;\n    &gt;&lt;/script&gt;\n  &lt;/head&gt;\n\n  &lt;body&gt;\n    &lt;!-- Banner --&gt;\n    &lt;div class=&quot;bg-blue-500 text-center py-2&quot;&gt;\n      &lt;div class=&quot;container mx-auto&quot;&gt;\n        &lt;a href=&quot;https://github.com/typicode/mistcss&quot; class=&quot;text-white&quot;&gt;Check my new project &lt;strong&gt;#x1F4A7 MistCSS&lt;/strong&gt; writ...ton = document.getElementById(&quot;run-button&quot;);\n  runButton.onclick = function () {\n    var root = location.protocol + &quot;//jsonplaceholder.typicode.com&quot;;\n    var runMessage = document.getElementById(&quot;run-message&quot;);\n\n    fetch(&quot;https://jsonplaceholder.typicode.com/todos/1&quot;)\n      .then((response) =&gt; response.json())\n      .then((json) =&gt; {\n        var str = JSON.stringify(json, null, &quot;  &quot;);\n\n        // Format result\n        result.innerHTML = Prism.highlight(\n          str,\n          Prism.languages.javascript,\n          &quot;javascript&quot;\n        );\n\n        runMessage.className = &quot;&quot;;\n      });\n  };\n&lt;/script&gt;\n&lt;/div&gt;\n\n    &lt;!-- Footer --&gt;\n    &lt;footer class=&quot;container mx-auto max-w-4xl mt-four&quot;&gt;\n      &lt;div class=&quot;mb-one&quot;&gt;\n        &lt;a href=&quot;https://github.com/users/typicode/sponsorship&quot;&gt;\n          &lt;strong&gt;You can sponsor this project (and others) on GitHub&lt;/strong&gt;\n        &lt;/a&gt;\n      &lt;/div&gt;\n      &lt;div class=&quot;mb-one&quot;&gt;\n        Coded and maintained with ❤️ by\n        &lt;a href=&quot;https://github.com/typicode&quot;&gt;typicode&lt;/a&gt; © 2024\n      &lt;/div&gt;\n    &lt;/footer&gt;\n    &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js&quot;&gt;&lt;/script&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n' = &lt;Response [200]&gt;.text">@allure.epic("API自动化")
+    @allure.feature("基础接口")
+    @allure.story("demo接口验证")
+    def test_api_demo():
+        # 将cookie转换为字典
+     #   cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}
+    
+        # 发送请求
+        url = "https://jsonplaceholder.typicode.com"
+        headers = {"Content-Type": "application/json"}
+        response = requests.get(url, headers=headers)
+    
+        # 记录日志
+        logger.info(f"请求URL: {url}")
+        logger.info(f"请求头: {headers}")
+        logger.info(f"响应状态码: {response.status_code}")
+        logger.info(f"响应内容: {response.text}")
+    
+        # 断言
+        assert response.status_code == 200
+&gt;       assert "success" in response.text
+E       assert 'success' in '\n&lt;!DOCTYPE html&gt;\n&lt;html lang="en"&gt;\n  &lt;head&gt;\n    &lt;meta charset="utf-8" /&gt;\n    &lt;meta\n      name="viewport"\n      content="width=device-width, initial-scale=1, shrink-to-fit=no"\n    /&gt;\n    &lt;link rel="stylesheet" href="/style.css" /&gt;\n    &lt;link\n      rel="stylesheet"\n      href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-lucario.min.css"\n    /&gt;\n    &lt;title&gt;JSONPlaceholder - Free Fake REST API&lt;/title&gt;\n    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n    &lt;script\n      async\n      src="https://www.googletagmanager.com/gtag/js?id=G-E3C3GCQVBN"\n    &gt;&lt;/script&gt;\n    &lt;script&gt;\n      window.dataLayer = window.dataLayer || []\n      function gtag() {\n        dataLayer.push(arguments)\n      }\n      gtag(\'js\', new Date())\n\n      gtag(\'config\', \'G-E3C3GCQVBN\')\n    &lt;/script&gt;\n    &lt;script\n      async\n      src="https://media.ethicalads.io/media/client/ethicalads.min.js"\n    &gt;&lt;/script&gt;\n  &lt;/head&gt;\n\n  &lt;body&gt;\n    &lt;!-- Banner --&gt;\n    &lt;div class="bg-blue-500 text-center py-2"&gt;\n      &lt;div class="container mx-auto"&gt;\n        &lt;a href="https://github.com/typicode/mistcss" class="text-white"&gt;Check my new project &lt;strong&gt;#x1F4A7 MistCSS&lt;/strong&gt; writ...ton = document.getElementById("run-button");\n  runButton.onclick = function () {\n    var root = location.protocol + "//jsonplaceholder.typicode.com";\n    var runMessage = document.getElementById("run-message");\n\n    fetch("https://jsonplaceholder.typicode.com/todos/1")\n      .then((response) =&gt; response.json())\n      .then((json) =&gt; {\n        var str = JSON.stringify(json, null, "  ");\n\n        // Format result\n        result.innerHTML = Prism.highlight(\n          str,\n          Prism.languages.javascript,\n          "javascript"\n        );\n\n        runMessage.className = "";\n      });\n  };\n&lt;/script&gt;\n&lt;/div&gt;\n\n    &lt;!-- Footer --&gt;\n    &lt;footer class="container mx-auto max-w-4xl mt-four"&gt;\n      &lt;div class="mb-one"&gt;\n        &lt;a href="https://github.com/users/typicode/sponsorship"&gt;\n          &lt;strong&gt;You can sponsor this project (and others) on GitHub&lt;/strong&gt;\n        &lt;/a&gt;\n      &lt;/div&gt;\n      &lt;div class="mb-one"&gt;\n        Coded and maintained with ❤️ by\n        &lt;a href="https://github.com/typicode"&gt;typicode&lt;/a&gt; © 2024\n      &lt;/div&gt;\n    &lt;/footer&gt;\n    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"&gt;&lt;/script&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n'
+E        +  where '\n&lt;!DOCTYPE html&gt;\n&lt;html lang="en"&gt;\n  &lt;head&gt;\n    &lt;meta charset="utf-8" /&gt;\n    &lt;meta\n      name="viewport"\n      content="width=device-width, initial-scale=1, shrink-to-fit=no"\n    /&gt;\n    &lt;link rel="stylesheet" href="/style.css" /&gt;\n    &lt;link\n      rel="stylesheet"\n      href="https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-lucario.min.css"\n    /&gt;\n    &lt;title&gt;JSONPlaceholder - Free Fake REST API&lt;/title&gt;\n    &lt;!-- Global site tag (gtag.js) - Google Analytics --&gt;\n    &lt;script\n      async\n      src="https://www.googletagmanager.com/gtag/js?id=G-E3C3GCQVBN"\n    &gt;&lt;/script&gt;\n    &lt;script&gt;\n      window.dataLayer = window.dataLayer || []\n      function gtag() {\n        dataLayer.push(arguments)\n      }\n      gtag(\'js\', new Date())\n\n      gtag(\'config\', \'G-E3C3GCQVBN\')\n    &lt;/script&gt;\n    &lt;script\n      async\n      src="https://media.ethicalads.io/media/client/ethicalads.min.js"\n    &gt;&lt;/script&gt;\n  &lt;/head&gt;\n\n  &lt;body&gt;\n    &lt;!-- Banner --&gt;\n    &lt;div class="bg-blue-500 text-center py-2"&gt;\n      &lt;div class="container mx-auto"&gt;\n        &lt;a href="https://github.com/typicode/mistcss" class="text-white"&gt;Check my new project &lt;strong&gt;#x1F4A7 MistCSS&lt;/strong&gt; writ...ton = document.getElementById("run-button");\n  runButton.onclick = function () {\n    var root = location.protocol + "//jsonplaceholder.typicode.com";\n    var runMessage = document.getElementById("run-message");\n\n    fetch("https://jsonplaceholder.typicode.com/todos/1")\n      .then((response) =&gt; response.json())\n      .then((json) =&gt; {\n        var str = JSON.stringify(json, null, "  ");\n\n        // Format result\n        result.innerHTML = Prism.highlight(\n          str,\n          Prism.languages.javascript,\n          "javascript"\n        );\n\n        runMessage.className = "";\n      });\n  };\n&lt;/script&gt;\n&lt;/div&gt;\n\n    &lt;!-- Footer --&gt;\n    &lt;footer class="container mx-auto max-w-4xl mt-four"&gt;\n      &lt;div class="mb-one"&gt;\n        &lt;a href="https://github.com/users/typicode/sponsorship"&gt;\n          &lt;strong&gt;You can sponsor this project (and others) on GitHub&lt;/strong&gt;\n        &lt;/a&gt;\n      &lt;/div&gt;\n      &lt;div class="mb-one"&gt;\n        Coded and maintained with ❤️ by\n        &lt;a href="https://github.com/typicode"&gt;typicode&lt;/a&gt; © 2024\n      &lt;/div&gt;\n    &lt;/footer&gt;\n    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"&gt;&lt;/script&gt;\n  &lt;/body&gt;\n&lt;/html&gt;\n' = &lt;Response [200]&gt;.text
+
+test_cases\test_api\test_api_demo.py:27: AssertionError</failure></testcase><testcase classname="test_cases.test_ui.test_ui_font" name="test_font_upload" time="23.767"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff64a76aa55&#10;&#09;0x7ff64a4c8630&#10;&#09;0x7ff64a25d75d&#10;&#09;0x7ff64a2b862e&#10;&#09;0x7ff64a2b893c&#10;&#09;0x7ff64a308d87&#10;&#09;0x7ff64a30591c&#10;&#09;0x7ff64a2a9098&#10;&#09;0x7ff64a2a9f83&#10;&#09;0x7ff64a797810&#10;&#09;0x7ff64a791afd&#10;&#09;0x7ff64a7b2c1a&#10;&#09;0x7ff64a4e3345&#10;&#09;0x7ff64a4eb81c&#10;&#09;0x7ff64a4d1924&#10;&#09;0x7ff64a4d1ad6&#10;&#09;0x7ff64a4b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+        handle_notification_popup(driver)
+        # 如果页面有遮罩（例如 workbench-overlay），先等待它消失
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".workbench-overlay"))
+            )
+        except TimeoutException:
+            # 遮罩可能根本不存在或者超时，不影响后续流程
+            print("页面遮罩未消失或不存在，继续后续操作")
+    
+        # 切换到登录frame
+        WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+        # 切换到登录frame
+&gt;       WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+
+conftest.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+method = &lt;function frame_to_be_available_and_switch_to_it.&lt;locals&gt;._predicate at 0x0000023399993550&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() &gt; end_time:
+                break
+            time.sleep(self._poll)
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff64a76aa55
+E       	0x7ff64a4c8630
+E       	0x7ff64a25d75d
+E       	0x7ff64a2b862e
+E       	0x7ff64a2b893c
+E       	0x7ff64a308d87
+E       	0x7ff64a30591c
+E       	0x7ff64a2a9098
+E       	0x7ff64a2a9f83
+E       	0x7ff64a797810
+E       	0x7ff64a791afd
+E       	0x7ff64a7b2c1a
+E       	0x7ff64a4e3345
+E       	0x7ff64a4eb81c
+E       	0x7ff64a4d1924
+E       	0x7ff64a4d1ad6
+E       	0x7ff64a4b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_template_status" time="0.002"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff64a76aa55&#10;&#09;0x7ff64a4c8630&#10;&#09;0x7ff64a25d75d&#10;&#09;0x7ff64a2b862e&#10;&#09;0x7ff64a2b893c&#10;&#09;0x7ff64a308d87&#10;&#09;0x7ff64a30591c&#10;&#09;0x7ff64a2a9098&#10;&#09;0x7ff64a2a9f83&#10;&#09;0x7ff64a797810&#10;&#09;0x7ff64a791afd&#10;&#09;0x7ff64a7b2c1a&#10;&#09;0x7ff64a4e3345&#10;&#09;0x7ff64a4eb81c&#10;&#09;0x7ff64a4d1924&#10;&#09;0x7ff64a4d1ad6&#10;&#09;0x7ff64a4b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+        handle_notification_popup(driver)
+        # 如果页面有遮罩（例如 workbench-overlay），先等待它消失
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".workbench-overlay"))
+            )
+        except TimeoutException:
+            # 遮罩可能根本不存在或者超时，不影响后续流程
+            print("页面遮罩未消失或不存在，继续后续操作")
+    
+        # 切换到登录frame
+        WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+        # 切换到登录frame
+&gt;       WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+
+conftest.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+method = &lt;function frame_to_be_available_and_switch_to_it.&lt;locals&gt;._predicate at 0x0000023399993550&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() &gt; end_time:
+                break
+            time.sleep(self._poll)
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff64a76aa55
+E       	0x7ff64a4c8630
+E       	0x7ff64a25d75d
+E       	0x7ff64a2b862e
+E       	0x7ff64a2b893c
+E       	0x7ff64a308d87
+E       	0x7ff64a30591c
+E       	0x7ff64a2a9098
+E       	0x7ff64a2a9f83
+E       	0x7ff64a797810
+E       	0x7ff64a791afd
+E       	0x7ff64a7b2c1a
+E       	0x7ff64a4e3345
+E       	0x7ff64a4eb81c
+E       	0x7ff64a4d1924
+E       	0x7ff64a4d1ad6
+E       	0x7ff64a4b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_design_properties_default_value" time="0.002"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff64a76aa55&#10;&#09;0x7ff64a4c8630&#10;&#09;0x7ff64a25d75d&#10;&#09;0x7ff64a2b862e&#10;&#09;0x7ff64a2b893c&#10;&#09;0x7ff64a308d87&#10;&#09;0x7ff64a30591c&#10;&#09;0x7ff64a2a9098&#10;&#09;0x7ff64a2a9f83&#10;&#09;0x7ff64a797810&#10;&#09;0x7ff64a791afd&#10;&#09;0x7ff64a7b2c1a&#10;&#09;0x7ff64a4e3345&#10;&#09;0x7ff64a4eb81c&#10;&#09;0x7ff64a4d1924&#10;&#09;0x7ff64a4d1ad6&#10;&#09;0x7ff64a4b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+        handle_notification_popup(driver)
+        # 如果页面有遮罩（例如 workbench-overlay），先等待它消失
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".workbench-overlay"))
+            )
+        except TimeoutException:
+            # 遮罩可能根本不存在或者超时，不影响后续流程
+            print("页面遮罩未消失或不存在，继续后续操作")
+    
+        # 切换到登录frame
+        WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+        # 切换到登录frame
+&gt;       WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+
+conftest.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+method = &lt;function frame_to_be_available_and_switch_to_it.&lt;locals&gt;._predicate at 0x0000023399993550&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() &gt; end_time:
+                break
+            time.sleep(self._poll)
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff64a76aa55
+E       	0x7ff64a4c8630
+E       	0x7ff64a25d75d
+E       	0x7ff64a2b862e
+E       	0x7ff64a2b893c
+E       	0x7ff64a308d87
+E       	0x7ff64a30591c
+E       	0x7ff64a2a9098
+E       	0x7ff64a2a9f83
+E       	0x7ff64a797810
+E       	0x7ff64a791afd
+E       	0x7ff64a7b2c1a
+E       	0x7ff64a4e3345
+E       	0x7ff64a4eb81c
+E       	0x7ff64a4d1924
+E       	0x7ff64a4d1ad6
+E       	0x7ff64a4b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_kongjian_list_drag_default_value" time="2.612"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff64a76aa55&#10;&#09;0x7ff64a4c8630&#10;&#09;0x7ff64a25d75d&#10;&#09;0x7ff64a2b862e&#10;&#09;0x7ff64a2b893c&#10;&#09;0x7ff64a308d87&#10;&#09;0x7ff64a30591c&#10;&#09;0x7ff64a2a9098&#10;&#09;0x7ff64a2a9f83&#10;&#09;0x7ff64a797810&#10;&#09;0x7ff64a791afd&#10;&#09;0x7ff64a7b2c1a&#10;&#09;0x7ff64a4e3345&#10;&#09;0x7ff64a4eb81c&#10;&#09;0x7ff64a4d1924&#10;&#09;0x7ff64a4d1ad6&#10;&#09;0x7ff64a4b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+        handle_notification_popup(driver)
+        # 如果页面有遮罩（例如 workbench-overlay），先等待它消失
+        try:
+            WebDriverWait(driver, 20).until(
+                EC.invisibility_of_element_located((By.CSS_SELECTOR, ".workbench-overlay"))
+            )
+        except TimeoutException:
+            # 遮罩可能根本不存在或者超时，不影响后续流程
+            print("页面遮罩未消失或不存在，继续后续操作")
+    
+        # 切换到登录frame
+        WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+        # 切换到登录frame
+&gt;       WebDriverWait(driver, 20).until(
+            EC.frame_to_be_available_and_switch_to_it((By.ID, 'yonbip_login_id'))
+        )
+
+conftest.py:63: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="2a8d0c54dd4ecb860a8ae2b1e96f1dab")&gt;
+method = &lt;function frame_to_be_available_and_switch_to_it.&lt;locals&gt;._predicate at 0x0000023399993550&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() &gt; end_time:
+                break
+            time.sleep(self._poll)
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff64a76aa55
+E       	0x7ff64a4c8630
+E       	0x7ff64a25d75d
+E       	0x7ff64a2b862e
+E       	0x7ff64a2b893c
+E       	0x7ff64a308d87
+E       	0x7ff64a30591c
+E       	0x7ff64a2a9098
+E       	0x7ff64a2a9f83
+E       	0x7ff64a797810
+E       	0x7ff64a791afd
+E       	0x7ff64a7b2c1a
+E       	0x7ff64a4e3345
+E       	0x7ff64a4eb81c
+E       	0x7ff64a4d1924
+E       	0x7ff64a4d1ad6
+E       	0x7ff64a4b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</error></testcase></testsuite></testsuites>

@@ -7,12 +7,12 @@ import allure
 @allure.epic("API自动化")
 @allure.feature("基础接口")
 @allure.story("demo接口验证")
-def test_api_demo(login_cookie):
+def test_api_demo():
     # 将cookie转换为字典
  #   cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}
 
     # 发送请求
-    url = "https://jsonplaceholder.typicode.com"
+    url = "https://jsonplaceholder.typicode.com/todos/1"
     headers = {"Content-Type": "application/json"}
     response = requests.get(url, headers=headers)
 
@@ -24,4 +24,4 @@ def test_api_demo(login_cookie):
 
     # 断言
     assert response.status_code == 200
-    assert "success" in response.text
+    assert response.json()["id"] == 1    # 根据返回的 JSON 断言

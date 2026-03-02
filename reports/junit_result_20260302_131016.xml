@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="5" failures="0" skipped="0" tests="5" time="0.470" timestamp="2026-03-02T13:10:16.929060" hostname="LAPTOP-AKAH6LMA"><testcase classname="test_cases.test_api.test_api_demo" name="test_api_demo" time="0.006"><error message="failed on setup with &quot;file D:\python_workspace\yonyou_automation\test_cases\test_api\test_api_demo.py, line 7&#10;  @allure.epic(&quot;API自动化&quot;)&#10;  @allure.feature(&quot;基础接口&quot;)&#10;  @allure.story(&quot;demo接口验证&quot;)&#10;  def test_api_demo():&#10;file D:\python_workspace\yonyou_automation\conftest.py, line 131&#10;  @pytest.fixture(autouse=True)&#10;  def screenshot_on_failure(request,driver):&#10;E       fixture 'driver' not found&#10;&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;D:\python_workspace\yonyou_automation\conftest.py:131&quot;">file D:\python_workspace\yonyou_automation\test_cases\test_api\test_api_demo.py, line 7
+  @allure.epic("API自动化")
+  @allure.feature("基础接口")
+  @allure.story("demo接口验证")
+  def test_api_demo():
+file D:\python_workspace\yonyou_automation\conftest.py, line 131
+  @pytest.fixture(autouse=True)
+  def screenshot_on_failure(request,driver):
+E       fixture 'driver' not found
+&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+D:\python_workspace\yonyou_automation\conftest.py:131</error></testcase><testcase classname="test_cases.test_ui.test_ui_font" name="test_font_upload" time="0.003"><error message="failed on setup with &quot;file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_font.py, line 8&#10;  @allure.epic(&quot;UI自动化&quot;)&#10;  @allure.feature(&quot;字体管理&quot;)&#10;  @allure.story(&quot;字体上传检查&quot;)&#10;  def test_font_upload(login):&#10;file D:\python_workspace\yonyou_automation\conftest.py, line 47&#10;  @pytest.fixture(scope=&quot;session&quot;)&#10;  def login(driver):&#10;E       fixture 'driver' not found&#10;&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;D:\python_workspace\yonyou_automation\conftest.py:47&quot;">file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_font.py, line 8
+  @allure.epic("UI自动化")
+  @allure.feature("字体管理")
+  @allure.story("字体上传检查")
+  def test_font_upload(login):
+file D:\python_workspace\yonyou_automation\conftest.py, line 47
+  @pytest.fixture(scope="session")
+  def login(driver):
+E       fixture 'driver' not found
+&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+D:\python_workspace\yonyou_automation\conftest.py:47</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_template_status" time="0.001"><error message="failed on setup with &quot;file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 54&#10;  @allure.epic(&quot;UI自动化&quot;)&#10;  @allure.feature(&quot;打印模板&quot;)&#10;  @allure.story(&quot;模板状态检查&quot;)&#10;  def test_template_status(login):&#10;file D:\python_workspace\yonyou_automation\conftest.py, line 47&#10;  @pytest.fixture(scope=&quot;session&quot;)&#10;  def login(driver):&#10;E       fixture 'driver' not found&#10;&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;D:\python_workspace\yonyou_automation\conftest.py:47&quot;">file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 54
+  @allure.epic("UI自动化")
+  @allure.feature("打印模板")
+  @allure.story("模板状态检查")
+  def test_template_status(login):
+file D:\python_workspace\yonyou_automation\conftest.py, line 47
+  @pytest.fixture(scope="session")
+  def login(driver):
+E       fixture 'driver' not found
+&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+D:\python_workspace\yonyou_automation\conftest.py:47</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_design_properties_default_value" time="0.001"><error message="failed on setup with &quot;file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 165&#10;  @allure.epic(&quot;UI自动化&quot;)&#10;  @allure.feature(&quot;打印模板&quot;)&#10;  @allure.story(&quot;模板属性默认值检查&quot;)&#10;  def test_design_properties_default_value(login):&#10;file D:\python_workspace\yonyou_automation\conftest.py, line 47&#10;  @pytest.fixture(scope=&quot;session&quot;)&#10;  def login(driver):&#10;E       fixture 'driver' not found&#10;&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;D:\python_workspace\yonyou_automation\conftest.py:47&quot;">file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 165
+  @allure.epic("UI自动化")
+  @allure.feature("打印模板")
+  @allure.story("模板属性默认值检查")
+  def test_design_properties_default_value(login):
+file D:\python_workspace\yonyou_automation\conftest.py, line 47
+  @pytest.fixture(scope="session")
+  def login(driver):
+E       fixture 'driver' not found
+&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+D:\python_workspace\yonyou_automation\conftest.py:47</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_kongjian_list_drag_default_value" time="0.003"><error message="failed on setup with &quot;file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 290&#10;  @allure.epic(&quot;UI自动化&quot;)&#10;  @allure.feature(&quot;打印模板&quot;)&#10;  @allure.story(&quot;设计器列表新增检查&quot;)&#10;  def test_kongjian_list_drag_default_value(login):&#10;file D:\python_workspace\yonyou_automation\conftest.py, line 47&#10;  @pytest.fixture(scope=&quot;session&quot;)&#10;  def login(driver):&#10;E       fixture 'driver' not found&#10;&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory&#10;&gt;       use 'pytest --fixtures [testpath]' for help on them.&#10;&#10;D:\python_workspace\yonyou_automation\conftest.py:47&quot;">file D:\python_workspace\yonyou_automation\test_cases\test_ui\test_ui_template_list.py, line 290
+  @allure.epic("UI自动化")
+  @allure.feature("打印模板")
+  @allure.story("设计器列表新增检查")
+  def test_kongjian_list_drag_default_value(login):
+file D:\python_workspace\yonyou_automation\conftest.py, line 47
+  @pytest.fixture(scope="session")
+  def login(driver):
+E       fixture 'driver' not found
+&gt;       available fixtures: anyio_backend, anyio_backend_name, anyio_backend_options, cache, capfd, capfdbinary, caplog, capsys, capsysbinary, doctest_namespace, extra, extras, include_metadata_in_junit_xml, login, metadata, monkeypatch, print_template_jinrushengchandingdan, pytestconfig, record_property, record_testsuite_property, record_xml_attribute, recwarn, screenshot_on_failure, tmp_path, tmp_path_factory, tmpdir, tmpdir_factory
+&gt;       use 'pytest --fixtures [testpath]' for help on them.
+
+D:\python_workspace\yonyou_automation\conftest.py:47</error></testcase></testsuite></testsuites>

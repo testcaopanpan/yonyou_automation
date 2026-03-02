@@ -1,55 +1,9 @@
-INFO     automation_test:test_ui_template_list.py:83 开始复制系统模板
-INFO     automation_test:test_ui_template_list.py:113 新增复制模板验证通过
-INFO     automation_test:test_ui_template_list.py:115 验证新增模板为已启用状态
-INFO     automation_test:test_ui_template_list.py:119 模板启停验证
-INFO     automation_test:test_ui_template_list.py:123 点击停用按钮
-INFO     automation_test:test_ui_template_list.py:129 点击启动按钮
-INFO     automation_test:test_ui_template_list.py:136 打印模板的启停状态切换验证通过
-INFO     automation_test:test_ui_template_list.py:138 模板默认标签验证
-INFO     automation_test:test_ui_template_list.py:139 设置默认
-INFO     automation_test:test_ui_template_list.py:146 取消默认设置
-INFO     automation_test:test_ui_template_list.py:153 打印模板的默认标签配置取消验证通过
-INFO     automation_test:test_ui_template_list.py:163 新增打印模板删除完成
-INFO     automation_test:test_ui_template_list.py:169 这条用例仅作打印模板模板属性默认值检查
-INFO     automation_test:test_ui_template_list.py:172 用例前置：检查当前预用模板是否存在，存在就删掉
-INFO     automation_test:test_ui_template_list.py:190 复制系统模板
-INFO     automation_test:test_ui_template_list.py:195 修改复制模板名称并确定
-INFO     automation_test:test_ui_template_list.py:212 进入打印模板设计器浏览器页面
-INFO     automation_test:test_ui_template_list.py:220 验证模板编码框不可编辑
-INFO     automation_test:test_ui_template_list.py:225 验证模板名称与新增该模板配置的名称一致
-INFO     automation_test:test_ui_template_list.py:230 验证横向矩阵默认值为1
-INFO     automation_test:test_ui_template_list.py:235 验证总想矩阵默认值为1
-INFO     automation_test:test_ui_template_list.py:240 验证循环主体为【暂无】
-INFO     automation_test:test_ui_template_list.py:245 验证多页面打印方式默认值为【按单据】
-INFO     automation_test:test_ui_template_list.py:251 单据间隔打印默认关闭验证
-INFO     automation_test:test_ui_template_list.py:256 双面打印默认关闭验证
-INFO     automation_test:test_ui_template_list.py:261 仅打印有效审批意见默认关闭验证
-INFO     automation_test:test_ui_template_list.py:266 不打印无效抢占审批默认关闭验证
-INFO     automation_test:test_ui_template_list.py:271 不打印自动跳过审批默认关闭验证
-INFO     automation_test:test_ui_template_list.py:275 打印模板设计器模板属性默认值验证通过
-INFO     automation_test:test_ui_template_list.py:280 执行打印模板的删除操作
-INFO     automation_test:test_ui_template_list.py:289 新增打印模板删除完成
-INFO     automation_test:test_ui_template_list.py:294 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
-INFO     automation_test:test_ui_template_list.py:296 用例前置：检查当前预用模板是否存在，存在就删掉
-INFO     automation_test:test_ui_template_list.py:322 修改复制模板名称并确定
-INFO     automation_test:test_ui_template_list.py:340 进入打印模板设计器浏览器页面
-INFO     automation_test:test_ui_template_list.py:348 等待并删除画布上已经配置好的列表控件
-INFO     automation_test:test_ui_template_list.py:358 系统预置的列表在画布删除成功
-INFO     automation_test:test_ui_template_list.py:363 获取到列表控件
-INFO     automation_test:test_ui_template_list.py:366 获取到画布
-INFO     automation_test:test_ui_template_list.py:374 x坐标是296
-INFO     automation_test:test_ui_template_list.py:375 y坐标是180
-INFO     automation_test:test_ui_template_list.py:381 列表控件完成向画布拖入操作
-INFO     automation_test:test_ui_template_list.py:382 验证列表设置弹窗弹出正常
-INFO     automation_test:test_ui_template_list.py:388 开始配置列表的三个指定字段
-INFO     automation_test:test_ui_template_list.py:392 搜索并选择字段【开工日期】
-INFO     automation_test:test_ui_template_list.py:404 开始验证第一个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:407 搜索并选择字段【完工日期】
-INFO     automation_test:test_ui_template_list.py:419 开始验证第二个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:422 搜索并选择字段【生产数量】
-INFO     automation_test:test_ui_template_list.py:434 开始验证第三个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:438 点击确定保存列表
-INFO     automation_test:test_ui_template_list.py:443 开始验证新增列表是否展示正常
-INFO     automation_test:test_ui_template_list.py:450 验证列表默认没有开启承前过次页，且开启设置正常
-INFO     automation_test:test_ui_template_list.py:456 开启承前过次开关
-INFO     automation_test:test_ui_template_list.py:461 验证开启后承前页、过次页两行出现
+INFO     automation_test:test_api_demo.py:20 请求URL: https://jsonplaceholder.typicode.com/todos/1
+INFO     automation_test:test_api_demo.py:21 请求头: {'Content-Type': 'application/json'}
+INFO     automation_test:test_api_demo.py:22 响应状态码: 200
+INFO     automation_test:test_api_demo.py:23 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}

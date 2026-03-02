@@ -1,0 +1,4 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:403 DELETE http://localhost:18689/session/3d71e10d6344d5d616678eee220adc38 {}
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:18689 "DELETE /session/3d71e10d6344d5d616678eee220adc38 HTTP/1.1" 200 14
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:436 Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'Content-Length': '14', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:465 Finished Request

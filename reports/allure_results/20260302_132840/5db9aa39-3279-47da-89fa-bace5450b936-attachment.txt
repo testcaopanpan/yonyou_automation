@@ -1,0 +1,28 @@
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:101 Selenium Manager binary found at: C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:114 Executing process: C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\common\windows\selenium-manager.exe --browser chrome --debug --language-binding python --output json
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 chromedriver not found in PATH
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 chrome detected at C:\Users\caopanpan\AppData\Local\Google\Chrome\Application\chrome.exe
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Running command: wmic datafile where name='C:\\Users\\caopanpan\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe' get Version /value
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Output: "\r\r\n\r\r\nVersion=145.0.7632.117\r\r\n\r\r\n\r\r\n\r"
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Detected browser: chrome 145.0.7632.117
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Required driver: chromedriver 145.0.7632.117
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 chromedriver 145.0.7632.117 already in the cache
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Driver path: C:\Users\caopanpan\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe
+DEBUG    selenium.webdriver.common.selenium_manager:selenium_manager.py:140 Browser path: C:\Users\caopanpan\AppData\Local\Google\Chrome\Application\chrome.exe
+DEBUG    selenium.webdriver.common.service:service.py:225 Started executable: `C:\Users\caopanpan\.cache\selenium\chromedriver\win64\145.0.7632.117\chromedriver.exe` in a child process with pid: 13864 using 0 to output -3
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:403 POST http://localhost:28860/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'chrome', 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'browserVersion': None, 'goog:chromeOptions': {'extensions': [], 'binary': 'C:\\Users\\caopanpan\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe', 'args': []}}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:228 Starting new HTTP connection (1): localhost:28860
+DEBUG    urllib3.connectionpool:connectionpool.py:456 http://localhost:28860 "POST /session HTTP/1.1" 200 910
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:436 Remote response: status=200 | data={"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"145.0.7632.117","chrome":{"chromedriverVersion":"145.0.7632.117 (de4e5d6e13b995f5e04137970c0e8ec456017467-refs/branch-heads/7632@{#3101})","userDataDir":"C:\\Users\\CAOPAN~1\\AppData\\Local\\Temp\\scoped_dir13864_1757945430"},"fedcm:accounts":true,"goog:chromeOptions":{"debuggerAddress":"localhost:20880"},"goog:processID":20000,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:extension:minPinLength":true,"webauthn:extension:prf":true,"webauthn:virtualAuthenticators":true},"sessionId":"2f701261d74a45418f5b85cf273dd143"}} | headers=HTTPHeaderDict({'Content-Length': '910', 'Content-Type': 'application/json; charset=utf-8', 'cache-control': 'no-cache'})
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:465 Finished Request
+DEBUG    urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+DEBUG    urllib3.connectionpool:connectionpool.py:456 https://jsonplaceholder.typicode.com:443 "GET /todos/1 HTTP/1.1" 200 None
+INFO     automation_test:test_api_demo.py:20 请求URL: https://jsonplaceholder.typicode.com/todos/1
+INFO     automation_test:test_api_demo.py:21 请求头: {'Content-Type': 'application/json'}
+INFO     automation_test:test_api_demo.py:22 响应状态码: 200
+INFO     automation_test:test_api_demo.py:23 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}

@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="4" failures="0" skipped="0" tests="5" time="8.726" timestamp="2026-03-02T13:28:04.892725" hostname="LAPTOP-AKAH6LMA"><testcase classname="test_cases.test_api.test_api_demo" name="test_api_demo" time="3.884" /><testcase classname="test_cases.test_ui.test_ui_font" name="test_font_upload" time="0.969"><error message="failed on setup with &quot;selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;workbench-overlay-content&quot;]&quot;}&#10;  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff711b6aa55&#10;&#09;0x7ff7118c8630&#10;&#09;0x7ff71165d75d&#10;&#09;0x7ff7116b862e&#10;&#09;0x7ff7116b893c&#10;&#09;0x7ff711708d87&#10;&#09;0x7ff71170591c&#10;&#09;0x7ff7116a9098&#10;&#09;0x7ff7116a9f83&#10;&#09;0x7ff711b97810&#10;&#09;0x7ff711b91afd&#10;&#09;0x7ff711bb2c1a&#10;&#09;0x7ff7118e3345&#10;&#09;0x7ff7118eb81c&#10;&#09;0x7ff7118d1924&#10;&#09;0x7ff7118d1ad6&#10;&#09;0x7ff7118b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="3d71e10d6344d5d616678eee220adc38")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+       # handle_notification_popup(driver)
+&gt;       element = driver.find_element(By.XPATH,'//*[@class="workbench-overlay-content"]')
+
+conftest.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:770: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001B61935AB20&gt;
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...ff7118eb81c\\n\\t0x7ff7118d1924\\n\\t0x7ff7118d1ad6\\n\\t0x7ff7118b7e47\\n\\t0x7fff8a09259d\\n\\t0x7fff8c06af78\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "&lt;anonymous&gt;")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "&lt;anonymous&gt;")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="workbench-overlay-content"]"}
+E         (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff711b6aa55
+E       	0x7ff7118c8630
+E       	0x7ff71165d75d
+E       	0x7ff7116b862e
+E       	0x7ff7116b893c
+E       	0x7ff711708d87
+E       	0x7ff71170591c
+E       	0x7ff7116a9098
+E       	0x7ff7116a9f83
+E       	0x7ff711b97810
+E       	0x7ff711b91afd
+E       	0x7ff711bb2c1a
+E       	0x7ff7118e3345
+E       	0x7ff7118eb81c
+E       	0x7ff7118d1924
+E       	0x7ff7118d1ad6
+E       	0x7ff7118b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchElementException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_template_status" time="0.002"><error message="failed on setup with &quot;selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;workbench-overlay-content&quot;]&quot;}&#10;  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff711b6aa55&#10;&#09;0x7ff7118c8630&#10;&#09;0x7ff71165d75d&#10;&#09;0x7ff7116b862e&#10;&#09;0x7ff7116b893c&#10;&#09;0x7ff711708d87&#10;&#09;0x7ff71170591c&#10;&#09;0x7ff7116a9098&#10;&#09;0x7ff7116a9f83&#10;&#09;0x7ff711b97810&#10;&#09;0x7ff711b91afd&#10;&#09;0x7ff711bb2c1a&#10;&#09;0x7ff7118e3345&#10;&#09;0x7ff7118eb81c&#10;&#09;0x7ff7118d1924&#10;&#09;0x7ff7118d1ad6&#10;&#09;0x7ff7118b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="3d71e10d6344d5d616678eee220adc38")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+       # handle_notification_popup(driver)
+&gt;       element = driver.find_element(By.XPATH,'//*[@class="workbench-overlay-content"]')
+
+conftest.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:770: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001B61935AB20&gt;
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...ff7118eb81c\\n\\t0x7ff7118d1924\\n\\t0x7ff7118d1ad6\\n\\t0x7ff7118b7e47\\n\\t0x7fff8a09259d\\n\\t0x7fff8c06af78\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "&lt;anonymous&gt;")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "&lt;anonymous&gt;")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="workbench-overlay-content"]"}
+E         (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff711b6aa55
+E       	0x7ff7118c8630
+E       	0x7ff71165d75d
+E       	0x7ff7116b862e
+E       	0x7ff7116b893c
+E       	0x7ff711708d87
+E       	0x7ff71170591c
+E       	0x7ff7116a9098
+E       	0x7ff7116a9f83
+E       	0x7ff711b97810
+E       	0x7ff711b91afd
+E       	0x7ff711bb2c1a
+E       	0x7ff7118e3345
+E       	0x7ff7118eb81c
+E       	0x7ff7118d1924
+E       	0x7ff7118d1ad6
+E       	0x7ff7118b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchElementException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_design_properties_default_value" time="0.002"><error message="failed on setup with &quot;selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;workbench-overlay-content&quot;]&quot;}&#10;  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff711b6aa55&#10;&#09;0x7ff7118c8630&#10;&#09;0x7ff71165d75d&#10;&#09;0x7ff7116b862e&#10;&#09;0x7ff7116b893c&#10;&#09;0x7ff711708d87&#10;&#09;0x7ff71170591c&#10;&#09;0x7ff7116a9098&#10;&#09;0x7ff7116a9f83&#10;&#09;0x7ff711b97810&#10;&#09;0x7ff711b91afd&#10;&#09;0x7ff711bb2c1a&#10;&#09;0x7ff7118e3345&#10;&#09;0x7ff7118eb81c&#10;&#09;0x7ff7118d1924&#10;&#09;0x7ff7118d1ad6&#10;&#09;0x7ff7118b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="3d71e10d6344d5d616678eee220adc38")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+       # handle_notification_popup(driver)
+&gt;       element = driver.find_element(By.XPATH,'//*[@class="workbench-overlay-content"]')
+
+conftest.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:770: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001B61935AB20&gt;
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...ff7118eb81c\\n\\t0x7ff7118d1924\\n\\t0x7ff7118d1ad6\\n\\t0x7ff7118b7e47\\n\\t0x7fff8a09259d\\n\\t0x7fff8c06af78\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "&lt;anonymous&gt;")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "&lt;anonymous&gt;")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="workbench-overlay-content"]"}
+E         (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff711b6aa55
+E       	0x7ff7118c8630
+E       	0x7ff71165d75d
+E       	0x7ff7116b862e
+E       	0x7ff7116b893c
+E       	0x7ff711708d87
+E       	0x7ff71170591c
+E       	0x7ff7116a9098
+E       	0x7ff7116a9f83
+E       	0x7ff711b97810
+E       	0x7ff711b91afd
+E       	0x7ff711bb2c1a
+E       	0x7ff7118e3345
+E       	0x7ff7118eb81c
+E       	0x7ff7118d1924
+E       	0x7ff7118d1ad6
+E       	0x7ff7118b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchElementException</error></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_kongjian_list_drag_default_value" time="2.592"><error message="failed on setup with &quot;selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&quot;workbench-overlay-content&quot;]&quot;}&#10;  (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff711b6aa55&#10;&#09;0x7ff7118c8630&#10;&#09;0x7ff71165d75d&#10;&#09;0x7ff7116b862e&#10;&#09;0x7ff7116b893c&#10;&#09;0x7ff711708d87&#10;&#09;0x7ff71170591c&#10;&#09;0x7ff7116a9098&#10;&#09;0x7ff7116a9f83&#10;&#09;0x7ff711b97810&#10;&#09;0x7ff711b91afd&#10;&#09;0x7ff711bb2c1a&#10;&#09;0x7ff7118e3345&#10;&#09;0x7ff7118eb81c&#10;&#09;0x7ff7118d1924&#10;&#09;0x7ff7118d1ad6&#10;&#09;0x7ff7118b7e47&#10;&#09;0x7fff8a09259d&#10;&#09;0x7fff8c06af78&quot;">driver = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="3d71e10d6344d5d616678eee220adc38")&gt;
+
+    @pytest.fixture(scope="session")
+    def login(driver):
+        driver.get("https://c2.yonyoucloud.com")
+        driver.maximize_window()
+        # 处理隐私弹窗
+       # handle_notification_popup(driver)
+&gt;       element = driver.find_element(By.XPATH,'//*[@class="workbench-overlay-content"]')
+
+conftest.py:49: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:770: in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x000001B61935AB20&gt;
+response = {'status': 404, 'value': '{"value":{"error":"no such element","message":"no such element: Unable to locate element: {\...ff7118eb81c\\n\\t0x7ff7118d1924\\n\\t0x7ff7118d1ad6\\n\\t0x7ff7118b7e47\\n\\t0x7fff8a09259d\\n\\t0x7fff8c06af78\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "&lt;anonymous&gt;")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "&lt;anonymous&gt;")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@class="workbench-overlay-content"]"}
+E         (Session info: chrome=145.0.7632.117); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff711b6aa55
+E       	0x7ff7118c8630
+E       	0x7ff71165d75d
+E       	0x7ff7116b862e
+E       	0x7ff7116b893c
+E       	0x7ff711708d87
+E       	0x7ff71170591c
+E       	0x7ff7116a9098
+E       	0x7ff7116a9f83
+E       	0x7ff711b97810
+E       	0x7ff711b91afd
+E       	0x7ff711bb2c1a
+E       	0x7ff7118e3345
+E       	0x7ff7118eb81c
+E       	0x7ff7118d1924
+E       	0x7ff7118d1ad6
+E       	0x7ff7118b7e47
+E       	0x7fff8a09259d
+E       	0x7fff8c06af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: NoSuchElementException</error></testcase></testsuite></testsuites>

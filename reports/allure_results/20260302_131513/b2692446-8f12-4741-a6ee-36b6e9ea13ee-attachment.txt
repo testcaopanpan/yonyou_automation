@@ -1,0 +1,4 @@
+2026-03-02 13:15:17,241 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/tods/1
+2026-03-02 13:15:17,242 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-02 13:15:17,242 - automation_test - INFO - 响应状态码: 404
+2026-03-02 13:15:17,242 - automation_test - INFO - 响应内容: {}
