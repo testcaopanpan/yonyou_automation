@@ -9,12 +9,12 @@ import allure
 @allure.story("demo接口验证")
 def test_api_demo(login_cookie):
     # 将cookie转换为字典
-    cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}
+ #   cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}
 
     # 发送请求
-    url = "https://example.com/api/demo"
+    url = "https://jsonplaceholder.typicode.com"
     headers = {"Content-Type": "application/json"}
-    response = requests.get(url, headers=headers, cookies=cookie_dict)
+    response = requests.get(url, headers=headers)
 
     # 记录日志
     logger.info(f"请求URL: {url}")

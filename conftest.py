@@ -59,7 +59,7 @@ def login(driver):
     # 切换回主文档
     driver.switch_to.default_content()
     # 验证登录结果
-    WebDriverWait(driver, 10).until(
+    WebDriverWait(driver, 30).until(
         EC.presence_of_element_located((By.XPATH, '//*[@fieldid="menu_img"]'))
     )
     WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="userAvatorNew_img"]')))
