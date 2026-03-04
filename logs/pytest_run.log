@@ -1,9 +1,70 @@
-INFO     automation_test:test_api_demo.py:20 请求URL: https://jsonplaceholder.typicode.com/todos/1
-INFO     automation_test:test_api_demo.py:21 请求头: {'Content-Type': 'application/json'}
-INFO     automation_test:test_api_demo.py:22 响应状态码: 200
-INFO     automation_test:test_api_demo.py:23 响应内容: {
+INFO     automation_test:test_api_demo.py:56 请求URL: https://jsonplaceholder.typicode.com/todos/1
+INFO     automation_test:test_api_demo.py:57 请求头: {'Content-Type': 'application/json'}
+INFO     automation_test:test_api_demo.py:58 响应状态码: 200
+INFO     automation_test:test_api_demo.py:59 响应内容: {
   "userId": 1,
   "id": 1,
   "title": "delectus aut autem",
   "completed": false
 }
+INFO     automation_test:test_api_demo.py:40 将字典型cookie结构转化成字符串型
+INFO     automation_test:test_api_demo.py:94 请求的响应状态码是200
+INFO     automation_test:test_api_demo.py:95 请求响应结果是:f4c6538e-d1a9-4628-a765-6ed774fb31f7
+INFO     automation_test:test_api_demo.py:40 将字典型cookie结构转化成字符串型
+INFO     automation_test:test_api_demo.py:132 请求的响应状态码是200
+INFO     automation_test:test_api_demo.py:137 获取的可用模板列表为['u8c1772618941000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+INFO     automation_test:test_ui_template_list.py:83 开始复制系统模板
+INFO     automation_test:test_ui_template_list.py:113 新增复制模板验证通过
+INFO     automation_test:test_ui_template_list.py:115 验证新增模板为已启用状态
+INFO     automation_test:test_ui_template_list.py:119 模板启停验证
+INFO     automation_test:test_ui_template_list.py:123 点击停用按钮
+INFO     automation_test:test_ui_template_list.py:129 点击启动按钮
+INFO     automation_test:test_ui_template_list.py:136 打印模板的启停状态切换验证通过
+INFO     automation_test:test_ui_template_list.py:138 模板默认标签验证
+INFO     automation_test:test_ui_template_list.py:139 设置默认
+INFO     automation_test:test_ui_template_list.py:146 取消默认设置
+INFO     automation_test:test_ui_template_list.py:153 打印模板的默认标签配置取消验证通过
+INFO     automation_test:test_ui_template_list.py:163 新增打印模板删除完成
+INFO     automation_test:test_ui_template_list.py:169 这条用例仅作打印模板模板属性默认值检查
+INFO     automation_test:test_ui_template_list.py:172 用例前置：检查当前预用模板是否存在，存在就删掉
+INFO     automation_test:test_ui_template_list.py:190 复制系统模板
+INFO     automation_test:test_ui_template_list.py:195 修改复制模板名称并确定
+INFO     automation_test:test_ui_template_list.py:212 进入打印模板设计器浏览器页面
+INFO     automation_test:test_ui_template_list.py:220 验证模板编码框不可编辑
+INFO     automation_test:test_ui_template_list.py:225 验证模板名称与新增该模板配置的名称一致
+INFO     automation_test:test_ui_template_list.py:230 验证横向矩阵默认值为1
+INFO     automation_test:test_ui_template_list.py:235 验证总想矩阵默认值为1
+INFO     automation_test:test_ui_template_list.py:240 验证循环主体为【暂无】
+INFO     automation_test:test_ui_template_list.py:245 验证多页面打印方式默认值为【按单据】
+INFO     automation_test:test_ui_template_list.py:251 单据间隔打印默认关闭验证
+INFO     automation_test:test_ui_template_list.py:256 双面打印默认关闭验证
+INFO     automation_test:test_ui_template_list.py:261 仅打印有效审批意见默认关闭验证
+INFO     automation_test:test_ui_template_list.py:266 不打印无效抢占审批默认关闭验证
+INFO     automation_test:test_ui_template_list.py:271 不打印自动跳过审批默认关闭验证
+INFO     automation_test:test_ui_template_list.py:275 打印模板设计器模板属性默认值验证通过
+INFO     automation_test:test_ui_template_list.py:280 执行打印模板的删除操作
+INFO     automation_test:test_ui_template_list.py:289 新增打印模板删除完成
+INFO     automation_test:test_ui_template_list.py:294 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+INFO     automation_test:test_ui_template_list.py:296 用例前置：检查当前预用模板是否存在，存在就删掉
+INFO     automation_test:test_ui_template_list.py:322 修改复制模板名称并确定
+INFO     automation_test:test_ui_template_list.py:340 进入打印模板设计器浏览器页面
+INFO     automation_test:test_ui_template_list.py:348 等待并删除画布上已经配置好的列表控件
+INFO     automation_test:test_ui_template_list.py:358 系统预置的列表在画布删除成功
+INFO     automation_test:test_ui_template_list.py:363 获取到列表控件
+INFO     automation_test:test_ui_template_list.py:366 获取到画布
+INFO     automation_test:test_ui_template_list.py:374 x坐标是296
+INFO     automation_test:test_ui_template_list.py:375 y坐标是180
+INFO     automation_test:test_ui_template_list.py:381 列表控件完成向画布拖入操作
+INFO     automation_test:test_ui_template_list.py:382 验证列表设置弹窗弹出正常
+INFO     automation_test:test_ui_template_list.py:388 开始配置列表的三个指定字段
+INFO     automation_test:test_ui_template_list.py:392 搜索并选择字段【开工日期】
+INFO     automation_test:test_ui_template_list.py:404 开始验证第一个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:407 搜索并选择字段【完工日期】
+INFO     automation_test:test_ui_template_list.py:419 开始验证第二个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:422 搜索并选择字段【生产数量】
+INFO     automation_test:test_ui_template_list.py:434 开始验证第三个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:438 点击确定保存列表
+INFO     automation_test:test_ui_template_list.py:443 开始验证新增列表是否展示正常
+INFO     automation_test:test_ui_template_list.py:450 验证列表默认没有开启承前过次页，且开启设置正常
+INFO     automation_test:test_ui_template_list.py:456 开启承前过次开关
+INFO     automation_test:test_ui_template_list.py:461 验证开启后承前页、过次页两行出现

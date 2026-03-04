@@ -10,6 +10,7 @@ import time
 @allure.story("字体上传检查")
 def test_font_upload(login):
     driver = login
+    driver.refresh()
     WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="menu_img"]')))
     driver.find_element(By.XPATH, '//*[@fieldid="menu_img"]').click()
     # 等待搜索标识的出现并点击

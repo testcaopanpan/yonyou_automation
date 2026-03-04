@@ -1,0 +1,3 @@
+2026-03-04 18:17:53,643 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-04 18:17:53,795 - automation_test - INFO - 请求的响应状态码是200
+2026-03-04 18:17:53,796 - automation_test - INFO - 请求响应结果是:f4c6538e-d1a9-4628-a765-6ed774fb31f7

@@ -11,6 +11,24 @@ import allure
 from datetime import datetime
 from selenium.webdriver.chrome.options import Options
 
+
+def save_debug_info(driver, step_name):
+    """保存Jenkins执行时的页面截图、源码，用于排查"""
+    # 创建调试目录
+    debug_dir = "jenkins_debug"
+    if not os.path.exists(debug_dir):
+        os.makedirs(debug_dir)
+
+    # 保存截图
+    screenshot_path = f"{debug_dir}/{step_name}_{time.strftime('%Y%m%d_%H%M%S')}.png"
+    driver.save_screenshot(screenshot_path)
+    print(f"已保存截图: {screenshot_path}")
+
+    # 保存页面源码
+    source_path = f"{debug_dir}/{step_name}_{time.strftime('%Y%m%d_%H%M%S')}.html"
+    with open(source_path, "w", encoding="utf-8") as f:
+        f.write(driver.page_source)
+    print(f"已保存页面源码: {source_path}")
 def handle_notification_popup(driver):
     """处理浏览器通知权限弹窗"""
     try:

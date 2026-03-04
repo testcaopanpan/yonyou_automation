@@ -1,0 +1,252 @@
+2026-03-03 10:14:33,951 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_101433.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_101433', '--junitxml=reports\\junit_result_20260303_101433.xml']
+2026-03-03 10:15:07,201 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
+2026-03-03 10:15:07,202 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-03 10:15:07,202 - automation_test - INFO - 响应状态码: 200
+2026-03-03 10:15:07,203 - automation_test - INFO - 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+2026-03-03 10:15:50,440 - automation_test - INFO - 开始复制系统模板
+2026-03-03 10:15:54,964 - automation_test - INFO - 新增复制模板验证通过
+2026-03-03 10:15:54,964 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-03 10:15:54,988 - automation_test - INFO - 模板启停验证
+2026-03-03 10:15:55,297 - automation_test - INFO - 点击停用按钮
+2026-03-03 10:15:56,130 - automation_test - INFO - 点击启动按钮
+2026-03-03 10:15:56,967 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-03 10:15:56,967 - automation_test - INFO - 模板默认标签验证
+2026-03-03 10:15:56,968 - automation_test - INFO - 设置默认
+2026-03-03 10:15:57,729 - automation_test - INFO - 取消默认设置
+2026-03-03 10:16:01,486 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-03 10:16:02,978 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 10:16:13,877 - automation_test - INFO - 这条用例仅作打印模板模板属性默认值检查
+2026-03-03 10:16:13,877 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 10:16:15,674 - automation_test - INFO - 复制系统模板
+2026-03-03 10:16:16,163 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 10:16:16,966 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 10:16:20,484 - automation_test - INFO - 验证模板编码框不可编辑
+2026-03-03 10:16:20,522 - automation_test - INFO - 验证模板名称与新增该模板配置的名称一致
+2026-03-03 10:16:23,546 - automation_test - INFO - 验证横向矩阵默认值为1
+2026-03-03 10:16:26,579 - automation_test - INFO - 验证总想矩阵默认值为1
+2026-03-03 10:16:29,606 - automation_test - INFO - 验证循环主体为【暂无】
+2026-03-03 10:16:32,639 - automation_test - INFO - 验证多页面打印方式默认值为【按单据】
+2026-03-03 10:16:35,671 - automation_test - INFO - 单据间隔打印默认关闭验证
+2026-03-03 10:16:38,697 - automation_test - INFO - 双面打印默认关闭验证
+2026-03-03 10:16:41,729 - automation_test - INFO - 仅打印有效审批意见默认关闭验证
+2026-03-03 10:16:44,769 - automation_test - INFO - 不打印无效抢占审批默认关闭验证
+2026-03-03 10:16:47,816 - automation_test - INFO - 不打印自动跳过审批默认关闭验证
+2026-03-03 10:16:50,839 - automation_test - INFO - 打印模板设计器模板属性默认值验证通过
+2026-03-03 10:16:50,976 - automation_test - INFO - 执行打印模板的删除操作
+2026-03-03 10:16:52,719 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 10:17:02,393 - automation_test - INFO - 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+2026-03-03 10:17:02,393 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 10:17:12,284 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 10:17:13,064 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 10:17:14,999 - automation_test - INFO - 等待并删除画布上已经配置好的列表控件
+2026-03-03 10:17:16,894 - automation_test - INFO - 系统预置的列表在画布删除成功
+2026-03-03 10:17:16,907 - automation_test - INFO - 获取到列表控件
+2026-03-03 10:17:16,920 - automation_test - INFO - 获取到画布
+2026-03-03 10:17:17,210 - automation_test - INFO - x坐标是296
+2026-03-03 10:17:17,220 - automation_test - INFO - y坐标是180
+2026-03-03 10:17:17,676 - automation_test - INFO - 列表控件完成向画布拖入操作
+2026-03-03 10:17:17,676 - automation_test - INFO - 验证列表设置弹窗弹出正常
+2026-03-03 10:17:28,059 - automation_test - INFO - 开始配置列表的三个指定字段
+2026-03-03 10:17:28,091 - automation_test - INFO - 搜索并选择字段【开工日期】
+2026-03-03 10:17:31,874 - automation_test - INFO - 开始验证第一个字段选择是否正常
+2026-03-03 10:17:31,892 - automation_test - INFO - 搜索并选择字段【完工日期】
+2026-03-03 10:17:35,382 - automation_test - INFO - 开始验证第二个字段选择是否正常
+2026-03-03 10:17:35,399 - automation_test - INFO - 搜索并选择字段【生产数量】
+2026-03-03 10:17:39,070 - automation_test - INFO - 开始验证第三个字段选择是否正常
+2026-03-03 10:17:39,096 - automation_test - INFO - 点击确定保存列表
+2026-03-03 10:17:42,339 - automation_test - INFO - 开始验证新增列表是否展示正常
+2026-03-03 10:17:42,370 - automation_test - INFO - 验证列表默认没有开启承前过次页，且开启设置正常
+2026-03-03 10:17:42,396 - automation_test - INFO - 开启承前过次开关
+2026-03-03 10:17:45,602 - automation_test - INFO - 验证开启后承前页、过次页两行出现
+2026-03-03 10:17:50,412 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-03 10:17:50,490 - automation_test - INFO - 网络连接正常
+2026-03-03 10:17:53,521 - automation_test - INFO - 测试报告邮件已发送
+2026-03-03 12:23:39,746 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_122339.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_122339', '--junitxml=reports\\junit_result_20260303_122339.xml']
+2026-03-03 12:24:07,421 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
+2026-03-03 12:24:07,423 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-03 12:24:07,423 - automation_test - INFO - 响应状态码: 200
+2026-03-03 12:24:07,424 - automation_test - INFO - 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+2026-03-03 12:24:47,223 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-03 12:24:47,332 - automation_test - INFO - 网络连接正常
+2026-03-03 12:24:58,995 - automation_test - INFO - 测试报告邮件已发送
+2026-03-03 12:26:31,506 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_122631.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_122631', '--junitxml=reports\\junit_result_20260303_122631.xml']
+2026-03-03 12:26:32,102 - automation_test - INFO - pytest 执行结束，退出码：4
+2026-03-03 12:26:32,160 - automation_test - INFO - 网络连接正常
+2026-03-03 12:26:32,160 - automation_test - WARNING - JUnit 报告不存在，路径：reports\junit_result_20260303_122631.xml
+2026-03-03 12:26:32,161 - automation_test - ERROR - 测试报告文件不存在: reports\test_report_20260303_122631.html
+2026-03-03 14:27:47,592 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_142747.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_142747', '--junitxml=reports\\junit_result_20260303_142747.xml']
+2026-03-03 14:29:42,267 - automation_test - INFO - 开始复制系统模板
+2026-03-03 14:29:48,028 - automation_test - INFO - 新增复制模板验证通过
+2026-03-03 14:29:48,030 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-03 14:29:48,056 - automation_test - INFO - 模板启停验证
+2026-03-03 14:29:48,389 - automation_test - INFO - 点击停用按钮
+2026-03-03 14:29:49,089 - automation_test - INFO - 点击启动按钮
+2026-03-03 14:29:50,010 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-03 14:29:50,012 - automation_test - INFO - 模板默认标签验证
+2026-03-03 14:29:50,012 - automation_test - INFO - 设置默认
+2026-03-03 14:29:50,993 - automation_test - INFO - 取消默认设置
+2026-03-03 14:29:54,922 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-03 14:29:56,770 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 14:30:09,555 - automation_test - INFO - 这条用例仅作打印模板模板属性默认值检查
+2026-03-03 14:30:09,555 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 14:30:12,445 - automation_test - INFO - 复制系统模板
+2026-03-03 14:30:13,084 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 14:30:14,140 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 14:30:19,294 - automation_test - INFO - 验证模板编码框不可编辑
+2026-03-03 14:30:19,343 - automation_test - INFO - 验证模板名称与新增该模板配置的名称一致
+2026-03-03 14:30:22,396 - automation_test - INFO - 验证横向矩阵默认值为1
+2026-03-03 14:30:25,445 - automation_test - INFO - 验证总想矩阵默认值为1
+2026-03-03 14:30:28,504 - automation_test - INFO - 验证循环主体为【暂无】
+2026-03-03 14:30:31,557 - automation_test - INFO - 验证多页面打印方式默认值为【按单据】
+2026-03-03 14:30:34,610 - automation_test - INFO - 单据间隔打印默认关闭验证
+2026-03-03 14:30:37,668 - automation_test - INFO - 双面打印默认关闭验证
+2026-03-03 14:30:40,723 - automation_test - INFO - 仅打印有效审批意见默认关闭验证
+2026-03-03 14:30:43,763 - automation_test - INFO - 不打印无效抢占审批默认关闭验证
+2026-03-03 14:30:46,810 - automation_test - INFO - 不打印自动跳过审批默认关闭验证
+2026-03-03 14:30:49,862 - automation_test - INFO - 打印模板设计器模板属性默认值验证通过
+2026-03-03 14:30:50,023 - automation_test - INFO - 执行打印模板的删除操作
+2026-03-03 14:30:52,120 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 14:31:04,898 - automation_test - INFO - 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+2026-03-03 14:31:04,898 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 14:31:14,979 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 14:31:16,020 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 14:31:18,681 - automation_test - INFO - 等待并删除画布上已经配置好的列表控件
+2026-03-03 14:31:20,848 - automation_test - INFO - 系统预置的列表在画布删除成功
+2026-03-03 14:31:20,864 - automation_test - INFO - 获取到列表控件
+2026-03-03 14:31:20,883 - automation_test - INFO - 获取到画布
+2026-03-03 14:31:21,186 - automation_test - INFO - x坐标是296
+2026-03-03 14:31:21,204 - automation_test - INFO - y坐标是180
+2026-03-03 14:31:21,770 - automation_test - INFO - 列表控件完成向画布拖入操作
+2026-03-03 14:31:21,778 - automation_test - INFO - 验证列表设置弹窗弹出正常
+2026-03-03 14:31:32,167 - automation_test - INFO - 开始配置列表的三个指定字段
+2026-03-03 14:31:32,203 - automation_test - INFO - 搜索并选择字段【开工日期】
+2026-03-03 14:31:36,238 - automation_test - INFO - 开始验证第一个字段选择是否正常
+2026-03-03 14:31:36,267 - automation_test - INFO - 搜索并选择字段【完工日期】
+2026-03-03 14:31:39,969 - automation_test - INFO - 开始验证第二个字段选择是否正常
+2026-03-03 14:31:39,996 - automation_test - INFO - 搜索并选择字段【生产数量】
+2026-03-03 14:31:43,828 - automation_test - INFO - 开始验证第三个字段选择是否正常
+2026-03-03 14:31:43,854 - automation_test - INFO - 点击确定保存列表
+2026-03-03 14:31:47,215 - automation_test - INFO - 开始验证新增列表是否展示正常
+2026-03-03 14:31:47,267 - automation_test - INFO - 验证列表默认没有开启承前过次页，且开启设置正常
+2026-03-03 14:31:47,322 - automation_test - INFO - 开启承前过次开关
+2026-03-03 14:31:50,699 - automation_test - INFO - 验证开启后承前页、过次页两行出现
+2026-03-03 14:31:56,062 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-03 14:31:56,163 - automation_test - INFO - 网络连接正常
+2026-03-03 14:31:58,069 - automation_test - INFO - 测试报告邮件已发送
+2026-03-03 15:32:36,953 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_153236.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_153236', '--junitxml=reports\\junit_result_20260303_153236.xml']
+2026-03-03 15:32:50,934 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
+2026-03-03 15:32:50,935 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-03 15:32:50,935 - automation_test - INFO - 响应状态码: 200
+2026-03-03 15:32:50,935 - automation_test - INFO - 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+2026-03-03 15:33:36,725 - automation_test - INFO - 开始复制系统模板
+2026-03-03 15:33:41,594 - automation_test - INFO - 新增复制模板验证通过
+2026-03-03 15:33:41,594 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-03 15:33:41,618 - automation_test - INFO - 模板启停验证
+2026-03-03 15:33:41,970 - automation_test - INFO - 点击停用按钮
+2026-03-03 15:33:42,686 - automation_test - INFO - 点击启动按钮
+2026-03-03 15:33:43,481 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-03 15:33:43,482 - automation_test - INFO - 模板默认标签验证
+2026-03-03 15:33:43,483 - automation_test - INFO - 设置默认
+2026-03-03 15:33:44,248 - automation_test - INFO - 取消默认设置
+2026-03-03 15:33:48,160 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-03 15:33:49,717 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 15:34:00,285 - automation_test - INFO - 这条用例仅作打印模板模板属性默认值检查
+2026-03-03 15:34:00,286 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 15:34:02,044 - automation_test - INFO - 复制系统模板
+2026-03-03 15:34:02,606 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 15:34:03,447 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 15:34:07,634 - automation_test - INFO - 验证模板编码框不可编辑
+2026-03-03 15:34:07,667 - automation_test - INFO - 验证模板名称与新增该模板配置的名称一致
+2026-03-03 15:34:10,700 - automation_test - INFO - 验证横向矩阵默认值为1
+2026-03-03 15:34:13,729 - automation_test - INFO - 验证总想矩阵默认值为1
+2026-03-03 15:34:16,762 - automation_test - INFO - 验证循环主体为【暂无】
+2026-03-03 15:34:19,783 - automation_test - INFO - 验证多页面打印方式默认值为【按单据】
+2026-03-03 15:34:22,807 - automation_test - INFO - 单据间隔打印默认关闭验证
+2026-03-03 15:34:25,834 - automation_test - INFO - 双面打印默认关闭验证
+2026-03-03 15:34:28,858 - automation_test - INFO - 仅打印有效审批意见默认关闭验证
+2026-03-03 15:34:57,697 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-03 15:34:57,871 - automation_test - INFO - 网络连接正常
+2026-03-03 15:35:00,872 - automation_test - INFO - 测试报告邮件已发送
+2026-03-03 15:37:07,119 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260303_153707.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260303_153707', '--junitxml=reports\\junit_result_20260303_153707.xml']
+2026-03-03 15:37:11,028 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
+2026-03-03 15:37:11,028 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-03 15:37:11,029 - automation_test - INFO - 响应状态码: 200
+2026-03-03 15:37:11,029 - automation_test - INFO - 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+2026-03-03 15:37:49,817 - automation_test - INFO - 开始复制系统模板
+2026-03-03 15:37:55,266 - automation_test - INFO - 新增复制模板验证通过
+2026-03-03 15:37:55,267 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-03 15:37:55,295 - automation_test - INFO - 模板启停验证
+2026-03-03 15:37:55,604 - automation_test - INFO - 点击停用按钮
+2026-03-03 15:37:56,099 - automation_test - INFO - 点击启动按钮
+2026-03-03 15:37:56,869 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-03 15:37:56,869 - automation_test - INFO - 模板默认标签验证
+2026-03-03 15:37:56,871 - automation_test - INFO - 设置默认
+2026-03-03 15:37:57,671 - automation_test - INFO - 取消默认设置
+2026-03-03 15:38:01,445 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-03 15:38:03,134 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 15:38:13,352 - automation_test - INFO - 这条用例仅作打印模板模板属性默认值检查
+2026-03-03 15:38:13,352 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 15:38:21,822 - automation_test - INFO - 复制系统模板
+2026-03-03 15:38:22,266 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 15:38:23,050 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 15:38:26,550 - automation_test - INFO - 验证模板编码框不可编辑
+2026-03-03 15:38:26,592 - automation_test - INFO - 验证模板名称与新增该模板配置的名称一致
+2026-03-03 15:38:29,624 - automation_test - INFO - 验证横向矩阵默认值为1
+2026-03-03 15:38:32,650 - automation_test - INFO - 验证总想矩阵默认值为1
+2026-03-03 15:38:35,674 - automation_test - INFO - 验证循环主体为【暂无】
+2026-03-03 15:38:38,782 - automation_test - INFO - 验证多页面打印方式默认值为【按单据】
+2026-03-03 15:38:41,803 - automation_test - INFO - 单据间隔打印默认关闭验证
+2026-03-03 15:38:44,841 - automation_test - INFO - 双面打印默认关闭验证
+2026-03-03 15:38:47,869 - automation_test - INFO - 仅打印有效审批意见默认关闭验证
+2026-03-03 15:38:50,905 - automation_test - INFO - 不打印无效抢占审批默认关闭验证
+2026-03-03 15:38:53,937 - automation_test - INFO - 不打印自动跳过审批默认关闭验证
+2026-03-03 15:38:56,981 - automation_test - INFO - 打印模板设计器模板属性默认值验证通过
+2026-03-03 15:38:57,117 - automation_test - INFO - 执行打印模板的删除操作
+2026-03-03 15:38:58,779 - automation_test - INFO - 新增打印模板删除完成
+2026-03-03 15:39:08,398 - automation_test - INFO - 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+2026-03-03 15:39:08,398 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-03 15:39:17,205 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-03 15:39:18,149 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-03 15:39:20,114 - automation_test - INFO - 等待并删除画布上已经配置好的列表控件
+2026-03-03 15:39:21,846 - automation_test - INFO - 系统预置的列表在画布删除成功
+2026-03-03 15:39:21,860 - automation_test - INFO - 获取到列表控件
+2026-03-03 15:39:21,876 - automation_test - INFO - 获取到画布
+2026-03-03 15:39:22,169 - automation_test - INFO - x坐标是296
+2026-03-03 15:39:22,180 - automation_test - INFO - y坐标是180
+2026-03-03 15:39:22,630 - automation_test - INFO - 列表控件完成向画布拖入操作
+2026-03-03 15:39:22,631 - automation_test - INFO - 验证列表设置弹窗弹出正常
+2026-03-03 15:39:32,934 - automation_test - INFO - 开始配置列表的三个指定字段
+2026-03-03 15:39:32,963 - automation_test - INFO - 搜索并选择字段【开工日期】
+2026-03-03 15:39:36,772 - automation_test - INFO - 开始验证第一个字段选择是否正常
+2026-03-03 15:39:36,786 - automation_test - INFO - 搜索并选择字段【完工日期】
+2026-03-03 15:39:40,301 - automation_test - INFO - 开始验证第二个字段选择是否正常
+2026-03-03 15:39:40,319 - automation_test - INFO - 搜索并选择字段【生产数量】
+2026-03-03 15:39:44,002 - automation_test - INFO - 开始验证第三个字段选择是否正常
+2026-03-03 15:39:44,018 - automation_test - INFO - 点击确定保存列表
+2026-03-03 15:39:47,277 - automation_test - INFO - 开始验证新增列表是否展示正常
+2026-03-03 15:39:47,310 - automation_test - INFO - 验证列表默认没有开启承前过次页，且开启设置正常
+2026-03-03 15:39:47,342 - automation_test - INFO - 开启承前过次开关
+2026-03-03 15:39:50,577 - automation_test - INFO - 验证开启后承前页、过次页两行出现
+2026-03-03 15:39:55,489 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-03 15:39:55,553 - automation_test - INFO - 网络连接正常
+2026-03-03 15:39:57,248 - automation_test - INFO - 测试报告邮件已发送
