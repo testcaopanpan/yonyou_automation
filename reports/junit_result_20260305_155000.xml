@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="1" failures="3" skipped="0" tests="7" time="166.338" timestamp="2026-03-05T15:50:01.701858" hostname="LAPTOP-AKAH6LMA"><testcase classname="test_cases.test_api.test_api_demo" name="test_api_demo" time="40.415" /><testcase classname="test_cases.test_api.test_print_api" name="test_cache_print_api" time="34.108"><failure message="TypeError: 'str' object is not callable">get_cookie = 'orgId="";XSRF-TOKEN=AX_Q6DK946WNLWMMDNG4GCZ82B8K!155050;_WorkbenchCross_=Ultraman;acw_tc=7b3975bc17726970430298458e8f...r2dbl7d62hnx;locale=zh_CN;languages=1_3-2_1-3_1-4_1-6_1-5_1-7_1-98_1-149_1;newArch=true;n_f_f=false;timezone=UTC+08:00'
+
+    @allure.epic("API自动化")
+    @allure.feature("基础接口")
+    @allure.story("生产订单发起打印请求验证")
+    def test_cache_print_api(get_cookie):
+&gt;       cookie = get_cookie()
+E       TypeError: 'str' object is not callable
+
+test_cases\test_api\test_print_api.py:11: TypeError</failure></testcase><testcase classname="test_cases.test_api.test_print_api" name="test_get_template_list" time="0.326"><failure message="TypeError: 'str' object is not callable">get_cookie = 'orgId="";XSRF-TOKEN=AX_Q6DK946WNLWMMDNG4GCZ82B8K!155050;_WorkbenchCross_=Ultraman;acw_tc=7b3975bc17726970430298458e8f...r2dbl7d62hnx;locale=zh_CN;languages=1_3-2_1-3_1-4_1-6_1-5_1-7_1-98_1-149_1;newArch=true;n_f_f=false;timezone=UTC+08:00'
+
+    @allure.epic("API自动化")
+    @allure.feature("基础接口")
+    @allure.story("获取生产订单可用模板列表")
+    def test_get_template_list(get_cookie):
+&gt;       cookie = get_cookie()
+E       TypeError: 'str' object is not callable
+
+test_cases\test_api\test_print_api.py:49: TypeError</failure></testcase><testcase classname="test_cases.test_ui.test_ui_font" name="test_font_upload" time="9.709" /><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_template_status" time="35.297" /><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_design_properties_default_value" time="20.693"><failure message="selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class=&quot;set-propty fr&quot; id=&quot;set-propty&quot; uitype=&quot;&quot; nid=&quot;nid_1772697140205_1_1&quot;&gt;...&lt;/div&gt; is not clickable at point (1130, 68). Other element would receive the click: &lt;div class=&quot;wui-spin-backdrop&quot; style=&quot;z-index: 1900;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.117)&#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff79c09aa55&#10;&#09;0x7ff79bdf8630&#10;&#09;0x7ff79bb8d75d&#10;&#09;0x7ff79bbf0b65&#10;&#09;0x7ff79bbee27a&#10;&#09;0x7ff79bbeb115&#10;&#09;0x7ff79bbe9fc7&#10;&#09;0x7ff79bbdb426&#10;&#09;0x7ff79bc119da&#10;&#09;0x7ff79bbdaca6&#10;&#09;0x7ff79bc3591c&#10;&#09;0x7ff79bbd9098&#10;&#09;0x7ff79bbd9f83&#10;&#09;0x7ff79c0c7810&#10;&#09;0x7ff79c0c1afd&#10;&#09;0x7ff79c0e2c1a&#10;&#09;0x7ff79be13345&#10;&#09;0x7ff79be1b81c&#10;&#09;0x7ff79be01924&#10;&#09;0x7ff79be01ad6&#10;&#09;0x7ff79bde7e47&#10;&#09;0x7ffd8c9a259d&#10;&#09;0x7ffd8e50af78">login = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="f49b1bdd1613d94b1b71b125546d3950")&gt;
+
+    @allure.epic("UI自动化")
+    @allure.feature("打印模板")
+    @allure.story("模板属性默认值检查")
+    def test_design_properties_default_value(login):
+        logger.info("这条用例仅作打印模板模板属性默认值检查")
+        driver = login
+        with allure.step("用例前置：检查当前预用模板是否存在，存在就删掉"):
+            logger.info("用例前置：检查当前预用模板是否存在，存在就删掉")
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
+            try:
+                element = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]')
+                if element is not None:
+                    more = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+                    ActionChains(driver).move_to_element(more).perform()
+                    time.sleep(5)
+                    driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
+                    WebDriverWait(driver, 20).until(
+                        EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
+                    driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
+                    WebDriverWait(driver, 20).until(
+                        EC.invisibility_of_element_located((By.XPATH, '//*[text()="复制_模板属性验证"]')))
+            except NoSuchElementException:
+                pass
+        with allure.step("复制系统模板并获取当前页面句柄"):
+            logger.info("复制系统模板")
+            driver.find_element(By.XPATH, '//*[text()="生产订单"]/..//*[@fieldid="iprint_copy-btn"]').click()
+            # 获取当前窗口句柄
+            printlist_handle = driver.current_window_handle
+        with allure.step("修改复制模板名称并确定"):
+            logger.info("修改复制模板名称并确定")
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')))
+            # 清空原内容
+            # clear方法使用无效，改为模拟键盘删除方法
+            # driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').clear()
+            element = driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]')
+            # 模拟control+a键盘全选
+            element.send_keys(Keys.CONTROL + 'a')
+            # 模拟键盘的删除delete
+            element.send_keys(Keys.DELETE)
+            # 写入新内容
+            driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys("复制_模板属性验证")
+            WebDriverWait(driver, 20).until(
+                EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
+            driver.find_element(By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
+        with allure.step("进入打印模板设计器浏览器页面"):
+            logger.info("进入打印模板设计器浏览器页面")
+            WebDriverWait(driver, 20).until(lambda a: len(a.window_handles) &gt; 1)
+            for handle in driver.window_handles:
+                if handle != printlist_handle:
+                    driver.switch_to.window(handle)
+            WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@id="set-propty"]')))
+&gt;           driver.find_element(By.XPATH,'//*[@id="set-propty"]').click()
+
+test_cases\test_ui\test_ui_template_list.py:218: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py:94: in click
+    self._execute(Command.CLICK_ELEMENT)
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webelement.py:395: in _execute
+    return self._parent.execute(command, params)
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\webdriver.py:384: in execute
+    self.error_handler.check_response(response)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000023771B9D7F0&gt;
+response = {'status': 400, 'value': '{"value":{"error":"element click intercepted","message":"element click intercepted: Element ...ff79be1b81c\\n\\t0x7ff79be01924\\n\\t0x7ff79be01ad6\\n\\t0x7ff79bde7e47\\n\\t0x7ffd8c9a259d\\n\\t0x7ffd8e50af78\\n"}}'}
+
+    def check_response(self, response: Dict[str, Any]) -&gt; None:
+        """Checks that a JSON response from the WebDriver does not have an
+        error.
+    
+        :Args:
+         - response - The JSON response from the WebDriver server as a dictionary
+           object.
+    
+        :Raises: If the response contains an error message.
+        """
+        status = response.get("status", None)
+        if not status or status == ErrorCode.SUCCESS:
+            return
+        value = None
+        message = response.get("message", "")
+        screen: str = response.get("screen", "")
+        stacktrace = None
+        if isinstance(status, int):
+            value_json = response.get("value", None)
+            if value_json and isinstance(value_json, str):
+                import json
+    
+                try:
+                    value = json.loads(value_json)
+                    if len(value) == 1:
+                        value = value["value"]
+                    status = value.get("error", None)
+                    if not status:
+                        status = value.get("status", ErrorCode.UNKNOWN_ERROR)
+                        message = value.get("value") or value.get("message")
+                        if not isinstance(message, str):
+                            value = message
+                            message = message.get("message")
+                    else:
+                        message = value.get("message", None)
+                except ValueError:
+                    pass
+    
+        exception_class: Type[WebDriverException]
+        e = ErrorCode()
+        error_codes = [item for item in dir(e) if not item.startswith("__")]
+        for error_code in error_codes:
+            error_info = getattr(ErrorCode, error_code)
+            if isinstance(error_info, list) and status in error_info:
+                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)
+                break
+        else:
+            exception_class = WebDriverException
+    
+        if not value:
+            value = response["value"]
+        if isinstance(value, str):
+            raise exception_class(value)
+        if message == "" and "message" in value:
+            message = value["message"]
+    
+        screen = None  # type: ignore[assignment]
+        if "screen" in value:
+            screen = value["screen"]
+    
+        stacktrace = None
+        st_value = value.get("stackTrace") or value.get("stacktrace")
+        if st_value:
+            if isinstance(st_value, str):
+                stacktrace = st_value.split("\n")
+            else:
+                stacktrace = []
+                try:
+                    for frame in st_value:
+                        line = frame.get("lineNumber", "")
+                        file = frame.get("fileName", "&lt;anonymous&gt;")
+                        if line:
+                            file = f"{file}:{line}"
+                        meth = frame.get("methodName", "&lt;anonymous&gt;")
+                        if "className" in frame:
+                            meth = f"{frame['className']}.{meth}"
+                        msg = "    at %s (%s)"
+                        msg = msg % (meth, file)
+                        stacktrace.append(msg)
+                except TypeError:
+                    pass
+        if exception_class == UnexpectedAlertPresentException:
+            alert_text = None
+            if "data" in value:
+                alert_text = value["data"].get("text")
+            elif "alert" in value:
+                alert_text = value["alert"].get("text")
+            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here
+&gt;       raise exception_class(message, screen, stacktrace)
+E       selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element &lt;div class="set-propty fr" id="set-propty" uitype="" nid="nid_1772697140205_1_1"&gt;...&lt;/div&gt; is not clickable at point (1130, 68). Other element would receive the click: &lt;div class="wui-spin-backdrop" style="z-index: 1900;"&gt;...&lt;/div&gt;
+E         (Session info: chrome=145.0.7632.117)
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff79c09aa55
+E       	0x7ff79bdf8630
+E       	0x7ff79bb8d75d
+E       	0x7ff79bbf0b65
+E       	0x7ff79bbee27a
+E       	0x7ff79bbeb115
+E       	0x7ff79bbe9fc7
+E       	0x7ff79bbdb426
+E       	0x7ff79bc119da
+E       	0x7ff79bbdaca6
+E       	0x7ff79bc3591c
+E       	0x7ff79bbd9098
+E       	0x7ff79bbd9f83
+E       	0x7ff79c0c7810
+E       	0x7ff79c0c1afd
+E       	0x7ff79c0e2c1a
+E       	0x7ff79be13345
+E       	0x7ff79be1b81c
+E       	0x7ff79be01924
+E       	0x7ff79be01ad6
+E       	0x7ff79bde7e47
+E       	0x7ffd8c9a259d
+E       	0x7ffd8e50af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\remote\errorhandler.py:232: ElementClickInterceptedException</failure></testcase><testcase classname="test_cases.test_ui.test_ui_template_list" name="test_kongjian_list_drag_default_value" time="24.454"><error message="failed on setup with &quot;selenium.common.exceptions.TimeoutException: Message: &#10;Stacktrace:&#10;Symbols not available. Dumping unresolved backtrace:&#10;&#09;0x7ff79c09aa55&#10;&#09;0x7ff79bdf8630&#10;&#09;0x7ff79bb8d75d&#10;&#09;0x7ff79bbe862e&#10;&#09;0x7ff79bbe893c&#10;&#09;0x7ff79bc38d87&#10;&#09;0x7ff79bc3591c&#10;&#09;0x7ff79bbd9098&#10;&#09;0x7ff79bbd9f83&#10;&#09;0x7ff79c0c7810&#10;&#09;0x7ff79c0c1afd&#10;&#09;0x7ff79c0e2c1a&#10;&#09;0x7ff79be13345&#10;&#09;0x7ff79be1b81c&#10;&#09;0x7ff79be01924&#10;&#09;0x7ff79be01ad6&#10;&#09;0x7ff79bde7e47&#10;&#09;0x7ffd8c9a259d&#10;&#09;0x7ffd8e50af78&quot;">login = &lt;selenium.webdriver.chrome.webdriver.WebDriver (session="f49b1bdd1613d94b1b71b125546d3950")&gt;
+
+    @pytest.fixture(autouse=True)
+    def print_template_jinrushengchandingdan(login):
+        '''
+        用例名称：验证打印模板节点进入正常
+        左侧树搜索并点击进入生产订单节点验证
+        '''
+        driver = login
+        driver.refresh()
+        #等待左上角的全局标识并点击
+&gt;       WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH, '//*[@fieldid="menu_img"]')))
+
+test_cases\test_ui\test_ui_template_list.py:22: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;selenium.webdriver.support.wait.WebDriverWait (session="f49b1bdd1613d94b1b71b125546d3950")&gt;
+method = &lt;function presence_of_element_located.&lt;locals&gt;._predicate at 0x000002377249B430&gt;
+message = ''
+
+    def until(self, method: Callable[[D], Union[Literal[False], T]], message: str = "") -&gt; T:
+        """Calls the method provided with the driver as an argument until the \
+        return value does not evaluate to ``False``.
+    
+        :param method: callable(WebDriver)
+        :param message: optional message for :exc:`TimeoutException`
+        :returns: the result of the last call to `method`
+        :raises: :exc:`selenium.common.exceptions.TimeoutException` if timeout occurs
+        """
+        screen = None
+        stacktrace = None
+    
+        end_time = time.monotonic() + self._timeout
+        while True:
+            try:
+                value = method(self._driver)
+                if value:
+                    return value
+            except self._ignored_exceptions as exc:
+                screen = getattr(exc, "screen", None)
+                stacktrace = getattr(exc, "stacktrace", None)
+            if time.monotonic() &gt; end_time:
+                break
+            time.sleep(self._poll)
+&gt;       raise TimeoutException(message, screen, stacktrace)
+E       selenium.common.exceptions.TimeoutException: Message: 
+E       Stacktrace:
+E       Symbols not available. Dumping unresolved backtrace:
+E       	0x7ff79c09aa55
+E       	0x7ff79bdf8630
+E       	0x7ff79bb8d75d
+E       	0x7ff79bbe862e
+E       	0x7ff79bbe893c
+E       	0x7ff79bc38d87
+E       	0x7ff79bc3591c
+E       	0x7ff79bbd9098
+E       	0x7ff79bbd9f83
+E       	0x7ff79c0c7810
+E       	0x7ff79c0c1afd
+E       	0x7ff79c0e2c1a
+E       	0x7ff79be13345
+E       	0x7ff79be1b81c
+E       	0x7ff79be01924
+E       	0x7ff79be01ad6
+E       	0x7ff79bde7e47
+E       	0x7ffd8c9a259d
+E       	0x7ffd8e50af78
+
+C:\Users\caopanpan\AppData\Local\Programs\Python\Python38\lib\site-packages\selenium\webdriver\support\wait.py:105: TimeoutException</error></testcase></testsuite></testsuites>
