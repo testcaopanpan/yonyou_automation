@@ -8,8 +8,7 @@ from common.send_email import send_email
 
 def main():
     test_case_list = [
-        "test_cases/test_api/test_api_demo.py::test_cache_print_api",
-        "test_cases/test_api/test_api_demo.py::test_get_template_list",
+        "test_cases/test_api/test_font_api.py::test_font_check",
     ]
     #构建pytest命令行参数
     pytest_avg = []
