@@ -1,0 +1,291 @@
+2026-03-20 18:21:10,249 - automation_test - INFO - 请求的响应状态码是200
+2026-03-20 18:21:10,250 - automation_test - INFO - 请求响应结果是:c5cf7959-8c7e-44ea-921b-394fe186a8cc
+2026-03-20 18:21:12,096 - automation_test - INFO - 请求的响应状态码是200
+2026-03-20 18:21:12,100 - automation_test - INFO - 获取的可用模板列表为['u8c1774000711000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-20 18:21:12,101 - automation_test - INFO - 开始循环进行打印模板的预览接口请求，共143个模板
+2026-03-20 18:21:12,188 - automation_test - INFO - u8c1774000711000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,190 - automation_test - ERROR - ✗ 模板 u8c1774000711000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,278 - automation_test - INFO - u8c1768286989628模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,279 - automation_test - ERROR - ✗ 模板 u8c1768286989628 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,350 - automation_test - INFO - u8c2444516534017064964模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,351 - automation_test - ERROR - ✗ 模板 u8c2444516534017064964 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,425 - automation_test - INFO - u8c1767512784478模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,426 - automation_test - ERROR - ✗ 模板 u8c1767512784478 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,513 - automation_test - INFO - u8c2435413179027161094模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,514 - automation_test - ERROR - ✗ 模板 u8c2435413179027161094 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,608 - automation_test - INFO - u8c2409752982813933571模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,609 - automation_test - ERROR - ✗ 模板 u8c2409752982813933571 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,682 - automation_test - INFO - u8c1761329163000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,683 - automation_test - ERROR - ✗ 模板 u8c1761329163000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,761 - automation_test - INFO - u8c2389109351354728454模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,762 - automation_test - ERROR - ✗ 模板 u8c2389109351354728454 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,842 - automation_test - INFO - u8c1761324315138模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,843 - automation_test - ERROR - ✗ 模板 u8c1761324315138 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:12,920 - automation_test - INFO - u8c2389067870560583689模板打印预览请求的响应状态码为200
+2026-03-20 18:21:12,921 - automation_test - ERROR - ✗ 模板 u8c2389067870560583689 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,002 - automation_test - INFO - u8c1760582703000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,003 - automation_test - ERROR - ✗ 模板 u8c1760582703000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,076 - automation_test - INFO - u8c2330000336319676425模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,077 - automation_test - ERROR - ✗ 模板 u8c2330000336319676425 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,152 - automation_test - INFO - u8c1752860041000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,153 - automation_test - ERROR - ✗ 模板 u8c1752860041000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,229 - automation_test - INFO - u8c1752860009000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,230 - automation_test - ERROR - ✗ 模板 u8c1752860009000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,311 - automation_test - INFO - u8c2292249429227864069模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,312 - automation_test - ERROR - ✗ 模板 u8c2292249429227864069 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,392 - automation_test - INFO - u8c2276904705144127495模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,393 - automation_test - ERROR - ✗ 模板 u8c2276904705144127495 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,466 - automation_test - INFO - u8c2276904705144127496模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,467 - automation_test - ERROR - ✗ 模板 u8c2276904705144127496 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,548 - automation_test - INFO - u8c2276904705144127497模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,549 - automation_test - ERROR - ✗ 模板 u8c2276904705144127497 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,634 - automation_test - INFO - u8c2276904705144127498模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,635 - automation_test - ERROR - ✗ 模板 u8c2276904705144127498 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,706 - automation_test - INFO - u8c1748019697000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,707 - automation_test - ERROR - ✗ 模板 u8c1748019697000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,782 - automation_test - INFO - u8c1745319511000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,783 - automation_test - ERROR - ✗ 模板 u8c1745319511000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,855 - automation_test - INFO - u8c2251365480965603329模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,856 - automation_test - ERROR - ✗ 模板 u8c2251365480965603329 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:13,929 - automation_test - INFO - u8c1744792894000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:13,929 - automation_test - ERROR - ✗ 模板 u8c1744792894000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,007 - automation_test - INFO - u8c1744622252000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,008 - automation_test - ERROR - ✗ 模板 u8c1744622252000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,078 - automation_test - INFO - u8c1744622212000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,079 - automation_test - ERROR - ✗ 模板 u8c1744622212000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,147 - automation_test - INFO - u8c1744622167000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,148 - automation_test - ERROR - ✗ 模板 u8c1744622167000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,207 - automation_test - INFO - u8c1744622122000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,208 - automation_test - ERROR - ✗ 模板 u8c1744622122000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,292 - automation_test - INFO - u8c1744622082000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,293 - automation_test - ERROR - ✗ 模板 u8c1744622082000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,377 - automation_test - INFO - u8c1744609139000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,378 - automation_test - ERROR - ✗ 模板 u8c1744609139000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,454 - automation_test - INFO - u8c2243551621200478208模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,455 - automation_test - ERROR - ✗ 模板 u8c2243551621200478208 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,523 - automation_test - INFO - u8c2243551621200478209模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,524 - automation_test - ERROR - ✗ 模板 u8c2243551621200478209 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,590 - automation_test - INFO - u8c2243551621200478210模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,591 - automation_test - ERROR - ✗ 模板 u8c2243551621200478210 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,664 - automation_test - INFO - u8c2243551621200478211模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,665 - automation_test - ERROR - ✗ 模板 u8c2243551621200478211 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,739 - automation_test - INFO - u8c2243551621200478212模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,741 - automation_test - ERROR - ✗ 模板 u8c2243551621200478212 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,816 - automation_test - INFO - u8c2243551621200478213模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,817 - automation_test - ERROR - ✗ 模板 u8c2243551621200478213 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,885 - automation_test - INFO - u8c2243551621200478214模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,886 - automation_test - ERROR - ✗ 模板 u8c2243551621200478214 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:14,960 - automation_test - INFO - u8c2243551621200478215模板打印预览请求的响应状态码为200
+2026-03-20 18:21:14,961 - automation_test - ERROR - ✗ 模板 u8c2243551621200478215 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,038 - automation_test - INFO - u8c2243551621200478216模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,039 - automation_test - ERROR - ✗ 模板 u8c2243551621200478216 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,103 - automation_test - INFO - u8c2243551621200478217模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,105 - automation_test - ERROR - ✗ 模板 u8c2243551621200478217 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,175 - automation_test - INFO - u8c2243551621200478218模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,176 - automation_test - ERROR - ✗ 模板 u8c2243551621200478218 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,255 - automation_test - INFO - u8c2243551621200478219模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,256 - automation_test - ERROR - ✗ 模板 u8c2243551621200478219 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,320 - automation_test - INFO - u8c2241281722406666246模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,321 - automation_test - ERROR - ✗ 模板 u8c2241281722406666246 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,394 - automation_test - INFO - u8c2241281722406666247模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,395 - automation_test - ERROR - ✗ 模板 u8c2241281722406666247 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,462 - automation_test - INFO - u8c2240364935846559747模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,463 - automation_test - ERROR - ✗ 模板 u8c2240364935846559747 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,536 - automation_test - INFO - u8c1742573609526模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,537 - automation_test - ERROR - ✗ 模板 u8c1742573609526 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,618 - automation_test - INFO - u8c1742572898000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,619 - automation_test - ERROR - ✗ 模板 u8c1742572898000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,693 - automation_test - INFO - u8c2227993127944192005模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,694 - automation_test - ERROR - ✗ 模板 u8c2227993127944192005 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,768 - automation_test - INFO - u8c2227993127944192006模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,769 - automation_test - ERROR - ✗ 模板 u8c2227993127944192006 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,837 - automation_test - INFO - u8c2227993127944192007模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,838 - automation_test - ERROR - ✗ 模板 u8c2227993127944192007 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,899 - automation_test - INFO - u8c2227993127944192008模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,900 - automation_test - ERROR - ✗ 模板 u8c2227993127944192008 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:15,979 - automation_test - INFO - u8c2227993127944192009模板打印预览请求的响应状态码为200
+2026-03-20 18:21:15,980 - automation_test - ERROR - ✗ 模板 u8c2227993127944192009 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,046 - automation_test - INFO - u8c2227993127944192010模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,047 - automation_test - ERROR - ✗ 模板 u8c2227993127944192010 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,112 - automation_test - INFO - u8c2227993127944192011模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,113 - automation_test - ERROR - ✗ 模板 u8c2227993127944192011 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,186 - automation_test - INFO - u8c2227993127944192012模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,187 - automation_test - ERROR - ✗ 模板 u8c2227993127944192012 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,263 - automation_test - INFO - u8c2227993127944192013模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,264 - automation_test - ERROR - ✗ 模板 u8c2227993127944192013 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,340 - automation_test - INFO - u8c2227993127944192014模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,341 - automation_test - ERROR - ✗ 模板 u8c2227993127944192014 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,424 - automation_test - INFO - u8c2227993127944192015模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,425 - automation_test - ERROR - ✗ 模板 u8c2227993127944192015 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,497 - automation_test - INFO - u8c2227993127944192016模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,498 - automation_test - ERROR - ✗ 模板 u8c2227993127944192016 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,575 - automation_test - INFO - u8c2197556378335707139模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,577 - automation_test - ERROR - ✗ 模板 u8c2197556378335707139 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,656 - automation_test - INFO - u8c2197556378335707140模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,658 - automation_test - ERROR - ✗ 模板 u8c2197556378335707140 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,734 - automation_test - INFO - u8c2184146803244400641模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,736 - automation_test - ERROR - ✗ 模板 u8c2184146803244400641 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,816 - automation_test - INFO - u8c2181232977180098562模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,818 - automation_test - ERROR - ✗ 模板 u8c2181232977180098562 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,894 - automation_test - INFO - u8c1737123402000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,895 - automation_test - ERROR - ✗ 模板 u8c1737123402000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:16,970 - automation_test - INFO - u8c1737103189000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:16,972 - automation_test - ERROR - ✗ 模板 u8c1737103189000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,058 - automation_test - INFO - u8c2174176629375893505模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,059 - automation_test - ERROR - ✗ 模板 u8c2174176629375893505 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,139 - automation_test - INFO - u8c1733589268000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,141 - automation_test - ERROR - ✗ 模板 u8c1733589268000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,208 - automation_test - INFO - u8c1732341275000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,209 - automation_test - ERROR - ✗ 模板 u8c1732341275000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,284 - automation_test - INFO - u8c1732301417000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,285 - automation_test - ERROR - ✗ 模板 u8c1732301417000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,362 - automation_test - INFO - u8c1732301109000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,363 - automation_test - ERROR - ✗ 模板 u8c1732301109000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,443 - automation_test - INFO - u8c1732292573000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,445 - automation_test - ERROR - ✗ 模板 u8c1732292573000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,514 - automation_test - INFO - u8c1732095637000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,515 - automation_test - ERROR - ✗ 模板 u8c1732095637000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,585 - automation_test - INFO - u8c2127394668782551048模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,586 - automation_test - ERROR - ✗ 模板 u8c2127394668782551048 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,662 - automation_test - INFO - u8c1730861270000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,663 - automation_test - ERROR - ✗ 模板 u8c1730861270000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,747 - automation_test - INFO - u8c2121808410958626822模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,747 - automation_test - ERROR - ✗ 模板 u8c2121808410958626822 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,813 - automation_test - INFO - u8c1728749724000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,814 - automation_test - ERROR - ✗ 模板 u8c1728749724000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,893 - automation_test - INFO - u8c2109231209119744007模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,894 - automation_test - ERROR - ✗ 模板 u8c2109231209119744007 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:17,972 - automation_test - INFO - u8c2107796604154544133模板打印预览请求的响应状态码为200
+2026-03-20 18:21:17,974 - automation_test - ERROR - ✗ 模板 u8c2107796604154544133 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,049 - automation_test - INFO - u8c1727618784000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,050 - automation_test - ERROR - ✗ 模板 u8c1727618784000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,116 - automation_test - INFO - u8c1727615671000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,117 - automation_test - ERROR - ✗ 模板 u8c1727615671000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,189 - automation_test - INFO - u8c1727543790000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,190 - automation_test - ERROR - ✗ 模板 u8c1727543790000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,272 - automation_test - INFO - u8c1727530087000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,273 - automation_test - ERROR - ✗ 模板 u8c1727530087000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,340 - automation_test - INFO - u8c2098153543582613508模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,341 - automation_test - ERROR - ✗ 模板 u8c2098153543582613508 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,408 - automation_test - INFO - u8c1727450400000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,409 - automation_test - ERROR - ✗ 模板 u8c1727450400000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,488 - automation_test - INFO - u8c2098076259921166337模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,489 - automation_test - ERROR - ✗ 模板 u8c2098076259921166337 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,561 - automation_test - INFO - u8c1726802489000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,562 - automation_test - ERROR - ✗ 模板 u8c1726802489000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,637 - automation_test - INFO - u8c1725873627000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,637 - automation_test - ERROR - ✗ 模板 u8c1725873627000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,731 - automation_test - INFO - u8c1725542446000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,732 - automation_test - ERROR - ✗ 模板 u8c1725542446000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,809 - automation_test - INFO - u8c1722519141000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,810 - automation_test - ERROR - ✗ 模板 u8c1722519141000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,895 - automation_test - INFO - u8c1721417020000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,897 - automation_test - ERROR - ✗ 模板 u8c1721417020000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:18,975 - automation_test - INFO - u8c1721414634000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:18,975 - automation_test - ERROR - ✗ 模板 u8c1721414634000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,048 - automation_test - INFO - u8c1721406425000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,049 - automation_test - ERROR - ✗ 模板 u8c1721406425000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,123 - automation_test - INFO - u8c1719328017000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,123 - automation_test - ERROR - ✗ 模板 u8c1719328017000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,198 - automation_test - INFO - u8c1719327778000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,199 - automation_test - ERROR - ✗ 模板 u8c1719327778000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,280 - automation_test - INFO - u8c2028263662467153927模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,281 - automation_test - ERROR - ✗ 模板 u8c2028263662467153927 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,356 - automation_test - INFO - u8c1719285378000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,358 - automation_test - ERROR - ✗ 模板 u8c1719285378000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,430 - automation_test - INFO - u8c2027407855876833284模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,432 - automation_test - ERROR - ✗ 模板 u8c2027407855876833284 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,505 - automation_test - INFO - u8c2027407855876833285模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,506 - automation_test - ERROR - ✗ 模板 u8c2027407855876833285 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,586 - automation_test - INFO - u8c2027407855876833286模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,587 - automation_test - ERROR - ✗ 模板 u8c2027407855876833286 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,661 - automation_test - INFO - u8c2027407855876833287模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,662 - automation_test - ERROR - ✗ 模板 u8c2027407855876833287 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,726 - automation_test - INFO - u8c2027407855876833288模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,727 - automation_test - ERROR - ✗ 模板 u8c2027407855876833288 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,804 - automation_test - INFO - u8c2027407855876833289模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,805 - automation_test - ERROR - ✗ 模板 u8c2027407855876833289 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,919 - automation_test - INFO - u8c2027407855876833290模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,920 - automation_test - ERROR - ✗ 模板 u8c2027407855876833290 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:19,988 - automation_test - INFO - u8c2027407855876833291模板打印预览请求的响应状态码为200
+2026-03-20 18:21:19,989 - automation_test - ERROR - ✗ 模板 u8c2027407855876833291 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,056 - automation_test - INFO - u8c2027407855876833292模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,057 - automation_test - ERROR - ✗ 模板 u8c2027407855876833292 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,125 - automation_test - INFO - u8c2027407855876833293模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,126 - automation_test - ERROR - ✗ 模板 u8c2027407855876833293 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,197 - automation_test - INFO - u8c2027407855876833294模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,198 - automation_test - ERROR - ✗ 模板 u8c2027407855876833294 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,266 - automation_test - INFO - u8c2027407855876833295模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,267 - automation_test - ERROR - ✗ 模板 u8c2027407855876833295 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,335 - automation_test - INFO - u8c2027407855876833296模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,336 - automation_test - ERROR - ✗ 模板 u8c2027407855876833296 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,413 - automation_test - INFO - u8c2027407855876833297模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,414 - automation_test - ERROR - ✗ 模板 u8c2027407855876833297 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,486 - automation_test - INFO - u8c2027407855876833298模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,487 - automation_test - ERROR - ✗ 模板 u8c2027407855876833298 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,556 - automation_test - INFO - u8c2027407855876833299模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,557 - automation_test - ERROR - ✗ 模板 u8c2027407855876833299 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,640 - automation_test - INFO - u8c2027407855876833300模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,641 - automation_test - ERROR - ✗ 模板 u8c2027407855876833300 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,717 - automation_test - INFO - u8c2027407855876833301模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,718 - automation_test - ERROR - ✗ 模板 u8c2027407855876833301 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,888 - automation_test - INFO - u8c2027407855876833302模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,889 - automation_test - ERROR - ✗ 模板 u8c2027407855876833302 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:20,949 - automation_test - INFO - u8c2027407855876833303模板打印预览请求的响应状态码为200
+2026-03-20 18:21:20,950 - automation_test - ERROR - ✗ 模板 u8c2027407855876833303 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,019 - automation_test - INFO - u8c2027407855876833304模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,021 - automation_test - ERROR - ✗ 模板 u8c2027407855876833304 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,098 - automation_test - INFO - u8c2027407855876833305模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,099 - automation_test - ERROR - ✗ 模板 u8c2027407855876833305 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,174 - automation_test - INFO - u8c2027407855876833306模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,175 - automation_test - ERROR - ✗ 模板 u8c2027407855876833306 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,242 - automation_test - INFO - u8c2027407855876833307模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,243 - automation_test - ERROR - ✗ 模板 u8c2027407855876833307 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,312 - automation_test - INFO - u8c2027407855876833308模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,313 - automation_test - ERROR - ✗ 模板 u8c2027407855876833308 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,389 - automation_test - INFO - u8c2027407855876833309模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,390 - automation_test - ERROR - ✗ 模板 u8c2027407855876833309 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,467 - automation_test - INFO - u8c2027407855876833310模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,469 - automation_test - ERROR - ✗ 模板 u8c2027407855876833310 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,538 - automation_test - INFO - u8c2027407855876833311模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,539 - automation_test - ERROR - ✗ 模板 u8c2027407855876833311 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,605 - automation_test - INFO - u8c2027407855876833312模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,606 - automation_test - ERROR - ✗ 模板 u8c2027407855876833312 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,683 - automation_test - INFO - u8c2027407855876833313模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,684 - automation_test - ERROR - ✗ 模板 u8c2027407855876833313 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,755 - automation_test - INFO - u8c2027407855876833314模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,756 - automation_test - ERROR - ✗ 模板 u8c2027407855876833314 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,831 - automation_test - INFO - u8c2027407855876833315模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,833 - automation_test - ERROR - ✗ 模板 u8c2027407855876833315 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,913 - automation_test - INFO - u8c2027407855876833316模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,915 - automation_test - ERROR - ✗ 模板 u8c2027407855876833316 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:21,991 - automation_test - INFO - u8c2027407855876833317模板打印预览请求的响应状态码为200
+2026-03-20 18:21:21,993 - automation_test - ERROR - ✗ 模板 u8c2027407855876833317 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,059 - automation_test - INFO - u8c2027407855876833318模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,060 - automation_test - ERROR - ✗ 模板 u8c2027407855876833318 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,138 - automation_test - INFO - u8c2027407855876833319模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,139 - automation_test - ERROR - ✗ 模板 u8c2027407855876833319 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,217 - automation_test - INFO - u8c2027407855876833320模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,218 - automation_test - ERROR - ✗ 模板 u8c2027407855876833320 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,291 - automation_test - INFO - u8c2027407855876833321模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,292 - automation_test - ERROR - ✗ 模板 u8c2027407855876833321 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,365 - automation_test - INFO - u8c2027407855876833322模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,366 - automation_test - ERROR - ✗ 模板 u8c2027407855876833322 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,441 - automation_test - INFO - u8c2027407855876833323模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,442 - automation_test - ERROR - ✗ 模板 u8c2027407855876833323 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,518 - automation_test - INFO - u8c2027407855876833324模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,518 - automation_test - ERROR - ✗ 模板 u8c2027407855876833324 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,580 - automation_test - INFO - u8c2027407855876833325模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,581 - automation_test - ERROR - ✗ 模板 u8c2027407855876833325 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,655 - automation_test - INFO - u8c2027407855876833326模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,656 - automation_test - ERROR - ✗ 模板 u8c2027407855876833326 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,739 - automation_test - INFO - u8c2027407855876833327模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,740 - automation_test - ERROR - ✗ 模板 u8c2027407855876833327 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,821 - automation_test - INFO - u8c2027407855876833328模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,822 - automation_test - ERROR - ✗ 模板 u8c2027407855876833328 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,894 - automation_test - INFO - u8c1714271717000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,894 - automation_test - ERROR - ✗ 模板 u8c1714271717000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:22,967 - automation_test - INFO - u8c1689834375000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:22,969 - automation_test - ERROR - ✗ 模板 u8c1689834375000 异常: argument of type 'bool' is not iterable
+2026-03-20 18:21:23,049 - automation_test - INFO - u8c1659075352000模板打印预览请求的响应状态码为200
+2026-03-20 18:21:23,050 - automation_test - ERROR - ✗ 模板 u8c1659075352000 异常: argument of type 'bool' is not iterable

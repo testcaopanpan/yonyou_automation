@@ -1,4 +1,5 @@
 # _*_ coding:utf-8 _*_
+import time
 
 import allure
 import requests
@@ -41,3 +42,62 @@ def test_get_template_list(common_headers):
         assert len(ids) > 0
         logger.info("获取的可用模板列表为"+str(ids))
     return ids
+
+@allure.epic("API自动化")
+@allure.feature("基础接口")
+@allure.story("实际单据进行最终打印预览使用的print接口")
+def test_print(common_headers):
+    url_print = "https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/print"
+    para = test_cache_print_api(common_headers)
+    ids = test_get_template_list(common_headers)
+    logger.info(f"开始循环进行打印模板的预览接口请求，共{len(ids)}个模板")
+    success_list = []
+    failed_list = []
+    with allure.step(f"开始循环进行打印模板的预览接口请求，共{len(ids)}个模板"):
+        for index,code in enumerate(ids,1):
+            try:
+                payload ={
+                "appSource": "PO",
+                "domainDataBaseByCode": "MF",
+                "tenantId": "w1a1kdwu",
+                "printcode": f"{code}",
+                "meta": "5",
+                "sendType": "7",
+                "lang": "zh_CN",
+                "orgId": "2236516150172672",
+                "sysLocale": "zh_CN",
+                "params": f"{para}",
+                "serviceCode": "po_production_order_list",
+                "serverUrl": "https://c2.yonyoucloud.com/mdf-node/formdata//bill/getPrintData?domainKey=productionorder&serviceCode=po_production_order_list",
+                "newArch": "true",
+                "multilingualFlag": "true",
+                "locale": "zh_CN",
+                "previewUrl": "https://c2.yonyoucloud.com/iuap-apcom-print/u8cprint/design/getPreview",
+                "split": "false",
+                "isCache": "1",
+                "keepAlive": "true",
+                "classifyCodeForCount": "PO.po_production_order"
+            }
+                with allure.step(f"测试模板 {index}/{len(ids)}: {code}"):
+                    resp = requests.post(url=url_print,headers=common_headers,json=payload)
+                    time.sleep(2)
+                    logger.info(f"{code}模板打印预览请求的响应状态码为"+str(resp.status_code))
+                    if resp.status_code == 200:
+                        if "PDF-" in resp.json()["data"]:
+                            success_list.append(code)
+                            logger.info(f"✓ 模板 {code} 打印预览成功")
+                        else:
+                            failed_list.append(code)
+                            logger.info(f"× 模板 {code} 打印预览失败")
+                    else:
+                        failed_list.append(code)
+                        logger.error(f"✗ 模板 {code} 失败：HTTP状态码异常 {resp.status_code}")
+            except Exception as e:
+                failed_list.append(code)
+                logger.error(f"✗ 模板 {code} 异常: {str(e)}")
+
+    allure.step("成功的打印模板清单如下"+success_list)
+    allure.step("失败的打印模板清单如下"+failed_list)
+    logger.info("成功的打印模板清单如下"+success_list)
+    logger.info("失败的打印模板清单如下"+failed_list)
+
