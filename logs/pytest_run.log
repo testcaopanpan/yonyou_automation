@@ -10,361 +10,371 @@ INFO     automation_test:test_api_demo.py:31 响应内容: {
 INFO     automation_test:conftest.py:37 将字典型cookie结构转化成字符串型
 INFO     automation_test:test_font_api.py:45 请求状态码是：200
 INFO     automation_test:test_font_api.py:46 请求结果的响应体如下：
-{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"55a0f1f872b02c67"}
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"072cb512c6f43220"}
 INFO     automation_test:test_font_api.py:64 当前字体不是目标字体。
 INFO     automation_test:test_font_api.py:34 调用上传接口: https://c2.yonyoucloud.com/iuap-apcom-print/u8cprint/font/v2/uploadFont
 INFO     automation_test:test_font_api.py:35 上传文件: E:/Users/caopanpan/Downloads/HFIntimate-2.ttf
 INFO     automation_test:test_font_api.py:45 请求状态码是：200
 INFO     automation_test:test_font_api.py:46 请求结果的响应体如下：
-{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"c467edf083e36051"}
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"5473adbbcbd80159"}
 INFO     automation_test:conftest.py:37 将字典型cookie结构转化成字符串型
 INFO     automation_test:test_print_api.py:19 请求的响应状态码是200
-INFO     automation_test:test_print_api.py:20 请求响应结果是:7029cff3-f173-4c6d-81ab-f6d43acd11b1
+INFO     automation_test:test_print_api.py:20 请求响应结果是:7aececd9-7e90-452c-a1d9-6861066136ee
 INFO     automation_test:test_print_api.py:38 请求的响应状态码是200
-INFO     automation_test:test_print_api.py:43 获取的可用模板列表为['u8c1774000711000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+INFO     automation_test:test_print_api.py:43 获取的可用模板列表为['u8c1774246037000', 'u8c1774002178000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
 INFO     automation_test:test_print_api.py:19 请求的响应状态码是200
-INFO     automation_test:test_print_api.py:20 请求响应结果是:c5cf7959-8c7e-44ea-921b-394fe186a8cc
+INFO     automation_test:test_print_api.py:20 请求响应结果是:55e4db30-3bb3-4a1f-81d5-5aece2325593
 INFO     automation_test:test_print_api.py:38 请求的响应状态码是200
-INFO     automation_test:test_print_api.py:43 获取的可用模板列表为['u8c1774000711000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
-INFO     automation_test:test_print_api.py:53 开始循环进行打印模板的预览接口请求，共143个模板
-INFO     automation_test:test_print_api.py:83 u8c1774000711000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1774000711000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1768286989628模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1768286989628 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2444516534017064964模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2444516534017064964 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1767512784478模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1767512784478 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2435413179027161094模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2435413179027161094 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2409752982813933571模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2409752982813933571 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1761329163000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1761329163000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2389109351354728454模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2389109351354728454 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1761324315138模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1761324315138 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2389067870560583689模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2389067870560583689 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1760582703000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1760582703000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2330000336319676425模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2330000336319676425 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1752860041000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1752860041000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1752860009000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1752860009000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2292249429227864069模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2292249429227864069 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2276904705144127495模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2276904705144127495 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2276904705144127496模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2276904705144127496 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2276904705144127497模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2276904705144127497 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2276904705144127498模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2276904705144127498 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1748019697000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1748019697000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1745319511000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1745319511000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2251365480965603329模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2251365480965603329 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744792894000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744792894000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744622252000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744622252000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744622212000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744622212000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744622167000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744622167000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744622122000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744622122000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744622082000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744622082000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1744609139000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1744609139000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478208模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478208 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478209模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478209 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478210模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478210 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478211模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478211 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478212模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478212 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478213模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478213 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478214模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478214 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478215模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478215 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478216模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478216 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478217模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478217 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478218模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478218 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2243551621200478219模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2243551621200478219 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2241281722406666246模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2241281722406666246 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2241281722406666247模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2241281722406666247 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2240364935846559747模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2240364935846559747 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1742573609526模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1742573609526 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1742572898000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1742572898000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192005模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192005 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192006模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192006 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192007模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192007 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192008模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192008 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192009模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192009 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192010模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192010 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192011模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192011 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192012模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192012 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192013模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192013 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192014模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192014 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192015模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192015 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2227993127944192016模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2227993127944192016 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2197556378335707139模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2197556378335707139 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2197556378335707140模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2197556378335707140 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2184146803244400641模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2184146803244400641 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2181232977180098562模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2181232977180098562 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1737123402000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1737123402000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1737103189000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1737103189000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2174176629375893505模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2174176629375893505 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1733589268000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1733589268000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1732341275000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1732341275000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1732301417000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1732301417000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1732301109000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1732301109000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1732292573000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1732292573000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1732095637000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1732095637000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2127394668782551048模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2127394668782551048 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1730861270000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1730861270000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2121808410958626822模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2121808410958626822 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1728749724000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1728749724000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2109231209119744007模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2109231209119744007 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2107796604154544133模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2107796604154544133 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1727618784000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1727618784000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1727615671000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1727615671000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1727543790000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1727543790000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1727530087000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1727530087000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2098153543582613508模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2098153543582613508 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1727450400000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1727450400000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2098076259921166337模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2098076259921166337 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1726802489000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1726802489000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1725873627000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1725873627000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1725542446000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1725542446000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1722519141000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1722519141000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1721417020000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1721417020000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1721414634000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1721414634000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1721406425000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1721406425000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1719328017000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1719328017000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1719327778000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1719327778000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2028263662467153927模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2028263662467153927 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1719285378000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1719285378000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833284模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833284 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833285模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833285 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833286模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833286 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833287模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833287 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833288模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833288 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833289模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833289 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833290模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833290 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833291模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833291 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833292模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833292 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833293模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833293 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833294模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833294 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833295模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833295 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833296模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833296 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833297模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833297 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833298模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833298 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833299模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833299 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833300模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833300 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833301模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833301 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833302模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833302 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833303模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833303 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833304模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833304 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833305模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833305 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833306模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833306 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833307模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833307 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833308模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833308 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833309模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833309 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833310模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833310 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833311模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833311 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833312模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833312 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833313模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833313 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833314模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833314 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833315模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833315 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833316模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833316 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833317模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833317 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833318模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833318 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833319模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833319 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833320模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833320 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833321模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833321 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833322模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833322 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833323模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833323 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833324模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833324 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833325模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833325 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833326模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833326 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833327模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833327 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c2027407855876833328模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c2027407855876833328 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1714271717000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1714271717000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1689834375000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1689834375000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_print_api.py:83 u8c1659075352000模板打印预览请求的响应状态码为200
-ERROR    automation_test:test_print_api.py:96 ✗ 模板 u8c1659075352000 异常: argument of type 'bool' is not iterable
-INFO     automation_test:test_ui_template_list.py:83 开始复制系统模板
-INFO     automation_test:test_ui_template_list.py:113 新增复制模板验证通过
-INFO     automation_test:test_ui_template_list.py:115 验证新增模板为已启用状态
-INFO     automation_test:test_ui_template_list.py:119 模板启停验证
-INFO     automation_test:test_ui_template_list.py:123 点击停用按钮
-INFO     automation_test:test_ui_template_list.py:129 点击启动按钮
-INFO     automation_test:test_ui_template_list.py:136 打印模板的启停状态切换验证通过
-INFO     automation_test:test_ui_template_list.py:138 模板默认标签验证
-INFO     automation_test:test_ui_template_list.py:139 设置默认
-INFO     automation_test:test_ui_template_list.py:146 取消默认设置
-INFO     automation_test:test_ui_template_list.py:153 打印模板的默认标签配置取消验证通过
-INFO     automation_test:test_ui_template_list.py:163 新增打印模板删除完成
-INFO     automation_test:test_ui_template_list.py:169 这条用例仅作打印模板模板属性默认值检查
-INFO     automation_test:test_ui_template_list.py:172 用例前置：检查当前预用模板是否存在，存在就删掉
-INFO     automation_test:test_ui_template_list.py:190 复制系统模板
-INFO     automation_test:test_ui_template_list.py:195 修改复制模板名称并确定
-INFO     automation_test:test_ui_template_list.py:212 进入打印模板设计器浏览器页面
-INFO     automation_test:test_ui_template_list.py:220 验证模板编码框不可编辑
-INFO     automation_test:test_ui_template_list.py:225 验证模板名称与新增该模板配置的名称一致
-INFO     automation_test:test_ui_template_list.py:230 验证横向矩阵默认值为1
-INFO     automation_test:test_ui_template_list.py:235 验证总想矩阵默认值为1
-INFO     automation_test:test_ui_template_list.py:240 验证循环主体为【暂无】
-INFO     automation_test:test_ui_template_list.py:245 验证多页面打印方式默认值为【按单据】
-INFO     automation_test:test_ui_template_list.py:251 单据间隔打印默认关闭验证
-INFO     automation_test:test_ui_template_list.py:256 双面打印默认关闭验证
-INFO     automation_test:test_ui_template_list.py:261 仅打印有效审批意见默认关闭验证
-INFO     automation_test:test_ui_template_list.py:266 不打印无效抢占审批默认关闭验证
-INFO     automation_test:test_ui_template_list.py:271 不打印自动跳过审批默认关闭验证
-INFO     automation_test:test_ui_template_list.py:275 打印模板设计器模板属性默认值验证通过
-INFO     automation_test:test_ui_template_list.py:280 执行打印模板的删除操作
-INFO     automation_test:test_ui_template_list.py:289 新增打印模板删除完成
-INFO     automation_test:test_ui_template_list.py:294 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
-INFO     automation_test:test_ui_template_list.py:296 用例前置：检查当前预用模板是否存在，存在就删掉
-INFO     automation_test:test_ui_template_list.py:322 修改复制模板名称并确定
-INFO     automation_test:test_ui_template_list.py:340 进入打印模板设计器浏览器页面
-INFO     automation_test:test_ui_template_list.py:348 等待并删除画布上已经配置好的列表控件
-INFO     automation_test:test_ui_template_list.py:358 系统预置的列表在画布删除成功
-INFO     automation_test:test_ui_template_list.py:363 获取到列表控件
-INFO     automation_test:test_ui_template_list.py:366 获取到画布
-INFO     automation_test:test_ui_template_list.py:374 x坐标是296
-INFO     automation_test:test_ui_template_list.py:375 y坐标是180
-INFO     automation_test:test_ui_template_list.py:381 列表控件完成向画布拖入操作
-INFO     automation_test:test_ui_template_list.py:382 验证列表设置弹窗弹出正常
-INFO     automation_test:test_ui_template_list.py:388 开始配置列表的三个指定字段
-INFO     automation_test:test_ui_template_list.py:392 搜索并选择字段【开工日期】
-INFO     automation_test:test_ui_template_list.py:404 开始验证第一个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:407 搜索并选择字段【完工日期】
-INFO     automation_test:test_ui_template_list.py:419 开始验证第二个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:422 搜索并选择字段【生产数量】
-INFO     automation_test:test_ui_template_list.py:434 开始验证第三个字段选择是否正常
-INFO     automation_test:test_ui_template_list.py:438 点击确定保存列表
-INFO     automation_test:test_ui_template_list.py:443 开始验证新增列表是否展示正常
-INFO     automation_test:test_ui_template_list.py:450 验证列表默认没有开启承前过次页，且开启设置正常
-INFO     automation_test:test_ui_template_list.py:456 开启承前过次开关
-INFO     automation_test:test_ui_template_list.py:461 验证开启后承前页、过次页两行出现
+INFO     automation_test:test_print_api.py:43 获取的可用模板列表为['u8c1774246037000', 'u8c1774002178000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+INFO     automation_test:test_print_api.py:53 开始循环进行打印模板的预览接口请求，共144个模板
+INFO     automation_test:test_print_api.py:84 u8c1774246037000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1774246037000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1774002178000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1774002178000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1768286989628模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1768286989628 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2444516534017064964模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2444516534017064964 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1767512784478模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1767512784478 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2435413179027161094模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2435413179027161094 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2409752982813933571模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2409752982813933571 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1761329163000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1761329163000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2389109351354728454模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2389109351354728454 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1761324315138模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1761324315138 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2389067870560583689模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2389067870560583689 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1760582703000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1760582703000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2330000336319676425模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2330000336319676425 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1752860041000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1752860041000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1752860009000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1752860009000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2292249429227864069模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2292249429227864069 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2276904705144127495模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2276904705144127495 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2276904705144127496模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2276904705144127496 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2276904705144127497模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2276904705144127497 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2276904705144127498模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2276904705144127498 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1748019697000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1748019697000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1745319511000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1745319511000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2251365480965603329模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2251365480965603329 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744792894000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744792894000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744622252000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744622252000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744622212000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744622212000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744622167000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744622167000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744622122000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744622122000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744622082000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744622082000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1744609139000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1744609139000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478208模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478208 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478209模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478209 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478210模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478210 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478211模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478211 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478212模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478212 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478213模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478213 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478214模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478214 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478215模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478215 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478216模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478216 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478217模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478217 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478218模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478218 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2243551621200478219模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2243551621200478219 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2241281722406666246模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2241281722406666246 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2241281722406666247模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2241281722406666247 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2240364935846559747模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2240364935846559747 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1742573609526模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1742573609526 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1742572898000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1742572898000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192005模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192005 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192006模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192006 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192007模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192007 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192008模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192008 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192009模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192009 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192010模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192010 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192011模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192011 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192012模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192012 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192013模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192013 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192014模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192014 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192015模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192015 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2227993127944192016模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2227993127944192016 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2197556378335707139模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2197556378335707139 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2197556378335707140模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2197556378335707140 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2184146803244400641模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2184146803244400641 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2181232977180098562模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2181232977180098562 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1737123402000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1737123402000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1737103189000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1737103189000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2174176629375893505模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2174176629375893505 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1733589268000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1733589268000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1732341275000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1732341275000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1732301417000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1732301417000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1732301109000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1732301109000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1732292573000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1732292573000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1732095637000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1732095637000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2127394668782551048模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2127394668782551048 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1730861270000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1730861270000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2121808410958626822模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2121808410958626822 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1728749724000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1728749724000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2109231209119744007模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2109231209119744007 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2107796604154544133模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2107796604154544133 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1727618784000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1727618784000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1727615671000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1727615671000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1727543790000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1727543790000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1727530087000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1727530087000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2098153543582613508模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2098153543582613508 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1727450400000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1727450400000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2098076259921166337模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2098076259921166337 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1726802489000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1726802489000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1725873627000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1725873627000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1725542446000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1725542446000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1722519141000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1722519141000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1721417020000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1721417020000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1721414634000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1721414634000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1721406425000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1721406425000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1719328017000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1719328017000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1719327778000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1719327778000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2028263662467153927模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2028263662467153927 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1719285378000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1719285378000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833284模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833284 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833285模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833285 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833286模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833286 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833287模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833287 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833288模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833288 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833289模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833289 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833290模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833290 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833291模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833291 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833292模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833292 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833293模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833293 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833294模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833294 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833295模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833295 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833296模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833296 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833297模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833297 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833298模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833298 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833299模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833299 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833300模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833300 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833301模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833301 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833302模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833302 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833303模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833303 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833304模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833304 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833305模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833305 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833306模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833306 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833307模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833307 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833308模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833308 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833309模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833309 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833310模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833310 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833311模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833311 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833312模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833312 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833313模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833313 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833314模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833314 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833315模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833315 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833316模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833316 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833317模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833317 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833318模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833318 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833319模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833319 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833320模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833320 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833321模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833321 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833322模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833322 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833323模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833323 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833324模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833324 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833325模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833325 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833326模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833326 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833327模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833327 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c2027407855876833328模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c2027407855876833328 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1714271717000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1714271717000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1689834375000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1689834375000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:84 u8c1659075352000模板打印预览请求的响应状态码为200
+ERROR    automation_test:test_print_api.py:97 ✗ 模板 u8c1659075352000 异常: argument of type 'bool' is not iterable
+INFO     automation_test:test_print_api.py:101 成功的打印模板清单如下[]
+INFO     automation_test:test_print_api.py:102 失败的打印模板清单如下['u8c1774246037000', 'u8c1774002178000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+INFO     automation_test:test_ui_template_list.py:90 开始复制系统模板
+INFO     automation_test:test_ui_template_list.py:120 新增复制模板验证通过
+INFO     automation_test:test_ui_template_list.py:122 验证新增模板为已启用状态
+INFO     automation_test:test_ui_template_list.py:126 模板启停验证
+INFO     automation_test:test_ui_template_list.py:130 点击停用按钮
+INFO     automation_test:test_ui_template_list.py:136 点击启动按钮
+INFO     automation_test:test_ui_template_list.py:143 打印模板的启停状态切换验证通过
+INFO     automation_test:test_ui_template_list.py:145 模板默认标签验证
+INFO     automation_test:test_ui_template_list.py:146 设置默认
+INFO     automation_test:test_ui_template_list.py:153 取消默认设置
+INFO     automation_test:test_ui_template_list.py:160 打印模板的默认标签配置取消验证通过
+INFO     automation_test:test_ui_template_list.py:170 新增打印模板删除完成
+INFO     automation_test:test_ui_template_list.py:54 关闭打印模板节点页签
+INFO     automation_test:test_ui_template_list.py:58 关闭打印模板节点页签完成
+INFO     automation_test:test_ui_template_list.py:176 这条用例仅作打印模板模板属性默认值检查
+INFO     automation_test:test_ui_template_list.py:179 用例前置：检查当前预用模板是否存在，存在就删掉
+INFO     automation_test:test_ui_template_list.py:197 复制系统模板
+INFO     automation_test:test_ui_template_list.py:202 修改复制模板名称并确定
+INFO     automation_test:test_ui_template_list.py:219 进入打印模板设计器浏览器页面
+INFO     automation_test:test_ui_template_list.py:227 验证模板编码框不可编辑
+INFO     automation_test:test_ui_template_list.py:232 验证模板名称与新增该模板配置的名称一致
+INFO     automation_test:test_ui_template_list.py:237 验证横向矩阵默认值为1
+INFO     automation_test:test_ui_template_list.py:242 验证总想矩阵默认值为1
+INFO     automation_test:test_ui_template_list.py:247 验证循环主体为【暂无】
+INFO     automation_test:test_ui_template_list.py:252 验证多页面打印方式默认值为【按单据】
+INFO     automation_test:test_ui_template_list.py:258 单据间隔打印默认关闭验证
+INFO     automation_test:test_ui_template_list.py:263 双面打印默认关闭验证
+INFO     automation_test:test_ui_template_list.py:268 仅打印有效审批意见默认关闭验证
+INFO     automation_test:test_ui_template_list.py:273 不打印无效抢占审批默认关闭验证
+INFO     automation_test:test_ui_template_list.py:278 不打印自动跳过审批默认关闭验证
+INFO     automation_test:test_ui_template_list.py:282 打印模板设计器模板属性默认值验证通过
+INFO     automation_test:test_ui_template_list.py:287 执行打印模板的删除操作
+INFO     automation_test:test_ui_template_list.py:296 新增打印模板删除完成
+INFO     automation_test:test_ui_template_list.py:54 关闭打印模板节点页签
+INFO     automation_test:test_ui_template_list.py:58 关闭打印模板节点页签完成
+INFO     automation_test:test_ui_template_list.py:301 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+INFO     automation_test:test_ui_template_list.py:303 用例前置：检查当前预用模板是否存在，存在就删掉
+INFO     automation_test:test_ui_template_list.py:329 修改复制模板名称并确定
+INFO     automation_test:test_ui_template_list.py:347 进入打印模板设计器浏览器页面
+INFO     automation_test:test_ui_template_list.py:355 等待并删除画布上已经配置好的列表控件
+INFO     automation_test:test_ui_template_list.py:365 系统预置的列表在画布删除成功
+INFO     automation_test:test_ui_template_list.py:370 获取到列表控件
+INFO     automation_test:test_ui_template_list.py:373 获取到画布
+INFO     automation_test:test_ui_template_list.py:381 x坐标是296
+INFO     automation_test:test_ui_template_list.py:382 y坐标是180
+INFO     automation_test:test_ui_template_list.py:388 列表控件完成向画布拖入操作
+INFO     automation_test:test_ui_template_list.py:389 验证列表设置弹窗弹出正常
+INFO     automation_test:test_ui_template_list.py:395 开始配置列表的三个指定字段
+INFO     automation_test:test_ui_template_list.py:399 搜索并选择字段【开工日期】
+INFO     automation_test:test_ui_template_list.py:411 开始验证第一个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:414 搜索并选择字段【完工日期】
+INFO     automation_test:test_ui_template_list.py:426 开始验证第二个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:429 搜索并选择字段【生产数量】
+INFO     automation_test:test_ui_template_list.py:441 开始验证第三个字段选择是否正常
+INFO     automation_test:test_ui_template_list.py:445 点击确定保存列表
+INFO     automation_test:test_ui_template_list.py:450 开始验证新增列表是否展示正常
+INFO     automation_test:test_ui_template_list.py:457 验证列表默认没有开启承前过次页，且开启设置正常
+INFO     automation_test:test_ui_template_list.py:463 开启承前过次开关
+INFO     automation_test:test_ui_template_list.py:468 验证开启后承前页、过次页两行出现
+INFO     automation_test:test_ui_template_list.py:54 关闭打印模板节点页签
+INFO     automation_test:conftest.py:121 这是登录的teardown方法

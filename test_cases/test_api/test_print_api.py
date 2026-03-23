@@ -80,7 +80,7 @@ def test_print(common_headers):
             }
                 with allure.step(f"测试模板 {index}/{len(ids)}: {code}"):
                     resp = requests.post(url=url_print,headers=common_headers,json=payload)
-                    time.sleep(2)
+                    time.sleep(0.5)
                     logger.info(f"{code}模板打印预览请求的响应状态码为"+str(resp.status_code))
                     if resp.status_code == 200:
                         if "PDF-" in resp.json()["data"]:
@@ -96,8 +96,8 @@ def test_print(common_headers):
                 failed_list.append(code)
                 logger.error(f"✗ 模板 {code} 异常: {str(e)}")
 
-    allure.step("成功的打印模板清单如下"+success_list)
-    allure.step("失败的打印模板清单如下"+failed_list)
-    logger.info("成功的打印模板清单如下"+success_list)
-    logger.info("失败的打印模板清单如下"+failed_list)
+    allure.step("成功的打印模板清单如下"+str(success_list))
+    allure.step("失败的打印模板清单如下"+str(failed_list))
+    logger.info("成功的打印模板清单如下"+str(success_list))
+    logger.info("失败的打印模板清单如下"+str(failed_list))
 

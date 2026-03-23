@@ -1,0 +1,2 @@
+用例执行失败，失败已截图至:screenshorts\20260323\test_kongjian_list_drag_default_value_142150.png
+这是登录的teardown方法

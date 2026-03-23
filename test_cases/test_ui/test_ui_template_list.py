@@ -50,6 +50,13 @@ def print_template_jinrushengchandingdan(login):
     element = driver.find_element(By.XPATH,'//*[@fieldid="iprint_add-iconfont"]')
     #元素存在性验证
     assert element is not None
+    yield
+    logger.info('关闭打印模板节点页签')
+    allure.step('关闭打印模板节点页签')
+    WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@fieldid="GZTTMP040_icon"]')))
+    driver.find_element(By.XPATH,'//*[@fieldid="GZTTMP040_icon"]').click()
+    logger.info('关闭打印模板节点页签完成')
+    allure.step('关闭打印模板节点页签完成')
 
 @allure.epic("UI自动化")
 @allure.feature("打印模板")

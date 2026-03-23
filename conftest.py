@@ -10,6 +10,7 @@ import os
 import allure
 from datetime import datetime
 from selenium.webdriver.chrome.options import Options
+from common.logger import logger
 
 
 def save_debug_info(driver, step_name):
@@ -113,7 +114,12 @@ def login(driver):
         assert element is not None
     else:
         driver.refresh()
-    return driver
+    #return driver
+    yield driver
+    print("这是登录的teardown方法")
+    allure.step("这是登录的teardown方法")
+    logger.info("这是登录的teardown方法")
+
 
 @pytest.hookimpl(hookwrapper=True, tryfirst=True)
 def pytest_runtest_makereport(item, call):
