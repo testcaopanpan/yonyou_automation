@@ -1,0 +1,5 @@
+[32mINFO    [0m automation_test:test_print_api.py:152 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+[32mINFO    [0m automation_test:test_print_api.py:153 文件1: E:\compare\compare_json\DYMB_065.zip
+[32mINFO    [0m automation_test:test_print_api.py:154 文件2: E:\compare\compare_pdf\DYMB_065.zip
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): c2.yonyoucloud.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://c2.yonyoucloud.com:443 "POST /iuap-apcom-print/iuap-print-pdf/pdf/generate/compare HTTP/1.1" 500 28

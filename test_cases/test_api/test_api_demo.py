@@ -15,6 +15,7 @@ from common.logger import logger
 @allure.epic("API自动化")
 @allure.feature("基础接口")
 @allure.story("demo接口验证")
+@pytest.mark.api
 def test_api_demo():
     # 将cookie转换为字典
  #   cookie_dict = {cookie['name']: cookie['value'] for cookie in login_cookie}

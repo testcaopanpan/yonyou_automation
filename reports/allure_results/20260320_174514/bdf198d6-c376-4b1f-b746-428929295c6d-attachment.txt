@@ -1,1 +1,0 @@
-用例执行失败，失败已截图至:screenshorts\20260320\test_design_properties_default_value_174716.png

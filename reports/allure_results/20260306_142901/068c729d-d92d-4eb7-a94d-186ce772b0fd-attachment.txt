@@ -1,2 +1,0 @@
-2026-03-06 14:29:43,934 - automation_test - INFO - 将字典型cookie结构转化成字符串型
-2026-03-06 14:29:44,402 - automation_test - INFO - 请求状态码是：200

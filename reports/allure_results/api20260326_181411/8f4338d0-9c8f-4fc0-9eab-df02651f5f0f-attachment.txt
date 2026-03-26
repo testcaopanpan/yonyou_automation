@@ -1,0 +1,12 @@
+[32mINFO    [0m automation_test:test_print_api.py:152 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+[32mINFO    [0m automation_test:test_print_api.py:153 文件1: E:\compare\compare_json\DYMB_052.zip
+[32mINFO    [0m automation_test:test_print_api.py:154 文件2: E:\compare\compare_pdf\DYMB_052.zip
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): c2.yonyoucloud.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://c2.yonyoucloud.com:443 "POST /iuap-apcom-print/iuap-print-pdf/pdf/generate/compare HTTP/1.1" 200 30283
+[32mINFO    [0m automation_test:test_print_api.py:162 响应 Content-Type: application/octet-stream
+[32mINFO    [0m automation_test:test_print_api.py:179 保存响应数据到本地文件
+[32mINFO    [0m automation_test:test_print_api.py:180 HTTP状态码: 200
+[32mINFO    [0m automation_test:test_print_api.py:181 响应内容长度: 30283
+[32mINFO    [0m automation_test:test_print_api.py:184 响应数据已保存到: D:\python_workspace\yonyou_automation\test_cases\test_api\temp_output_DYMB_052.zip
+[32mINFO    [0m automation_test:test_print_api.py:187 提取E:\compare\compare_json\DYMB_052.zip的对比result结果
+[32mINFO    [0m automation_test:test_print_api.py:193 result.txt内容: Document:DYMB_052\DYMB_052.pdfThe comparison result is:inconsistent, reason:The objectPool does not match, it is recommended to verify directly

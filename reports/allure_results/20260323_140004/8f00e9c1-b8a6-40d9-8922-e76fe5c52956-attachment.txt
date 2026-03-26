@@ -1,2 +1,0 @@
-ae9edb12-8db7-4eeb-a2e0-085e98b6c258
-用例执行失败，失败已截图至:screenshorts\20260323\test_print_140611.png

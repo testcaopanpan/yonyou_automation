@@ -1,0 +1,3 @@
+用例执行失败，失败已截图至:screenshorts\20260326\test_kongjian_list_drag_default_value[\u8bbe\u8ba1\u5668\u5217\u8868\u9a8c\u8bc1]_181256.png
+将截图附加到 Allure 报告时出错：[Errno 2] No such file or directory: 'screenshorts\\20260326\\test_kongjian_list_drag_default_value[\\u8bbe\\u8ba1\\u5668\\u5217\\u8868\\u9a8c\\u8bc1]_181256.png'
+这是登录的teardown方法

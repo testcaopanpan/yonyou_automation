@@ -1,2 +1,0 @@
-已确认隐私权限
-用例执行失败，失败已截图至:screenshorts\20260305\test_cache_print_api_155116.png

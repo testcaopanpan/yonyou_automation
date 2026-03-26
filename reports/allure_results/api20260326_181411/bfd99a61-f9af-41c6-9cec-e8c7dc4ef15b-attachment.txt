@@ -1,0 +1,2 @@
+2026-03-26 18:14:15,692 - automation_test - INFO - 请求的响应状态码是200
+2026-03-26 18:14:15,692 - automation_test - INFO - 请求响应结果是:66d0714c-68cf-48de-92cf-9a2c73f89cb5

@@ -1,0 +1,11 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): jsonplaceholder.typicode.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://jsonplaceholder.typicode.com:443 "GET /todos/1 HTTP/1.1" 200 None
+[32mINFO    [0m automation_test:test_api_demo.py:29 请求URL: https://jsonplaceholder.typicode.com/todos/1
+[32mINFO    [0m automation_test:test_api_demo.py:30 请求头: {'Content-Type': 'application/json'}
+[32mINFO    [0m automation_test:test_api_demo.py:31 响应状态码: 200
+[32mINFO    [0m automation_test:test_api_demo.py:32 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}

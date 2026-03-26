@@ -1,0 +1,2166 @@
+2026-03-24 17:45:23,720 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 17:45:24,140 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:24,142 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_001.zip的对比result结果
+2026-03-24 17:45:24,843 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:24,845 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_002.zip的对比result结果
+2026-03-24 17:45:25,252 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:25,253 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_003.zip的对比result结果
+2026-03-24 17:45:25,722 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:25,723 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_004.zip的对比result结果
+2026-03-24 17:45:26,206 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:26,207 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_005.zip的对比result结果
+2026-03-24 17:45:26,641 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:26,642 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_006.zip的对比result结果
+2026-03-24 17:45:27,118 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:27,120 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_007.zip的对比result结果
+2026-03-24 17:45:27,589 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:27,591 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_008.zip的对比result结果
+2026-03-24 17:45:28,019 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:28,021 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_009.zip的对比result结果
+2026-03-24 17:45:28,477 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:28,479 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_010.zip的对比result结果
+2026-03-24 17:45:28,907 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:28,908 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_011.zip的对比result结果
+2026-03-24 17:45:29,328 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:29,330 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_012.zip的对比result结果
+2026-03-24 17:45:29,735 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:29,737 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_013.zip的对比result结果
+2026-03-24 17:45:30,170 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:30,171 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_014.zip的对比result结果
+2026-03-24 17:45:30,584 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:30,586 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_015.zip的对比result结果
+2026-03-24 17:45:31,077 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:31,079 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_016.zip的对比result结果
+2026-03-24 17:45:31,637 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:31,639 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_017.zip的对比result结果
+2026-03-24 17:45:32,080 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:32,082 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_018.zip的对比result结果
+2026-03-24 17:45:32,568 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:32,571 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_019.zip的对比result结果
+2026-03-24 17:45:33,165 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:33,167 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_020.zip的对比result结果
+2026-03-24 17:45:33,687 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:33,689 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_021.zip的对比result结果
+2026-03-24 17:45:34,162 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:34,164 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_022.zip的对比result结果
+2026-03-24 17:45:34,642 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:34,644 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_023.zip的对比result结果
+2026-03-24 17:45:35,116 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:35,118 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_024.zip的对比result结果
+2026-03-24 17:45:35,614 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:35,616 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_025.zip的对比result结果
+2026-03-24 17:45:36,054 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:36,056 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_026.zip的对比result结果
+2026-03-24 17:45:37,747 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:37,749 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_027.zip的对比result结果
+2026-03-24 17:45:38,403 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:38,405 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_028.zip的对比result结果
+2026-03-24 17:45:39,393 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:39,395 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_029.zip的对比result结果
+2026-03-24 17:45:40,090 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:40,093 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_035.zip的对比result结果
+2026-03-24 17:45:40,574 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:40,576 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_036.zip的对比result结果
+2026-03-24 17:45:40,999 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:41,001 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_037.zip的对比result结果
+2026-03-24 17:45:41,497 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:41,498 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_038.zip的对比result结果
+2026-03-24 17:45:41,974 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:41,975 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_040.zip的对比result结果
+2026-03-24 17:45:43,557 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:43,559 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_041.zip的对比result结果
+2026-03-24 17:45:44,076 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:44,078 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_042.zip的对比result结果
+2026-03-24 17:45:44,679 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:44,681 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_043.zip的对比result结果
+2026-03-24 17:45:45,570 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:45,572 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_044.zip的对比result结果
+2026-03-24 17:45:46,128 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:46,129 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_045.zip的对比result结果
+2026-03-24 17:45:46,811 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:46,813 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_046.zip的对比result结果
+2026-03-24 17:45:47,377 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:47,380 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_047.zip的对比result结果
+2026-03-24 17:45:47,765 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:47,767 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_048.zip的对比result结果
+2026-03-24 17:45:48,202 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:48,204 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_050.zip的对比result结果
+2026-03-24 17:45:48,747 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:48,748 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_051.zip的对比result结果
+2026-03-24 17:45:49,188 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:49,190 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_052.zip的对比result结果
+2026-03-24 17:45:49,579 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:49,581 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_053.zip的对比result结果
+2026-03-24 17:45:49,957 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:49,959 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_054.zip的对比result结果
+2026-03-24 17:45:50,361 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:50,362 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_055.zip的对比result结果
+2026-03-24 17:45:50,714 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:50,715 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_056.zip的对比result结果
+2026-03-24 17:45:51,128 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:51,129 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_057.zip的对比result结果
+2026-03-24 17:45:51,565 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:51,567 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_058.zip的对比result结果
+2026-03-24 17:45:51,923 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:51,925 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_059.zip的对比result结果
+2026-03-24 17:45:52,311 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:52,313 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_060.zip的对比result结果
+2026-03-24 17:45:52,745 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:52,747 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_061.zip的对比result结果
+2026-03-24 17:45:53,137 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:53,138 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_062.zip的对比result结果
+2026-03-24 17:45:53,703 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:53,704 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_063.zip的对比result结果
+2026-03-24 17:45:54,097 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:54,099 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_064.zip的对比result结果
+2026-03-24 17:45:54,522 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:54,523 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_065.zip的对比result结果
+2026-03-24 17:45:54,907 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:54,909 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_066.zip的对比result结果
+2026-03-24 17:45:55,478 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:55,479 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_067.zip的对比result结果
+2026-03-24 17:45:56,033 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:56,035 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_068.zip的对比result结果
+2026-03-24 17:45:56,797 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:56,798 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_069.zip的对比result结果
+2026-03-24 17:45:57,175 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:57,176 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_070.zip的对比result结果
+2026-03-24 17:45:57,555 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:57,556 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_071.zip的对比result结果
+2026-03-24 17:45:57,954 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:57,956 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_072.zip的对比result结果
+2026-03-24 17:45:58,428 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:58,430 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_073.zip的对比result结果
+2026-03-24 17:45:58,799 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:58,801 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_074.zip的对比result结果
+2026-03-24 17:45:59,211 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:59,213 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_075.zip的对比result结果
+2026-03-24 17:45:59,694 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:45:59,696 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_076.zip的对比result结果
+2026-03-24 17:46:00,128 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:00,129 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_077.zip的对比result结果
+2026-03-24 17:46:00,543 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:00,545 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_078.zip的对比result结果
+2026-03-24 17:46:00,942 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:00,944 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_079.zip的对比result结果
+2026-03-24 17:46:01,328 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:01,329 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_080.zip的对比result结果
+2026-03-24 17:46:01,718 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:01,720 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_081.zip的对比result结果
+2026-03-24 17:46:02,140 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:02,141 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_082.zip的对比result结果
+2026-03-24 17:46:02,524 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:02,526 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_083.zip的对比result结果
+2026-03-24 17:46:02,902 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:02,904 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_084.zip的对比result结果
+2026-03-24 17:46:03,353 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:03,354 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_085.zip的对比result结果
+2026-03-24 17:46:03,755 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:03,756 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_086.zip的对比result结果
+2026-03-24 17:46:04,140 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:04,142 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_087.zip的对比result结果
+2026-03-24 17:46:04,523 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:04,525 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_088.zip的对比result结果
+2026-03-24 17:46:04,902 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:04,904 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_089.zip的对比result结果
+2026-03-24 17:46:05,310 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:05,312 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_090.zip的对比result结果
+2026-03-24 17:46:05,663 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:05,665 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_091.zip的对比result结果
+2026-03-24 17:46:06,048 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:06,049 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_092.zip的对比result结果
+2026-03-24 17:46:06,407 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:06,408 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_093.zip的对比result结果
+2026-03-24 17:46:06,804 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:06,805 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_094.zip的对比result结果
+2026-03-24 17:46:07,191 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:07,193 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_095.zip的对比result结果
+2026-03-24 17:46:07,578 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:07,579 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_096.zip的对比result结果
+2026-03-24 17:46:07,934 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:07,936 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_097.zip的对比result结果
+2026-03-24 17:46:08,384 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:08,386 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_098.zip的对比result结果
+2026-03-24 17:46:08,754 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:08,755 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_099.zip的对比result结果
+2026-03-24 17:46:09,132 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:09,134 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_100.zip的对比result结果
+2026-03-24 17:46:09,487 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:09,489 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_101.zip的对比result结果
+2026-03-24 17:46:09,880 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:09,881 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_102.zip的对比result结果
+2026-03-24 17:46:10,261 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:10,262 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_103.zip的对比result结果
+2026-03-24 17:46:10,656 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:10,658 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_104.zip的对比result结果
+2026-03-24 17:46:11,039 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:11,040 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_105.zip的对比result结果
+2026-03-24 17:46:11,455 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:11,457 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_106.zip的对比result结果
+2026-03-24 17:46:11,875 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:11,876 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_107.zip的对比result结果
+2026-03-24 17:46:12,254 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:12,256 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_108.zip的对比result结果
+2026-03-24 17:46:12,627 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:12,628 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_109.zip的对比result结果
+2026-03-24 17:46:13,070 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:13,070 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_110.zip的对比result结果
+2026-03-24 17:46:13,523 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:13,524 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_111.zip的对比result结果
+2026-03-24 17:46:13,878 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:13,880 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_112.zip的对比result结果
+2026-03-24 17:46:14,241 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:14,243 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_113.zip的对比result结果
+2026-03-24 17:46:14,636 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:14,637 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_114.zip的对比result结果
+2026-03-24 17:46:15,079 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:15,080 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_115.zip的对比result结果
+2026-03-24 17:46:15,448 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:15,449 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_116.zip的对比result结果
+2026-03-24 17:46:15,815 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:15,817 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_117.zip的对比result结果
+2026-03-24 17:46:16,266 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:16,268 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_118.zip的对比result结果
+2026-03-24 17:46:16,763 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:16,764 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_119.zip的对比result结果
+2026-03-24 17:46:17,197 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:17,199 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_120.zip的对比result结果
+2026-03-24 17:46:17,540 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:46:17,542 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_121.zip的对比result结果
+2026-03-24 17:46:17,799 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 18:12:18,658 - automation_test - INFO - 从D://python_workspace//yonyou_automation//data.csv加载了114条测试数据
+2026-03-24 18:12:53,066 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 18:12:53,077 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:12:53,078 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_001.zip
+2026-03-24 18:12:53,078 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_001.zip
+2026-03-24 18:12:56,436 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:12:56,436 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:12:56,437 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:12:56,438 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_001.zip.zip
+2026-03-24 18:12:56,439 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_001.zip的对比result结果
+2026-03-24 18:12:57,147 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:12:57,147 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_002.zip
+2026-03-24 18:12:57,148 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_002.zip
+2026-03-24 18:13:00,246 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:00,247 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:00,248 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:00,249 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_002.zip.zip
+2026-03-24 18:13:00,250 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_002.zip的对比result结果
+2026-03-24 18:13:00,586 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:00,586 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_003.zip
+2026-03-24 18:13:00,587 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_003.zip
+2026-03-24 18:13:03,734 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:03,734 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:03,735 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:03,736 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_003.zip.zip
+2026-03-24 18:13:03,737 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_003.zip的对比result结果
+2026-03-24 18:13:04,059 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:04,060 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_004.zip
+2026-03-24 18:13:04,060 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_004.zip
+2026-03-24 18:13:07,201 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:07,202 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:07,202 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:07,204 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_004.zip.zip
+2026-03-24 18:13:07,205 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_004.zip的对比result结果
+2026-03-24 18:13:08,880 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:08,880 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_005.zip
+2026-03-24 18:13:08,881 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_005.zip
+2026-03-24 18:13:11,994 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:11,996 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:12,005 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:12,007 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_005.zip.zip
+2026-03-24 18:13:12,008 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_005.zip的对比result结果
+2026-03-24 18:13:12,366 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:12,367 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_006.zip
+2026-03-24 18:13:12,367 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_006.zip
+2026-03-24 18:13:15,483 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:15,483 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:15,484 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:15,485 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_006.zip.zip
+2026-03-24 18:13:15,485 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_006.zip的对比result结果
+2026-03-24 18:13:15,751 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:15,752 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_007.zip
+2026-03-24 18:13:15,752 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_007.zip
+2026-03-24 18:13:18,913 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:18,915 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:18,915 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:18,917 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_007.zip.zip
+2026-03-24 18:13:18,918 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_007.zip的对比result结果
+2026-03-24 18:13:19,504 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:19,505 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_008.zip
+2026-03-24 18:13:19,505 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_008.zip
+2026-03-24 18:13:22,685 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:22,685 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:22,686 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:22,686 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_008.zip.zip
+2026-03-24 18:13:22,687 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_008.zip的对比result结果
+2026-03-24 18:13:22,993 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:22,993 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_009.zip
+2026-03-24 18:13:22,994 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_009.zip
+2026-03-24 18:13:26,153 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:26,153 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:26,153 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:26,154 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_009.zip.zip
+2026-03-24 18:13:26,155 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_009.zip的对比result结果
+2026-03-24 18:13:26,425 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:26,425 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_010.zip
+2026-03-24 18:13:26,426 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_010.zip
+2026-03-24 18:13:29,526 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:29,526 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:29,526 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:29,527 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_010.zip.zip
+2026-03-24 18:13:29,528 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_010.zip的对比result结果
+2026-03-24 18:13:29,794 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:29,794 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_011.zip
+2026-03-24 18:13:29,794 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_011.zip
+2026-03-24 18:13:32,919 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:32,919 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:32,920 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:32,921 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_011.zip.zip
+2026-03-24 18:13:32,922 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_011.zip的对比result结果
+2026-03-24 18:13:33,256 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:33,257 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_012.zip
+2026-03-24 18:13:33,258 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_012.zip
+2026-03-24 18:13:36,664 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:36,664 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:36,664 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:36,666 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_012.zip.zip
+2026-03-24 18:13:36,666 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_012.zip的对比result结果
+2026-03-24 18:13:36,930 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:36,930 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_013.zip
+2026-03-24 18:13:36,930 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_013.zip
+2026-03-24 18:13:40,109 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:40,109 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:40,109 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:40,111 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_013.zip.zip
+2026-03-24 18:13:40,111 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_013.zip的对比result结果
+2026-03-24 18:13:40,377 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:40,377 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_014.zip
+2026-03-24 18:13:40,377 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_014.zip
+2026-03-24 18:13:43,463 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:43,463 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:43,464 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:43,465 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_014.zip.zip
+2026-03-24 18:13:43,466 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_014.zip的对比result结果
+2026-03-24 18:13:43,734 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:43,734 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_015.zip
+2026-03-24 18:13:43,734 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_015.zip
+2026-03-24 18:13:46,880 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:46,880 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:46,880 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:46,881 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_015.zip.zip
+2026-03-24 18:13:46,882 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_015.zip的对比result结果
+2026-03-24 18:13:47,222 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:47,223 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_016.zip
+2026-03-24 18:13:47,223 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_016.zip
+2026-03-24 18:13:50,339 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:50,339 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:50,340 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:50,341 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_016.zip.zip
+2026-03-24 18:13:50,342 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_016.zip的对比result结果
+2026-03-24 18:13:50,610 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:50,611 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_017.zip
+2026-03-24 18:13:50,611 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_017.zip
+2026-03-24 18:13:53,699 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:53,699 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:53,699 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:53,700 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_017.zip.zip
+2026-03-24 18:13:53,701 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_017.zip的对比result结果
+2026-03-24 18:13:53,976 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:53,976 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_018.zip
+2026-03-24 18:13:53,977 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_018.zip
+2026-03-24 18:13:57,111 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:13:57,112 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:13:57,112 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:13:57,113 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_018.zip.zip
+2026-03-24 18:13:57,113 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_018.zip的对比result结果
+2026-03-24 18:13:57,399 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:13:57,399 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_019.zip
+2026-03-24 18:13:57,400 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_019.zip
+2026-03-24 18:14:00,528 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:00,528 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:00,528 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:00,529 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_019.zip.zip
+2026-03-24 18:14:00,530 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_019.zip的对比result结果
+2026-03-24 18:14:00,889 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:00,890 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_020.zip
+2026-03-24 18:14:00,890 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_020.zip
+2026-03-24 18:14:03,999 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:03,999 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:04,000 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:04,001 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_020.zip.zip
+2026-03-24 18:14:04,002 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_020.zip的对比result结果
+2026-03-24 18:14:04,306 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:04,306 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_021.zip
+2026-03-24 18:14:04,306 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_021.zip
+2026-03-24 18:14:07,427 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:07,427 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:07,427 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:07,429 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_021.zip.zip
+2026-03-24 18:14:07,429 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_021.zip的对比result结果
+2026-03-24 18:14:07,714 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:07,715 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_022.zip
+2026-03-24 18:14:07,715 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_022.zip
+2026-03-24 18:14:10,854 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:10,854 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:10,855 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:10,856 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_022.zip.zip
+2026-03-24 18:14:10,857 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_022.zip的对比result结果
+2026-03-24 18:14:11,131 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:11,132 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_023.zip
+2026-03-24 18:14:11,132 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_023.zip
+2026-03-24 18:14:14,374 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:14,374 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:14,374 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:14,375 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_023.zip.zip
+2026-03-24 18:14:14,376 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_023.zip的对比result结果
+2026-03-24 18:14:14,658 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:14,659 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_024.zip
+2026-03-24 18:14:14,659 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_024.zip
+2026-03-24 18:14:17,975 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:17,975 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:17,975 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:17,976 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_024.zip.zip
+2026-03-24 18:14:17,977 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_024.zip的对比result结果
+2026-03-24 18:14:18,356 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:18,357 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_025.zip
+2026-03-24 18:14:18,357 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_025.zip
+2026-03-24 18:14:21,459 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:21,459 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:21,459 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:21,460 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_025.zip.zip
+2026-03-24 18:14:21,461 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_025.zip的对比result结果
+2026-03-24 18:14:21,734 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:21,734 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_026.zip
+2026-03-24 18:14:21,735 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_026.zip
+2026-03-24 18:14:24,838 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:24,839 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:24,840 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:24,841 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_026.zip.zip
+2026-03-24 18:14:24,842 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_026.zip的对比result结果
+2026-03-24 18:14:25,138 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:25,139 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_027.zip
+2026-03-24 18:14:25,139 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_027.zip
+2026-03-24 18:14:28,255 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:28,256 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:28,257 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:28,259 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_027.zip.zip
+2026-03-24 18:14:28,260 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_027.zip的对比result结果
+2026-03-24 18:14:28,586 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:28,586 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_028.zip
+2026-03-24 18:14:28,587 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_028.zip
+2026-03-24 18:14:31,695 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:31,696 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:31,696 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:31,697 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_028.zip.zip
+2026-03-24 18:14:31,698 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_028.zip的对比result结果
+2026-03-24 18:14:32,243 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:32,244 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_029.zip
+2026-03-24 18:14:32,244 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_029.zip
+2026-03-24 18:14:35,362 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:35,362 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:35,362 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:35,363 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_029.zip.zip
+2026-03-24 18:14:35,364 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_029.zip的对比result结果
+2026-03-24 18:14:35,668 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:35,669 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_035.zip
+2026-03-24 18:14:35,669 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_035.zip
+2026-03-24 18:14:38,770 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:38,770 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:38,770 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:38,772 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_035.zip.zip
+2026-03-24 18:14:38,773 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_035.zip的对比result结果
+2026-03-24 18:14:39,072 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:39,073 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_036.zip
+2026-03-24 18:14:39,073 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_036.zip
+2026-03-24 18:14:42,183 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:42,183 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:42,184 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:42,184 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_036.zip.zip
+2026-03-24 18:14:42,185 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_036.zip的对比result结果
+2026-03-24 18:14:42,450 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:42,451 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_037.zip
+2026-03-24 18:14:42,451 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_037.zip
+2026-03-24 18:14:45,541 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:45,541 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:45,541 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:45,542 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_037.zip.zip
+2026-03-24 18:14:45,543 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_037.zip的对比result结果
+2026-03-24 18:14:45,840 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:45,840 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_038.zip
+2026-03-24 18:14:45,841 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_038.zip
+2026-03-24 18:14:48,954 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:48,954 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:48,954 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:48,955 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_038.zip.zip
+2026-03-24 18:14:48,957 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_038.zip的对比result结果
+2026-03-24 18:14:49,223 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:49,223 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_040.zip
+2026-03-24 18:14:49,224 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_040.zip
+2026-03-24 18:14:52,334 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:52,334 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:52,335 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:52,336 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_040.zip.zip
+2026-03-24 18:14:52,338 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_040.zip的对比result结果
+2026-03-24 18:14:52,598 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:52,598 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_041.zip
+2026-03-24 18:14:52,599 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_041.zip
+2026-03-24 18:14:55,719 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:55,722 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:55,723 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:55,726 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_041.zip.zip
+2026-03-24 18:14:55,729 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_041.zip的对比result结果
+2026-03-24 18:14:56,087 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:56,088 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_042.zip
+2026-03-24 18:14:56,088 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_042.zip
+2026-03-24 18:14:59,298 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:14:59,298 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:14:59,298 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:14:59,299 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_042.zip.zip
+2026-03-24 18:14:59,300 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_042.zip的对比result结果
+2026-03-24 18:14:59,610 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:14:59,611 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_043.zip
+2026-03-24 18:14:59,611 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_043.zip
+2026-03-24 18:15:02,710 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:02,710 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:02,710 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:02,711 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_043.zip.zip
+2026-03-24 18:15:02,712 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_043.zip的对比result结果
+2026-03-24 18:15:02,955 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:02,956 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_044.zip
+2026-03-24 18:15:02,956 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_044.zip
+2026-03-24 18:15:06,064 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:06,064 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:06,064 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:06,065 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_044.zip.zip
+2026-03-24 18:15:06,066 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_044.zip的对比result结果
+2026-03-24 18:15:06,350 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:06,351 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_045.zip
+2026-03-24 18:15:06,351 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_045.zip
+2026-03-24 18:15:09,466 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:09,466 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:09,467 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:09,468 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_045.zip.zip
+2026-03-24 18:15:09,469 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_045.zip的对比result结果
+2026-03-24 18:15:09,751 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:09,751 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_046.zip
+2026-03-24 18:15:09,752 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_046.zip
+2026-03-24 18:15:12,926 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:12,926 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:12,926 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:12,927 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_046.zip.zip
+2026-03-24 18:15:12,928 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_046.zip的对比result结果
+2026-03-24 18:15:13,259 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:13,259 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_047.zip
+2026-03-24 18:15:13,260 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_047.zip
+2026-03-24 18:15:16,558 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:16,558 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:16,559 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:16,560 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_047.zip.zip
+2026-03-24 18:15:16,561 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_047.zip的对比result结果
+2026-03-24 18:15:16,836 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:16,837 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_048.zip
+2026-03-24 18:15:16,837 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_048.zip
+2026-03-24 18:15:19,950 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:19,950 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:19,950 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:19,951 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_048.zip.zip
+2026-03-24 18:15:19,954 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_048.zip的对比result结果
+2026-03-24 18:15:20,234 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:20,234 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_050.zip
+2026-03-24 18:15:20,234 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_050.zip
+2026-03-24 18:15:23,336 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:23,336 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:23,337 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:23,338 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_050.zip.zip
+2026-03-24 18:15:23,339 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_050.zip的对比result结果
+2026-03-24 18:15:23,625 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:23,626 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_051.zip
+2026-03-24 18:15:23,626 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_051.zip
+2026-03-24 18:15:26,735 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:26,735 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:26,735 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:26,736 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_051.zip.zip
+2026-03-24 18:15:26,737 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_051.zip的对比result结果
+2026-03-24 18:15:27,042 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:27,043 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_052.zip
+2026-03-24 18:15:27,044 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_052.zip
+2026-03-24 18:15:30,143 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:30,143 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:30,144 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:30,145 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_052.zip.zip
+2026-03-24 18:15:30,145 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_052.zip的对比result结果
+2026-03-24 18:15:30,422 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:30,423 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_053.zip
+2026-03-24 18:15:30,423 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_053.zip
+2026-03-24 18:15:33,526 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:33,526 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:33,526 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:33,527 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_053.zip.zip
+2026-03-24 18:15:33,528 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_053.zip的对比result结果
+2026-03-24 18:15:33,868 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:33,869 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_054.zip
+2026-03-24 18:15:33,869 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_054.zip
+2026-03-24 18:15:37,032 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:37,032 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:37,032 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:37,034 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_054.zip.zip
+2026-03-24 18:15:37,035 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_054.zip的对比result结果
+2026-03-24 18:15:37,331 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:37,332 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_055.zip
+2026-03-24 18:15:37,332 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_055.zip
+2026-03-24 18:15:40,511 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:40,511 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:40,512 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:40,513 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_055.zip.zip
+2026-03-24 18:15:40,514 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_055.zip的对比result结果
+2026-03-24 18:15:40,841 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:40,841 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_056.zip
+2026-03-24 18:15:40,841 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_056.zip
+2026-03-24 18:15:43,956 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:43,956 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:43,956 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:43,957 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_056.zip.zip
+2026-03-24 18:15:43,958 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_056.zip的对比result结果
+2026-03-24 18:15:44,276 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:44,277 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_057.zip
+2026-03-24 18:15:44,277 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_057.zip
+2026-03-24 18:15:47,419 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:47,423 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:47,423 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:47,425 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_057.zip.zip
+2026-03-24 18:15:47,426 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_057.zip的对比result结果
+2026-03-24 18:15:47,803 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:47,804 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_058.zip
+2026-03-24 18:15:47,804 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_058.zip
+2026-03-24 18:15:50,928 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:50,947 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:50,947 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:50,951 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_058.zip.zip
+2026-03-24 18:15:50,953 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_058.zip的对比result结果
+2026-03-24 18:15:51,407 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:51,408 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_059.zip
+2026-03-24 18:15:51,408 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_059.zip
+2026-03-24 18:15:54,515 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:54,516 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:54,516 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:54,517 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_059.zip.zip
+2026-03-24 18:15:54,518 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_059.zip的对比result结果
+2026-03-24 18:15:54,891 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:54,892 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_060.zip
+2026-03-24 18:15:54,892 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_060.zip
+2026-03-24 18:15:57,998 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:15:57,999 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:15:58,000 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:15:58,003 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_060.zip.zip
+2026-03-24 18:15:58,007 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_060.zip的对比result结果
+2026-03-24 18:15:58,737 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:15:58,738 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_061.zip
+2026-03-24 18:15:58,738 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_061.zip
+2026-03-24 18:16:01,861 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:01,861 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:01,862 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:01,862 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_061.zip.zip
+2026-03-24 18:16:01,863 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_061.zip的对比result结果
+2026-03-24 18:16:02,174 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:02,175 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_062.zip
+2026-03-24 18:16:02,175 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_062.zip
+2026-03-24 18:16:05,308 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:05,308 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:05,309 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:05,311 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_062.zip.zip
+2026-03-24 18:16:05,312 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_062.zip的对比result结果
+2026-03-24 18:16:05,608 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:05,609 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_063.zip
+2026-03-24 18:16:05,609 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_063.zip
+2026-03-24 18:16:08,998 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:08,998 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:08,998 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:08,999 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_063.zip.zip
+2026-03-24 18:16:09,000 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_063.zip的对比result结果
+2026-03-24 18:16:09,383 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:09,384 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_064.zip
+2026-03-24 18:16:09,384 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_064.zip
+2026-03-24 18:16:12,530 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:12,530 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:12,531 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:12,532 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_064.zip.zip
+2026-03-24 18:16:12,532 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_064.zip的对比result结果
+2026-03-24 18:16:12,966 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:12,966 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_065.zip
+2026-03-24 18:16:12,967 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_065.zip
+2026-03-24 18:16:16,096 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:16,096 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:16,097 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:16,098 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_065.zip.zip
+2026-03-24 18:16:16,129 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_065.zip的对比result结果
+2026-03-24 18:16:16,569 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:16,570 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_066.zip
+2026-03-24 18:16:16,571 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_066.zip
+2026-03-24 18:16:19,687 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:19,688 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:19,688 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:19,689 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_066.zip.zip
+2026-03-24 18:16:19,691 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_066.zip的对比result结果
+2026-03-24 18:16:20,367 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:20,367 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_067.zip
+2026-03-24 18:16:20,368 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_067.zip
+2026-03-24 18:16:23,795 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:23,795 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:23,796 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:23,797 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_067.zip.zip
+2026-03-24 18:16:23,798 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_067.zip的对比result结果
+2026-03-24 18:16:24,378 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:24,379 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_068.zip
+2026-03-24 18:16:24,380 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_068.zip
+2026-03-24 18:16:27,866 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:27,867 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:27,867 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:27,871 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_068.zip.zip
+2026-03-24 18:16:27,872 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_068.zip的对比result结果
+2026-03-24 18:16:28,400 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:28,401 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_069.zip
+2026-03-24 18:16:28,402 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_069.zip
+2026-03-24 18:16:31,686 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:31,686 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:31,687 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:31,688 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_069.zip.zip
+2026-03-24 18:16:31,689 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_069.zip的对比result结果
+2026-03-24 18:16:32,019 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:32,019 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_070.zip
+2026-03-24 18:16:32,019 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_070.zip
+2026-03-24 18:16:35,180 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:35,181 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:35,181 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:35,182 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_070.zip.zip
+2026-03-24 18:16:35,183 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_070.zip的对比result结果
+2026-03-24 18:16:35,580 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:35,581 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_071.zip
+2026-03-24 18:16:35,581 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_071.zip
+2026-03-24 18:16:38,862 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:38,862 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:38,863 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:38,864 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_071.zip.zip
+2026-03-24 18:16:38,865 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_071.zip的对比result结果
+2026-03-24 18:16:39,220 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:39,220 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_072.zip
+2026-03-24 18:16:39,221 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_072.zip
+2026-03-24 18:16:42,379 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:42,379 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:42,380 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:42,381 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_072.zip.zip
+2026-03-24 18:16:42,382 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_072.zip的对比result结果
+2026-03-24 18:16:42,714 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:42,714 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_073.zip
+2026-03-24 18:16:42,715 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_073.zip
+2026-03-24 18:16:45,888 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:45,889 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:45,889 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:45,890 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_073.zip.zip
+2026-03-24 18:16:45,892 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_073.zip的对比result结果
+2026-03-24 18:16:46,185 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:46,186 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_074.zip
+2026-03-24 18:16:46,186 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_074.zip
+2026-03-24 18:16:49,302 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:49,302 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:49,347 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:49,348 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_074.zip.zip
+2026-03-24 18:16:49,349 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_074.zip的对比result结果
+2026-03-24 18:16:49,706 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:49,707 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_075.zip
+2026-03-24 18:16:49,707 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_075.zip
+2026-03-24 18:16:52,815 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:52,816 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:52,816 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:52,817 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_075.zip.zip
+2026-03-24 18:16:52,820 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_075.zip的对比result结果
+2026-03-24 18:16:53,165 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:53,166 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_076.zip
+2026-03-24 18:16:53,166 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_076.zip
+2026-03-24 18:16:56,288 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:56,288 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:56,289 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:56,290 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_076.zip.zip
+2026-03-24 18:16:56,291 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_076.zip的对比result结果
+2026-03-24 18:16:56,680 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:16:56,681 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_077.zip
+2026-03-24 18:16:56,682 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_077.zip
+2026-03-24 18:16:59,783 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:16:59,783 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:16:59,784 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:16:59,785 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_077.zip.zip
+2026-03-24 18:16:59,786 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_077.zip的对比result结果
+2026-03-24 18:17:00,123 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:00,124 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_078.zip
+2026-03-24 18:17:00,124 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_078.zip
+2026-03-24 18:17:03,243 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:03,243 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:03,244 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:03,246 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_078.zip.zip
+2026-03-24 18:17:03,247 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_078.zip的对比result结果
+2026-03-24 18:17:03,658 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:03,658 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_079.zip
+2026-03-24 18:17:03,659 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_079.zip
+2026-03-24 18:17:06,779 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:06,779 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:06,779 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:06,780 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_079.zip.zip
+2026-03-24 18:17:06,781 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_079.zip的对比result结果
+2026-03-24 18:17:07,077 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:07,077 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_080.zip
+2026-03-24 18:17:07,077 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_080.zip
+2026-03-24 18:17:10,194 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:10,194 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:10,195 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:10,196 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_080.zip.zip
+2026-03-24 18:17:10,197 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_080.zip的对比result结果
+2026-03-24 18:17:10,523 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:10,524 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_081.zip
+2026-03-24 18:17:10,524 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_081.zip
+2026-03-24 18:17:13,644 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:13,644 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:13,644 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:13,645 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_081.zip.zip
+2026-03-24 18:17:13,647 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_081.zip的对比result结果
+2026-03-24 18:17:13,936 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:13,937 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_082.zip
+2026-03-24 18:17:13,937 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_082.zip
+2026-03-24 18:17:17,040 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:17,040 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:17,040 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:17,041 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_082.zip.zip
+2026-03-24 18:17:17,042 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_082.zip的对比result结果
+2026-03-24 18:17:17,352 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:17,353 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_083.zip
+2026-03-24 18:17:17,353 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_083.zip
+2026-03-24 18:17:20,579 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:20,580 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:20,580 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:20,582 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_083.zip.zip
+2026-03-24 18:17:20,583 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_083.zip的对比result结果
+2026-03-24 18:17:20,937 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:20,937 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_084.zip
+2026-03-24 18:17:20,937 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_084.zip
+2026-03-24 18:17:24,051 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:24,051 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:24,051 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:24,052 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_084.zip.zip
+2026-03-24 18:17:24,053 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_084.zip的对比result结果
+2026-03-24 18:17:24,323 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:24,323 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_085.zip
+2026-03-24 18:17:24,324 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_085.zip
+2026-03-24 18:17:27,434 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:27,434 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:27,434 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:27,435 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_085.zip.zip
+2026-03-24 18:17:27,436 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_085.zip的对比result结果
+2026-03-24 18:17:27,725 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:27,726 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_086.zip
+2026-03-24 18:17:27,726 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_086.zip
+2026-03-24 18:17:30,839 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:30,839 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:30,840 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:30,840 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_086.zip.zip
+2026-03-24 18:17:30,841 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_086.zip的对比result结果
+2026-03-24 18:17:31,142 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:31,143 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_087.zip
+2026-03-24 18:17:31,143 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_087.zip
+2026-03-24 18:17:34,233 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:34,233 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:34,233 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:34,234 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_087.zip.zip
+2026-03-24 18:17:34,235 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_087.zip的对比result结果
+2026-03-24 18:17:34,568 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:34,569 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_088.zip
+2026-03-24 18:17:34,569 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_088.zip
+2026-03-24 18:17:37,720 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:37,720 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:37,721 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:37,721 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_088.zip.zip
+2026-03-24 18:17:37,722 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_088.zip的对比result结果
+2026-03-24 18:17:37,997 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:37,997 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_089.zip
+2026-03-24 18:17:37,998 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_089.zip
+2026-03-24 18:17:41,118 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:41,118 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:41,119 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:41,120 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_089.zip.zip
+2026-03-24 18:17:41,121 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_089.zip的对比result结果
+2026-03-24 18:17:41,436 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:41,437 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_090.zip
+2026-03-24 18:17:41,437 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_090.zip
+2026-03-24 18:17:44,557 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:44,557 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:44,558 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:44,559 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_090.zip.zip
+2026-03-24 18:17:44,560 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_090.zip的对比result结果
+2026-03-24 18:17:44,859 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:44,860 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_091.zip
+2026-03-24 18:17:44,861 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_091.zip
+2026-03-24 18:17:47,979 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:47,979 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:47,980 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:47,981 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_091.zip.zip
+2026-03-24 18:17:47,982 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_091.zip的对比result结果
+2026-03-24 18:17:48,333 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:48,334 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_092.zip
+2026-03-24 18:17:48,334 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_092.zip
+2026-03-24 18:17:51,449 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:51,450 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:51,450 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:51,452 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_092.zip.zip
+2026-03-24 18:17:51,453 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_092.zip的对比result结果
+2026-03-24 18:17:51,759 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:51,760 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_093.zip
+2026-03-24 18:17:51,760 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_093.zip
+2026-03-24 18:17:54,880 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:54,880 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:54,881 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:54,882 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_093.zip.zip
+2026-03-24 18:17:54,884 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_093.zip的对比result结果
+2026-03-24 18:17:55,210 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:55,210 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_094.zip
+2026-03-24 18:17:55,210 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_094.zip
+2026-03-24 18:17:58,348 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:17:58,348 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:17:58,349 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:17:58,350 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_094.zip.zip
+2026-03-24 18:17:58,351 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_094.zip的对比result结果
+2026-03-24 18:17:58,681 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:17:58,682 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_095.zip
+2026-03-24 18:17:58,682 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_095.zip
+2026-03-24 18:18:01,828 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:01,828 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:01,829 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:01,830 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_095.zip.zip
+2026-03-24 18:18:01,831 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_095.zip的对比result结果
+2026-03-24 18:18:02,155 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:02,156 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_096.zip
+2026-03-24 18:18:02,156 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_096.zip
+2026-03-24 18:18:05,281 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:05,281 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:05,282 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:05,283 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_096.zip.zip
+2026-03-24 18:18:05,284 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_096.zip的对比result结果
+2026-03-24 18:18:05,586 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:05,587 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_097.zip
+2026-03-24 18:18:05,587 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_097.zip
+2026-03-24 18:18:08,696 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:08,696 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:08,697 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:08,697 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_097.zip.zip
+2026-03-24 18:18:08,698 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_097.zip的对比result结果
+2026-03-24 18:18:09,064 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:09,064 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_098.zip
+2026-03-24 18:18:09,064 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_098.zip
+2026-03-24 18:18:12,191 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:12,191 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:12,192 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:12,192 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_098.zip.zip
+2026-03-24 18:18:12,193 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_098.zip的对比result结果
+2026-03-24 18:18:12,974 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:12,975 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_099.zip
+2026-03-24 18:18:12,976 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_099.zip
+2026-03-24 18:18:16,110 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:16,111 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:16,112 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:16,116 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_099.zip.zip
+2026-03-24 18:18:16,117 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_099.zip的对比result结果
+2026-03-24 18:18:16,596 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:16,597 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_100.zip
+2026-03-24 18:18:16,597 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_100.zip
+2026-03-24 18:18:19,726 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:19,726 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:19,726 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:19,727 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_100.zip.zip
+2026-03-24 18:18:19,728 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_100.zip的对比result结果
+2026-03-24 18:18:20,029 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:20,030 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_101.zip
+2026-03-24 18:18:20,030 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_101.zip
+2026-03-24 18:18:23,141 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:23,142 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:23,142 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:23,144 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_101.zip.zip
+2026-03-24 18:18:23,146 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_101.zip的对比result结果
+2026-03-24 18:18:23,637 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:23,637 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_102.zip
+2026-03-24 18:18:23,637 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_102.zip
+2026-03-24 18:18:26,733 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:26,734 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:26,734 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:26,736 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_102.zip.zip
+2026-03-24 18:18:26,737 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_102.zip的对比result结果
+2026-03-24 18:18:27,111 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:27,112 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_103.zip
+2026-03-24 18:18:27,112 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_103.zip
+2026-03-24 18:18:30,322 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:30,323 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:30,323 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:30,324 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_103.zip.zip
+2026-03-24 18:18:30,325 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_103.zip的对比result结果
+2026-03-24 18:18:30,790 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:30,790 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_104.zip
+2026-03-24 18:18:30,791 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_104.zip
+2026-03-24 18:18:33,901 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:33,901 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:33,902 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:33,903 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_104.zip.zip
+2026-03-24 18:18:33,904 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_104.zip的对比result结果
+2026-03-24 18:18:34,487 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:34,488 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_105.zip
+2026-03-24 18:18:34,489 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_105.zip
+2026-03-24 18:18:56,154 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:56,155 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_106.zip
+2026-03-24 18:18:56,155 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_106.zip
+2026-03-24 18:18:59,314 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:18:59,315 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:18:59,315 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:18:59,316 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_106.zip.zip
+2026-03-24 18:18:59,317 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_106.zip的对比result结果
+2026-03-24 18:18:59,596 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:18:59,596 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_107.zip
+2026-03-24 18:18:59,597 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_107.zip
+2026-03-24 18:19:02,709 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:02,709 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:02,710 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:02,711 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_107.zip.zip
+2026-03-24 18:19:02,711 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_107.zip的对比result结果
+2026-03-24 18:19:02,983 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:02,984 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_108.zip
+2026-03-24 18:19:02,984 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_108.zip
+2026-03-24 18:19:06,102 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:06,102 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:06,103 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:06,104 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_108.zip.zip
+2026-03-24 18:19:06,105 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_108.zip的对比result结果
+2026-03-24 18:19:06,405 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:06,405 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_109.zip
+2026-03-24 18:19:06,405 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_109.zip
+2026-03-24 18:19:09,514 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:09,514 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:09,514 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:09,515 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_109.zip.zip
+2026-03-24 18:19:09,516 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_109.zip的对比result结果
+2026-03-24 18:19:09,847 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:09,848 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_110.zip
+2026-03-24 18:19:09,848 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_110.zip
+2026-03-24 18:19:12,956 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:12,957 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:12,957 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:12,958 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_110.zip.zip
+2026-03-24 18:19:12,960 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_110.zip的对比result结果
+2026-03-24 18:19:13,357 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:13,358 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_111.zip
+2026-03-24 18:19:13,359 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_111.zip
+2026-03-24 18:19:16,483 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:16,483 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:16,484 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:16,485 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_111.zip.zip
+2026-03-24 18:19:16,486 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_111.zip的对比result结果
+2026-03-24 18:19:17,578 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:17,579 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_112.zip
+2026-03-24 18:19:17,579 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_112.zip
+2026-03-24 18:19:20,678 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:20,678 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:20,679 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:20,681 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_112.zip.zip
+2026-03-24 18:19:20,682 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_112.zip的对比result结果
+2026-03-24 18:19:21,052 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:21,052 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_113.zip
+2026-03-24 18:19:21,053 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_113.zip
+2026-03-24 18:19:24,193 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:24,193 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:24,194 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:24,195 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_113.zip.zip
+2026-03-24 18:19:24,197 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_113.zip的对比result结果
+2026-03-24 18:19:24,763 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:24,764 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_114.zip
+2026-03-24 18:19:24,764 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_114.zip
+2026-03-24 18:19:27,898 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:27,899 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:27,899 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:27,901 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_114.zip.zip
+2026-03-24 18:19:27,902 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_114.zip的对比result结果
+2026-03-24 18:19:28,264 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:28,265 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_115.zip
+2026-03-24 18:19:28,265 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_115.zip
+2026-03-24 18:19:31,401 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:31,402 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:31,402 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:31,403 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_115.zip.zip
+2026-03-24 18:19:31,404 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_115.zip的对比result结果
+2026-03-24 18:19:31,696 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:31,696 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_116.zip
+2026-03-24 18:19:31,696 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_116.zip
+2026-03-24 18:19:34,834 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:34,844 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:34,850 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:34,852 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_116.zip.zip
+2026-03-24 18:19:34,853 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_116.zip的对比result结果
+2026-03-24 18:19:35,226 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:35,226 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_117.zip
+2026-03-24 18:19:35,227 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_117.zip
+2026-03-24 18:19:38,351 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:38,351 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:38,352 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:38,353 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_117.zip.zip
+2026-03-24 18:19:38,354 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_117.zip的对比result结果
+2026-03-24 18:19:38,661 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:38,662 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_118.zip
+2026-03-24 18:19:38,662 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_118.zip
+2026-03-24 18:19:41,790 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:41,790 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:41,791 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:41,792 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_118.zip.zip
+2026-03-24 18:19:41,793 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_118.zip的对比result结果
+2026-03-24 18:19:42,111 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:42,111 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_119.zip
+2026-03-24 18:19:42,111 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_119.zip
+2026-03-24 18:19:45,229 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:45,229 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:45,230 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:45,231 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_119.zip.zip
+2026-03-24 18:19:45,232 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_119.zip的对比result结果
+2026-03-24 18:19:45,519 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:45,520 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_120.zip
+2026-03-24 18:19:45,520 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_120.zip
+2026-03-24 18:19:48,726 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:48,726 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:48,726 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:48,727 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_120.zip.zip
+2026-03-24 18:19:48,728 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_120.zip的对比result结果
+2026-03-24 18:19:48,992 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:19:48,992 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_121.zip
+2026-03-24 18:19:48,992 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_121.zip
+2026-03-24 18:19:52,102 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:19:52,103 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:19:52,103 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:19:52,104 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_121.zip.zip
+2026-03-24 18:19:52,106 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_121.zip的对比result结果
+2026-03-24 18:19:52,426 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 18:25:55,024 - automation_test - INFO - 从D://python_workspace//yonyou_automation//data.csv加载了114条测试数据
+2026-03-24 18:26:24,552 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 18:26:24,559 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:24,560 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_001.zip
+2026-03-24 18:26:24,560 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_001.zip
+2026-03-24 18:26:28,191 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:28,192 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:28,193 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:28,194 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_001.zip.zip
+2026-03-24 18:26:28,196 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_001.zip的对比result结果
+2026-03-24 18:26:28,967 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:28,967 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_002.zip
+2026-03-24 18:26:28,968 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_002.zip
+2026-03-24 18:26:32,146 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:32,146 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:32,147 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:32,148 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_002.zip.zip
+2026-03-24 18:26:32,149 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_002.zip的对比result结果
+2026-03-24 18:26:32,473 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:32,475 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_003.zip
+2026-03-24 18:26:32,475 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_003.zip
+2026-03-24 18:26:35,666 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:35,666 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:35,667 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:35,668 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_003.zip.zip
+2026-03-24 18:26:35,669 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_003.zip的对比result结果
+2026-03-24 18:26:39,247 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:39,247 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_004.zip
+2026-03-24 18:26:39,248 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_004.zip
+2026-03-24 18:26:43,003 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:43,003 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:43,005 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:43,007 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_004.zip.zip
+2026-03-24 18:26:43,009 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_004.zip的对比result结果
+2026-03-24 18:26:43,673 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:43,674 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_005.zip
+2026-03-24 18:26:43,674 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_005.zip
+2026-03-24 18:26:46,783 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:46,783 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:46,784 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:46,785 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_005.zip.zip
+2026-03-24 18:26:46,786 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_005.zip的对比result结果
+2026-03-24 18:26:47,091 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:47,092 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_006.zip
+2026-03-24 18:26:47,092 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_006.zip
+2026-03-24 18:26:50,217 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:50,217 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:50,217 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:50,219 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_006.zip.zip
+2026-03-24 18:26:50,219 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_006.zip的对比result结果
+2026-03-24 18:26:50,493 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:50,494 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_007.zip
+2026-03-24 18:26:50,494 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_007.zip
+2026-03-24 18:26:53,630 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:53,630 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:53,631 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:53,632 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_007.zip.zip
+2026-03-24 18:26:53,634 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_007.zip的对比result结果
+2026-03-24 18:26:53,936 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:53,937 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_008.zip
+2026-03-24 18:26:53,937 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_008.zip
+2026-03-24 18:26:57,037 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:26:57,037 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:26:57,038 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:26:57,039 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_008.zip.zip
+2026-03-24 18:26:57,040 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_008.zip的对比result结果
+2026-03-24 18:26:57,332 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:26:57,332 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_009.zip
+2026-03-24 18:26:57,333 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_009.zip
+2026-03-24 18:27:00,433 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:00,433 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:00,434 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:00,435 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_009.zip.zip
+2026-03-24 18:27:00,436 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_009.zip的对比result结果
+2026-03-24 18:27:00,697 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:00,698 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_010.zip
+2026-03-24 18:27:00,699 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_010.zip
+2026-03-24 18:27:03,836 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:03,836 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:03,837 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:03,838 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_010.zip.zip
+2026-03-24 18:27:03,838 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_010.zip的对比result结果
+2026-03-24 18:27:04,135 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:04,136 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_011.zip
+2026-03-24 18:27:04,136 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_011.zip
+2026-03-24 18:27:07,393 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:07,393 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:07,394 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:07,395 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_011.zip.zip
+2026-03-24 18:27:07,396 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_011.zip的对比result结果
+2026-03-24 18:27:07,684 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:07,685 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_012.zip
+2026-03-24 18:27:07,685 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_012.zip
+2026-03-24 18:27:11,425 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:11,425 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:11,425 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:11,426 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_012.zip.zip
+2026-03-24 18:27:11,427 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_012.zip的对比result结果
+2026-03-24 18:27:11,723 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:11,723 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_013.zip
+2026-03-24 18:27:11,724 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_013.zip
+2026-03-24 18:27:14,829 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:14,829 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:14,830 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:14,831 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_013.zip.zip
+2026-03-24 18:27:14,832 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_013.zip的对比result结果
+2026-03-24 18:27:15,118 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:15,119 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_014.zip
+2026-03-24 18:27:15,119 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_014.zip
+2026-03-24 18:27:18,298 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:18,298 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:18,299 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:18,300 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_014.zip.zip
+2026-03-24 18:27:18,302 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_014.zip的对比result结果
+2026-03-24 18:27:18,575 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:18,575 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_015.zip
+2026-03-24 18:27:18,575 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_015.zip
+2026-03-24 18:27:21,783 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:21,783 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:21,783 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:21,785 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_015.zip.zip
+2026-03-24 18:27:21,786 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_015.zip的对比result结果
+2026-03-24 18:27:22,108 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:22,109 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_016.zip
+2026-03-24 18:27:22,109 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_016.zip
+2026-03-24 18:27:25,433 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:25,433 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:25,434 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:25,435 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_016.zip.zip
+2026-03-24 18:27:25,437 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_016.zip的对比result结果
+2026-03-24 18:27:25,718 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:25,719 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_017.zip
+2026-03-24 18:27:25,719 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_017.zip
+2026-03-24 18:27:28,812 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:28,812 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:28,812 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:28,813 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_017.zip.zip
+2026-03-24 18:27:28,814 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_017.zip的对比result结果
+2026-03-24 18:27:29,129 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:29,130 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_018.zip
+2026-03-24 18:27:29,130 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_018.zip
+2026-03-24 18:27:32,363 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:32,363 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:32,364 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:32,365 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_018.zip.zip
+2026-03-24 18:27:32,366 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_018.zip的对比result结果
+2026-03-24 18:27:32,657 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:32,657 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_019.zip
+2026-03-24 18:27:32,657 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_019.zip
+2026-03-24 18:27:36,003 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:36,003 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:36,004 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:36,006 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_019.zip.zip
+2026-03-24 18:27:36,006 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_019.zip的对比result结果
+2026-03-24 18:27:36,319 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:36,320 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_020.zip
+2026-03-24 18:27:36,320 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_020.zip
+2026-03-24 18:27:39,615 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:39,615 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:39,615 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:39,617 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_020.zip.zip
+2026-03-24 18:27:39,618 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_020.zip的对比result结果
+2026-03-24 18:27:39,913 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:39,913 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_021.zip
+2026-03-24 18:27:39,914 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_021.zip
+2026-03-24 18:27:43,919 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:43,920 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:43,920 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:43,921 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_021.zip.zip
+2026-03-24 18:27:43,922 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_021.zip的对比result结果
+2026-03-24 18:27:44,318 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:44,319 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_022.zip
+2026-03-24 18:27:44,319 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_022.zip
+2026-03-24 18:27:48,495 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:48,495 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:48,496 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:48,498 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_022.zip.zip
+2026-03-24 18:27:48,499 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_022.zip的对比result结果
+2026-03-24 18:27:48,814 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:48,814 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_023.zip
+2026-03-24 18:27:48,814 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_023.zip
+2026-03-24 18:27:51,957 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:51,957 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:51,958 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:51,959 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_023.zip.zip
+2026-03-24 18:27:51,961 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_023.zip的对比result结果
+2026-03-24 18:27:52,312 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:52,313 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_024.zip
+2026-03-24 18:27:52,313 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_024.zip
+2026-03-24 18:27:55,436 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:55,436 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:55,436 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:55,438 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_024.zip.zip
+2026-03-24 18:27:55,439 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_024.zip的对比result结果
+2026-03-24 18:27:55,774 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:55,774 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_025.zip
+2026-03-24 18:27:55,774 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_025.zip
+2026-03-24 18:27:59,028 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:27:59,028 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:27:59,029 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:27:59,030 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_025.zip.zip
+2026-03-24 18:27:59,031 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_025.zip的对比result结果
+2026-03-24 18:27:59,392 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:27:59,393 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_026.zip
+2026-03-24 18:27:59,393 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_026.zip
+2026-03-24 18:28:02,984 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:02,985 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:02,985 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:02,986 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_026.zip.zip
+2026-03-24 18:28:02,987 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_026.zip的对比result结果
+2026-03-24 18:28:03,339 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:03,340 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_027.zip
+2026-03-24 18:28:03,341 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_027.zip
+2026-03-24 18:28:06,477 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:06,477 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:06,477 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:06,478 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_027.zip.zip
+2026-03-24 18:28:06,479 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_027.zip的对比result结果
+2026-03-24 18:28:06,794 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:06,795 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_028.zip
+2026-03-24 18:28:06,796 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_028.zip
+2026-03-24 18:28:09,905 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:09,905 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:09,906 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:09,908 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_028.zip.zip
+2026-03-24 18:28:09,924 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_028.zip的对比result结果
+2026-03-24 18:28:10,290 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:10,291 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_029.zip
+2026-03-24 18:28:10,291 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_029.zip
+2026-03-24 18:28:13,564 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:13,564 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:13,565 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:13,566 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_029.zip.zip
+2026-03-24 18:28:13,567 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_029.zip的对比result结果
+2026-03-24 18:28:13,886 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:13,887 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_035.zip
+2026-03-24 18:28:13,887 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_035.zip
+2026-03-24 18:28:16,983 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:16,983 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:16,984 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:16,985 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_035.zip.zip
+2026-03-24 18:28:16,986 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_035.zip的对比result结果
+2026-03-24 18:28:17,280 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:17,280 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_036.zip
+2026-03-24 18:28:17,280 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_036.zip
+2026-03-24 18:28:20,393 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:20,393 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:20,393 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:20,394 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_036.zip.zip
+2026-03-24 18:28:20,395 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_036.zip的对比result结果
+2026-03-24 18:28:20,741 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:20,742 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_037.zip
+2026-03-24 18:28:20,742 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_037.zip
+2026-03-24 18:28:23,931 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:23,931 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:23,932 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:23,932 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_037.zip.zip
+2026-03-24 18:28:23,934 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_037.zip的对比result结果
+2026-03-24 18:28:24,258 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:24,258 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_038.zip
+2026-03-24 18:28:24,259 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_038.zip
+2026-03-24 18:28:27,389 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:27,389 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:27,389 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:27,390 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_038.zip.zip
+2026-03-24 18:28:27,391 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_038.zip的对比result结果
+2026-03-24 18:28:27,796 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:27,797 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_040.zip
+2026-03-24 18:28:27,797 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_040.zip
+2026-03-24 18:28:30,919 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:30,920 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:30,921 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:30,922 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_040.zip.zip
+2026-03-24 18:28:30,923 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_040.zip的对比result结果
+2026-03-24 18:28:31,496 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:31,497 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_041.zip
+2026-03-24 18:28:31,497 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_041.zip
+2026-03-24 18:28:34,607 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:34,608 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:34,609 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:34,611 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_041.zip.zip
+2026-03-24 18:28:34,612 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_041.zip的对比result结果
+2026-03-24 18:28:35,130 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:35,131 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_042.zip
+2026-03-24 18:28:35,132 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_042.zip
+2026-03-24 18:28:38,303 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:38,304 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:38,305 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:38,308 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_042.zip.zip
+2026-03-24 18:28:38,310 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_042.zip的对比result结果
+2026-03-24 18:28:39,026 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:39,027 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_043.zip
+2026-03-24 18:28:39,028 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_043.zip
+2026-03-24 18:28:42,270 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:42,271 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:42,271 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:42,273 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_043.zip.zip
+2026-03-24 18:28:42,300 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_043.zip的对比result结果
+2026-03-24 18:28:42,818 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:42,819 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_044.zip
+2026-03-24 18:28:42,819 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_044.zip
+2026-03-24 18:28:45,934 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:45,935 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:45,935 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:45,937 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_044.zip.zip
+2026-03-24 18:28:45,937 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_044.zip的对比result结果
+2026-03-24 18:28:46,373 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:46,374 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_045.zip
+2026-03-24 18:28:46,374 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_045.zip
+2026-03-24 18:28:49,495 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:49,495 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:49,496 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:49,498 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_045.zip.zip
+2026-03-24 18:28:49,521 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_045.zip的对比result结果
+2026-03-24 18:28:50,266 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:50,266 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_046.zip
+2026-03-24 18:28:50,267 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_046.zip
+2026-03-24 18:28:53,428 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:53,430 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:53,430 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:53,433 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_046.zip.zip
+2026-03-24 18:28:53,434 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_046.zip的对比result结果
+2026-03-24 18:28:53,925 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:53,926 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_047.zip
+2026-03-24 18:28:53,926 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_047.zip
+2026-03-24 18:28:57,128 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:28:57,129 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:28:57,129 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:28:57,131 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_047.zip.zip
+2026-03-24 18:28:57,132 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_047.zip的对比result结果
+2026-03-24 18:28:57,609 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:28:57,610 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_048.zip
+2026-03-24 18:28:57,610 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_048.zip
+2026-03-24 18:29:00,725 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:00,725 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:00,726 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:00,727 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_048.zip.zip
+2026-03-24 18:29:00,746 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_048.zip的对比result结果
+2026-03-24 18:29:01,184 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:01,184 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_050.zip
+2026-03-24 18:29:01,184 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_050.zip
+2026-03-24 18:29:04,292 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:04,293 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:04,293 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:04,295 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_050.zip.zip
+2026-03-24 18:29:04,296 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_050.zip的对比result结果
+2026-03-24 18:29:04,590 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:04,590 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_051.zip
+2026-03-24 18:29:04,590 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_051.zip
+2026-03-24 18:29:07,723 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:07,723 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:07,724 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:07,725 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_051.zip.zip
+2026-03-24 18:29:07,726 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_051.zip的对比result结果
+2026-03-24 18:29:08,057 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:08,058 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_052.zip
+2026-03-24 18:29:08,058 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_052.zip
+2026-03-24 18:29:11,191 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:11,191 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:11,192 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:11,193 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_052.zip.zip
+2026-03-24 18:29:11,193 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_052.zip的对比result结果
+2026-03-24 18:29:11,516 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:11,517 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_053.zip
+2026-03-24 18:29:11,517 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_053.zip
+2026-03-24 18:29:14,631 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:14,632 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:14,633 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:14,634 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_053.zip.zip
+2026-03-24 18:29:14,635 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_053.zip的对比result结果
+2026-03-24 18:29:14,957 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:14,957 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_054.zip
+2026-03-24 18:29:14,958 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_054.zip
+2026-03-24 18:29:18,095 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:18,095 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:18,096 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:18,097 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_054.zip.zip
+2026-03-24 18:29:18,099 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_054.zip的对比result结果
+2026-03-24 18:29:18,440 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:18,441 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_055.zip
+2026-03-24 18:29:18,441 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_055.zip
+2026-03-24 18:29:21,550 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:21,550 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:21,551 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:21,552 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_055.zip.zip
+2026-03-24 18:29:21,553 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_055.zip的对比result结果
+2026-03-24 18:29:21,990 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:21,990 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_056.zip
+2026-03-24 18:29:21,991 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_056.zip
+2026-03-24 18:29:25,102 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:25,102 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:25,103 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:25,104 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_056.zip.zip
+2026-03-24 18:29:25,106 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_056.zip的对比result结果
+2026-03-24 18:29:25,762 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:25,763 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_057.zip
+2026-03-24 18:29:25,763 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_057.zip
+2026-03-24 18:29:28,909 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:28,909 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:28,910 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:28,911 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_057.zip.zip
+2026-03-24 18:29:28,912 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_057.zip的对比result结果
+2026-03-24 18:29:29,298 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:29,299 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_058.zip
+2026-03-24 18:29:29,300 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_058.zip
+2026-03-24 18:29:32,429 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:32,430 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:32,430 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:32,431 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_058.zip.zip
+2026-03-24 18:29:32,432 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_058.zip的对比result结果
+2026-03-24 18:29:32,775 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:32,776 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_059.zip
+2026-03-24 18:29:32,776 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_059.zip
+2026-03-24 18:29:35,889 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:35,889 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:35,890 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:35,890 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_059.zip.zip
+2026-03-24 18:29:35,891 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_059.zip的对比result结果
+2026-03-24 18:29:36,759 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:36,760 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_060.zip
+2026-03-24 18:29:36,760 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_060.zip
+2026-03-24 18:29:39,875 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:39,875 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:39,876 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:39,877 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_060.zip.zip
+2026-03-24 18:29:39,878 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_060.zip的对比result结果
+2026-03-24 18:29:40,398 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:40,399 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_061.zip
+2026-03-24 18:29:40,399 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_061.zip
+2026-03-24 18:29:43,522 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:43,522 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:43,523 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:43,524 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_061.zip.zip
+2026-03-24 18:29:43,525 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_061.zip的对比result结果
+2026-03-24 18:29:43,868 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:43,869 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_062.zip
+2026-03-24 18:29:43,869 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_062.zip
+2026-03-24 18:29:46,970 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:46,970 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:46,971 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:46,972 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_062.zip.zip
+2026-03-24 18:29:46,973 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_062.zip的对比result结果
+2026-03-24 18:29:47,300 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:47,301 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_063.zip
+2026-03-24 18:29:47,302 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_063.zip
+2026-03-24 18:29:50,569 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:50,569 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:50,569 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:50,570 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_063.zip.zip
+2026-03-24 18:29:50,571 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_063.zip的对比result结果
+2026-03-24 18:29:50,921 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:50,921 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_064.zip
+2026-03-24 18:29:50,922 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_064.zip
+2026-03-24 18:29:54,053 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:54,054 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:54,054 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:54,056 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_064.zip.zip
+2026-03-24 18:29:54,058 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_064.zip的对比result结果
+2026-03-24 18:29:55,227 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:55,228 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_065.zip
+2026-03-24 18:29:55,228 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_065.zip
+2026-03-24 18:29:58,357 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:29:58,358 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:29:58,358 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:29:58,359 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_065.zip.zip
+2026-03-24 18:29:58,361 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_065.zip的对比result结果
+2026-03-24 18:29:59,018 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:29:59,019 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_066.zip
+2026-03-24 18:29:59,019 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_066.zip
+2026-03-24 18:30:02,146 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:02,147 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:02,147 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:02,149 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_066.zip.zip
+2026-03-24 18:30:02,149 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_066.zip的对比result结果
+2026-03-24 18:30:02,470 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:02,471 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_067.zip
+2026-03-24 18:30:02,471 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_067.zip
+2026-03-24 18:30:05,948 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:05,949 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:05,950 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:05,951 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_067.zip.zip
+2026-03-24 18:30:05,952 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_067.zip的对比result结果
+2026-03-24 18:30:06,340 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:06,341 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_068.zip
+2026-03-24 18:30:06,341 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_068.zip
+2026-03-24 18:30:09,809 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:09,809 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:09,810 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:09,811 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_068.zip.zip
+2026-03-24 18:30:09,812 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_068.zip的对比result结果
+2026-03-24 18:30:10,342 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:10,343 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_069.zip
+2026-03-24 18:30:10,343 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_069.zip
+2026-03-24 18:30:13,610 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:13,610 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:13,612 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:13,618 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_069.zip.zip
+2026-03-24 18:30:13,619 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_069.zip的对比result结果
+2026-03-24 18:30:14,128 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:14,129 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_070.zip
+2026-03-24 18:30:14,129 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_070.zip
+2026-03-24 18:30:17,302 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:17,302 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:17,302 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:17,303 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_070.zip.zip
+2026-03-24 18:30:17,304 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_070.zip的对比result结果
+2026-03-24 18:30:17,613 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:17,614 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_071.zip
+2026-03-24 18:30:17,614 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_071.zip
+2026-03-24 18:30:20,719 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:20,719 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:20,720 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:20,721 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_071.zip.zip
+2026-03-24 18:30:20,722 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_071.zip的对比result结果
+2026-03-24 18:30:21,031 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:21,032 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_072.zip
+2026-03-24 18:30:21,032 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_072.zip
+2026-03-24 18:30:24,152 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:24,152 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:24,152 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:24,153 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_072.zip.zip
+2026-03-24 18:30:24,155 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_072.zip的对比result结果
+2026-03-24 18:30:24,502 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:24,503 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_073.zip
+2026-03-24 18:30:24,503 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_073.zip
+2026-03-24 18:30:27,627 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:27,627 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:27,628 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:27,629 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_073.zip.zip
+2026-03-24 18:30:27,630 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_073.zip的对比result结果
+2026-03-24 18:30:27,921 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:27,922 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_074.zip
+2026-03-24 18:30:27,922 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_074.zip
+2026-03-24 18:30:31,037 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:31,037 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:31,038 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:31,039 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_074.zip.zip
+2026-03-24 18:30:31,040 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_074.zip的对比result结果
+2026-03-24 18:30:31,366 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:31,366 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_075.zip
+2026-03-24 18:30:31,366 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_075.zip
+2026-03-24 18:30:34,561 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:34,561 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:34,562 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:34,563 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_075.zip.zip
+2026-03-24 18:30:34,564 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_075.zip的对比result结果
+2026-03-24 18:30:34,869 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:34,870 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_076.zip
+2026-03-24 18:30:34,870 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_076.zip
+2026-03-24 18:30:37,975 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:37,976 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:37,976 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:37,978 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_076.zip.zip
+2026-03-24 18:30:37,979 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_076.zip的对比result结果
+2026-03-24 18:30:38,462 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:38,463 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_077.zip
+2026-03-24 18:30:38,463 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_077.zip
+2026-03-24 18:30:41,582 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:41,582 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:41,582 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:41,583 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_077.zip.zip
+2026-03-24 18:30:41,584 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_077.zip的对比result结果
+2026-03-24 18:30:41,946 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:41,947 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_078.zip
+2026-03-24 18:30:41,947 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_078.zip
+2026-03-24 18:30:45,085 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:45,085 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:45,085 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:45,086 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_078.zip.zip
+2026-03-24 18:30:45,087 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_078.zip的对比result结果
+2026-03-24 18:30:45,397 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:45,398 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_079.zip
+2026-03-24 18:30:45,398 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_079.zip
+2026-03-24 18:30:48,533 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:48,533 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:48,534 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:48,534 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_079.zip.zip
+2026-03-24 18:30:48,535 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_079.zip的对比result结果
+2026-03-24 18:30:48,920 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:48,921 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_080.zip
+2026-03-24 18:30:48,921 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_080.zip
+2026-03-24 18:30:52,034 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:52,034 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:52,035 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:52,036 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_080.zip.zip
+2026-03-24 18:30:52,037 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_080.zip的对比result结果
+2026-03-24 18:30:52,408 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:52,408 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_081.zip
+2026-03-24 18:30:52,409 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_081.zip
+2026-03-24 18:30:55,651 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:55,651 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:55,651 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:55,652 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_081.zip.zip
+2026-03-24 18:30:55,653 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_081.zip的对比result结果
+2026-03-24 18:30:55,961 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:55,962 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_082.zip
+2026-03-24 18:30:55,962 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_082.zip
+2026-03-24 18:30:59,095 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:30:59,096 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:30:59,096 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:30:59,097 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_082.zip.zip
+2026-03-24 18:30:59,098 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_082.zip的对比result结果
+2026-03-24 18:30:59,445 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:30:59,446 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_083.zip
+2026-03-24 18:30:59,446 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_083.zip
+2026-03-24 18:31:02,570 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:02,570 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:02,571 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:02,572 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_083.zip.zip
+2026-03-24 18:31:02,573 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_083.zip的对比result结果
+2026-03-24 18:31:02,905 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:02,906 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_084.zip
+2026-03-24 18:31:02,906 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_084.zip
+2026-03-24 18:31:06,034 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:06,034 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:06,035 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:06,036 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_084.zip.zip
+2026-03-24 18:31:06,036 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_084.zip的对比result结果
+2026-03-24 18:31:06,350 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:06,351 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_085.zip
+2026-03-24 18:31:06,352 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_085.zip
+2026-03-24 18:31:09,467 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:09,467 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:09,468 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:09,468 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_085.zip.zip
+2026-03-24 18:31:09,469 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_085.zip的对比result结果
+2026-03-24 18:31:09,868 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:09,869 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_086.zip
+2026-03-24 18:31:09,869 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_086.zip
+2026-03-24 18:31:12,989 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:12,989 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:12,989 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:12,999 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_086.zip.zip
+2026-03-24 18:31:13,000 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_086.zip的对比result结果
+2026-03-24 18:31:13,429 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:13,430 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_087.zip
+2026-03-24 18:31:13,430 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_087.zip
+2026-03-24 18:31:16,537 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:16,537 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:16,538 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:16,539 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_087.zip.zip
+2026-03-24 18:31:16,540 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_087.zip的对比result结果
+2026-03-24 18:31:16,877 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:16,878 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_088.zip
+2026-03-24 18:31:16,879 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_088.zip
+2026-03-24 18:31:20,032 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:20,033 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:20,033 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:20,035 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_088.zip.zip
+2026-03-24 18:31:20,037 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_088.zip的对比result结果
+2026-03-24 18:31:20,482 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:20,483 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_089.zip
+2026-03-24 18:31:20,483 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_089.zip
+2026-03-24 18:31:23,606 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:23,607 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:23,607 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:23,608 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_089.zip.zip
+2026-03-24 18:31:23,609 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_089.zip的对比result结果
+2026-03-24 18:31:23,947 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:23,948 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_090.zip
+2026-03-24 18:31:23,948 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_090.zip
+2026-03-24 18:31:27,084 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:27,085 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:27,085 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:27,086 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_090.zip.zip
+2026-03-24 18:31:27,087 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_090.zip的对比result结果
+2026-03-24 18:31:27,432 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:27,433 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_091.zip
+2026-03-24 18:31:27,433 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_091.zip
+2026-03-24 18:31:30,544 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:30,544 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:30,545 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:30,546 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_091.zip.zip
+2026-03-24 18:31:30,546 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_091.zip的对比result结果
+2026-03-24 18:31:30,865 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:30,866 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_092.zip
+2026-03-24 18:31:30,866 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_092.zip
+2026-03-24 18:31:33,997 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:33,998 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:33,998 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:33,999 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_092.zip.zip
+2026-03-24 18:31:34,000 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_092.zip的对比result结果
+2026-03-24 18:31:34,337 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:34,337 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_093.zip
+2026-03-24 18:31:34,337 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_093.zip
+2026-03-24 18:31:38,296 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:38,296 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:38,297 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:38,306 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_093.zip.zip
+2026-03-24 18:31:38,312 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_093.zip的对比result结果
+2026-03-24 18:31:38,882 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:38,883 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_094.zip
+2026-03-24 18:31:38,884 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_094.zip
+2026-03-24 18:31:42,088 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:42,088 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:42,089 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:42,184 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_094.zip.zip
+2026-03-24 18:31:42,189 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_094.zip的对比result结果
+2026-03-24 18:31:42,950 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:42,951 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_095.zip
+2026-03-24 18:31:42,952 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_095.zip
+2026-03-24 18:31:46,097 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:46,097 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:46,098 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:46,099 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_095.zip.zip
+2026-03-24 18:31:46,100 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_095.zip的对比result结果
+2026-03-24 18:31:48,841 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:48,842 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_096.zip
+2026-03-24 18:31:48,843 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_096.zip
+2026-03-24 18:31:52,248 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:52,248 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:52,249 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:52,250 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_096.zip.zip
+2026-03-24 18:31:52,251 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_096.zip的对比result结果
+2026-03-24 18:31:52,965 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:53,021 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_097.zip
+2026-03-24 18:31:53,022 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_097.zip
+2026-03-24 18:31:57,825 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:31:57,825 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:31:57,826 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:31:57,827 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_097.zip.zip
+2026-03-24 18:31:57,828 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_097.zip的对比result结果
+2026-03-24 18:31:58,190 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:31:58,191 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_098.zip
+2026-03-24 18:31:58,191 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_098.zip
+2026-03-24 18:32:02,954 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:02,954 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:02,954 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:02,955 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_098.zip.zip
+2026-03-24 18:32:02,956 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_098.zip的对比result结果
+2026-03-24 18:32:03,295 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:03,295 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_099.zip
+2026-03-24 18:32:03,296 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_099.zip
+2026-03-24 18:32:07,934 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:07,934 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:07,934 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:07,935 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_099.zip.zip
+2026-03-24 18:32:07,936 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_099.zip的对比result结果
+2026-03-24 18:32:08,253 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:08,254 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_100.zip
+2026-03-24 18:32:08,254 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_100.zip
+2026-03-24 18:32:11,402 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:11,402 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:11,402 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:11,404 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_100.zip.zip
+2026-03-24 18:32:11,405 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_100.zip的对比result结果
+2026-03-24 18:32:11,746 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:11,747 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_101.zip
+2026-03-24 18:32:11,748 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_101.zip
+2026-03-24 18:32:15,034 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:15,034 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:15,034 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:15,035 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_101.zip.zip
+2026-03-24 18:32:15,036 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_101.zip的对比result结果
+2026-03-24 18:32:15,347 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:15,347 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_102.zip
+2026-03-24 18:32:15,347 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_102.zip
+2026-03-24 18:32:18,468 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:18,468 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:18,468 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:18,469 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_102.zip.zip
+2026-03-24 18:32:18,470 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_102.zip的对比result结果
+2026-03-24 18:32:18,737 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:18,737 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_103.zip
+2026-03-24 18:32:18,737 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_103.zip
+2026-03-24 18:32:22,103 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:22,104 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:22,104 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:22,105 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_103.zip.zip
+2026-03-24 18:32:22,106 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_103.zip的对比result结果
+2026-03-24 18:32:22,456 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:22,457 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_104.zip
+2026-03-24 18:32:22,457 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_104.zip
+2026-03-24 18:32:25,620 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:25,621 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:25,621 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:25,622 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_104.zip.zip
+2026-03-24 18:32:25,623 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_104.zip的对比result结果
+2026-03-24 18:32:28,282 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:28,283 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_105.zip
+2026-03-24 18:32:28,283 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_105.zip
+2026-03-24 18:32:31,406 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:31,406 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:31,407 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:31,408 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_105.zip.zip
+2026-03-24 18:32:31,409 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_105.zip的对比result结果
+2026-03-24 18:32:31,744 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:31,745 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_106.zip
+2026-03-24 18:32:31,745 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_106.zip
+2026-03-24 18:32:34,897 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:34,897 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:34,898 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:34,899 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_106.zip.zip
+2026-03-24 18:32:34,900 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_106.zip的对比result结果
+2026-03-24 18:32:35,228 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:35,229 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_107.zip
+2026-03-24 18:32:35,229 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_107.zip
+2026-03-24 18:32:38,396 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:38,397 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:38,397 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:38,398 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_107.zip.zip
+2026-03-24 18:32:38,399 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_107.zip的对比result结果
+2026-03-24 18:32:38,701 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:38,702 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_108.zip
+2026-03-24 18:32:38,702 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_108.zip
+2026-03-24 18:32:41,842 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:41,842 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:41,842 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:41,843 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_108.zip.zip
+2026-03-24 18:32:41,844 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_108.zip的对比result结果
+2026-03-24 18:32:42,132 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:42,133 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_109.zip
+2026-03-24 18:32:42,133 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_109.zip
+2026-03-24 18:32:45,402 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:45,402 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:45,403 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:45,404 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_109.zip.zip
+2026-03-24 18:32:45,405 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_109.zip的对比result结果
+2026-03-24 18:32:45,713 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:45,714 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_110.zip
+2026-03-24 18:32:45,714 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_110.zip
+2026-03-24 18:32:48,965 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:48,965 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:48,966 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:48,967 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_110.zip.zip
+2026-03-24 18:32:48,968 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_110.zip的对比result结果
+2026-03-24 18:32:49,302 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:49,302 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_111.zip
+2026-03-24 18:32:49,302 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_111.zip
+2026-03-24 18:32:52,690 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:52,690 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:52,691 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:52,692 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_111.zip.zip
+2026-03-24 18:32:52,693 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_111.zip的对比result结果
+2026-03-24 18:32:52,988 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:52,989 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_112.zip
+2026-03-24 18:32:52,989 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_112.zip
+2026-03-24 18:32:56,174 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:56,175 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:56,175 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:56,176 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_112.zip.zip
+2026-03-24 18:32:56,177 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_112.zip的对比result结果
+2026-03-24 18:32:56,521 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:56,522 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_113.zip
+2026-03-24 18:32:56,522 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_113.zip
+2026-03-24 18:32:59,689 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:32:59,689 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:32:59,690 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:32:59,690 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_113.zip.zip
+2026-03-24 18:32:59,691 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_113.zip的对比result结果
+2026-03-24 18:32:59,993 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:32:59,994 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_114.zip
+2026-03-24 18:32:59,994 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_114.zip
+2026-03-24 18:33:03,248 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:03,249 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:03,249 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:03,251 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_114.zip.zip
+2026-03-24 18:33:03,252 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_114.zip的对比result结果
+2026-03-24 18:33:03,647 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:03,653 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_115.zip
+2026-03-24 18:33:03,654 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_115.zip
+2026-03-24 18:33:06,779 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:06,780 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:06,780 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:06,782 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_115.zip.zip
+2026-03-24 18:33:06,783 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_115.zip的对比result结果
+2026-03-24 18:33:07,096 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:07,097 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_116.zip
+2026-03-24 18:33:07,097 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_116.zip
+2026-03-24 18:33:10,317 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:10,317 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:10,317 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:10,318 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_116.zip.zip
+2026-03-24 18:33:10,319 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_116.zip的对比result结果
+2026-03-24 18:33:10,609 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:10,610 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_117.zip
+2026-03-24 18:33:10,610 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_117.zip
+2026-03-24 18:33:13,760 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:13,761 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:13,761 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:13,763 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_117.zip.zip
+2026-03-24 18:33:13,764 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_117.zip的对比result结果
+2026-03-24 18:33:14,065 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:14,066 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_118.zip
+2026-03-24 18:33:14,066 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_118.zip
+2026-03-24 18:33:17,238 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:17,238 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:17,238 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:17,239 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_118.zip.zip
+2026-03-24 18:33:17,240 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_118.zip的对比result结果
+2026-03-24 18:33:17,540 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:17,541 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_119.zip
+2026-03-24 18:33:17,541 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_119.zip
+2026-03-24 18:33:20,675 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:20,676 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:20,676 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:20,677 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_119.zip.zip
+2026-03-24 18:33:20,678 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_119.zip的对比result结果
+2026-03-24 18:33:21,231 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:21,232 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_120.zip
+2026-03-24 18:33:21,232 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_120.zip
+2026-03-24 18:33:24,344 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:24,344 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:24,345 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:24,346 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_120.zip.zip
+2026-03-24 18:33:24,347 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_120.zip的对比result结果
+2026-03-24 18:33:24,620 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:33:24,621 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_121.zip
+2026-03-24 18:33:24,621 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_121.zip
+2026-03-24 18:33:27,726 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 18:33:27,726 - automation_test - INFO - HTTP状态码: 200
+2026-03-24 18:33:27,726 - automation_test - INFO - 响应内容长度: 188
+2026-03-24 18:33:27,727 - automation_test - INFO - 响应数据已保存到: temp_output_DYMB_121.zip.zip
+2026-03-24 18:33:27,728 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_121.zip的对比result结果
+2026-03-24 18:33:28,008 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 18:35:47,667 - automation_test - INFO - 从D://python_workspace//yonyou_automation//data.csv加载了114条测试数据
+2026-03-24 18:36:21,979 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 18:36:21,988 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:21,990 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_001.zip
+2026-03-24 18:36:21,990 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_001.zip
+2026-03-24 18:36:25,219 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:25,219 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"bd559a89bfc2447f","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:25,950 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:25,952 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_002.zip
+2026-03-24 18:36:25,952 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_002.zip
+2026-03-24 18:36:29,417 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:29,418 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"8f912184aea57efc","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:29,610 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:29,610 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_003.zip
+2026-03-24 18:36:29,611 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_003.zip
+2026-03-24 18:36:34,135 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:34,136 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"fa55775e31d1e45d","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:34,380 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:34,381 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_004.zip
+2026-03-24 18:36:34,381 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_004.zip
+2026-03-24 18:36:37,574 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:37,574 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"5bae75d0048caa50","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:37,998 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:37,999 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_005.zip
+2026-03-24 18:36:38,000 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_005.zip
+2026-03-24 18:36:41,125 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:41,125 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"da19e2de28750bfd","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:41,341 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:41,342 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_006.zip
+2026-03-24 18:36:41,342 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_006.zip
+2026-03-24 18:36:44,658 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:44,658 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"9141493c12b786d7","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:44,846 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:44,847 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_007.zip
+2026-03-24 18:36:44,847 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_007.zip
+2026-03-24 18:36:48,051 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:48,052 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"adeb9b78642918e1","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:48,253 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:48,254 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_008.zip
+2026-03-24 18:36:48,254 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_008.zip
+2026-03-24 18:36:51,894 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:51,894 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"f56bcf661fbdba1b","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:52,089 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:52,089 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_009.zip
+2026-03-24 18:36:52,090 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_009.zip
+2026-03-24 18:36:55,243 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:55,243 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"cb0c9ae042dc4822","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:55,426 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:55,427 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_010.zip
+2026-03-24 18:36:55,427 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_010.zip
+2026-03-24 18:36:58,619 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:36:58,620 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"0871ef0da04d9b9c","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:36:58,865 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:36:58,866 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_011.zip
+2026-03-24 18:36:58,866 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_011.zip
+2026-03-24 18:37:02,006 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:02,006 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"1c185cc6cd98f077","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:02,208 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:02,208 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_012.zip
+2026-03-24 18:37:02,208 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_012.zip
+2026-03-24 18:37:05,347 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:05,347 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"869261b5b433d9a3","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:05,535 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:05,535 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_013.zip
+2026-03-24 18:37:05,535 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_013.zip
+2026-03-24 18:37:08,690 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:08,690 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"279d1e934f0a86bd","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:08,895 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:08,896 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_014.zip
+2026-03-24 18:37:08,896 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_014.zip
+2026-03-24 18:37:12,030 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:12,030 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"4fe6b9c74b78c0de","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:12,225 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:12,226 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_015.zip
+2026-03-24 18:37:12,226 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_015.zip
+2026-03-24 18:37:15,362 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:15,362 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"3be885a64fe600ae","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:15,574 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:15,575 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_016.zip
+2026-03-24 18:37:15,576 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_016.zip
+2026-03-24 18:37:18,737 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:18,738 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"557430cf8a58aa33","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:18,929 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:18,929 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_017.zip
+2026-03-24 18:37:18,930 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_017.zip
+2026-03-24 18:37:22,044 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:22,044 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"9d20653ee6beec92","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:22,234 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:22,235 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_018.zip
+2026-03-24 18:37:22,235 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_018.zip
+2026-03-24 18:37:25,390 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:25,390 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"f18f89f3019e1c1f","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:25,557 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:25,557 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_019.zip
+2026-03-24 18:37:25,557 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_019.zip
+2026-03-24 18:37:28,681 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:28,681 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"7fbb20ac3fa29757","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:28,873 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:28,873 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_020.zip
+2026-03-24 18:37:28,873 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_020.zip
+2026-03-24 18:37:31,993 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:31,993 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"efdcaff2b68b524a","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:32,190 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:32,191 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_021.zip
+2026-03-24 18:37:32,191 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_021.zip
+2026-03-24 18:37:35,350 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-24 18:37:35,350 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"338aef4b5e463f66","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-24 18:37:35,520 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-24 18:37:35,521 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_022.zip
+2026-03-24 18:37:35,521 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_022.zip
+2026-03-24 18:37:38,973 - automation_test - INFO - 这是登录的teardown方法

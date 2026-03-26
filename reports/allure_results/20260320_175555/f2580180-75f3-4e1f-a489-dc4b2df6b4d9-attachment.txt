@@ -1,9 +1,0 @@
-2026-03-20 17:56:00,713 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
-2026-03-20 17:56:00,714 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
-2026-03-20 17:56:00,715 - automation_test - INFO - 响应状态码: 200
-2026-03-20 17:56:00,715 - automation_test - INFO - 响应内容: {
-  "userId": 1,
-  "id": 1,
-  "title": "delectus aut autem",
-  "completed": false
-}

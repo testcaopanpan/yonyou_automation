@@ -1,0 +1,11 @@
+2026-03-26 18:14:23,919 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-26 18:14:23,920 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_104.zip
+2026-03-26 18:14:23,920 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_104.zip
+2026-03-26 18:14:24,167 - automation_test - INFO - 响应 Content-Type: application/octet-stream
+2026-03-26 18:14:24,168 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-26 18:14:24,168 - automation_test - INFO - HTTP状态码: 200
+2026-03-26 18:14:24,168 - automation_test - INFO - 响应内容长度: 87618
+2026-03-26 18:14:24,169 - automation_test - INFO - 响应数据已保存到: D:\python_workspace\yonyou_automation\test_cases\test_api\temp_output_DYMB_104.zip
+2026-03-26 18:14:24,170 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_104.zip的对比result结果
+2026-03-26 18:14:24,190 - automation_test - INFO - result.txt内容: Document:DYMB_104\DYMB_104.pdfThe comparison result is:inconsistent, reason:The objectPool does not match, it is recommended to verify directly
+

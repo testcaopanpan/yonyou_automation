@@ -1,0 +1,15 @@
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): c2.yonyoucloud.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://c2.yonyoucloud.com:443 "GET /iuap-apcom-print/u8cprint/font/v2/pageFont?code=&name=&current=1&size=1000 HTTP/1.1" 200 None
+[32mINFO    [0m automation_test:test_font_api.py:47 请求状态码是：200
+[32mINFO    [0m automation_test:test_font_api.py:48 请求结果的响应体如下：
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"495ef687036206f4"}
+[32mINFO    [0m automation_test:test_font_api.py:67 当前字体不是目标字体。
+[32mINFO    [0m automation_test:test_font_api.py:36 调用上传接口: https://c2.yonyoucloud.com/iuap-apcom-print/u8cprint/font/v2/uploadFont
+[32mINFO    [0m automation_test:test_font_api.py:37 上传文件: E:/Users/caopanpan/Downloads/HFIntimate-2.ttf
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): c2.yonyoucloud.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://c2.yonyoucloud.com:443 "POST /iuap-apcom-print/u8cprint/font/v2/uploadFont HTTP/1.1" 200 None
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:1003 Starting new HTTPS connection (1): c2.yonyoucloud.com:443
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:456 https://c2.yonyoucloud.com:443 "GET /iuap-apcom-print/u8cprint/font/v2/pageFont?code=&name=&current=1&size=1000 HTTP/1.1" 200 None
+[32mINFO    [0m automation_test:test_font_api.py:47 请求状态码是：200
+[32mINFO    [0m automation_test:test_font_api.py:48 请求结果的响应体如下：
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"77c8d2d119747c77"}

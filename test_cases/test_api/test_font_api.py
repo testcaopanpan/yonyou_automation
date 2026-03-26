@@ -2,6 +2,8 @@
 
 import allure
 import json
+
+import pytest
 import requests
 from common.logger import logger
 
@@ -51,6 +53,7 @@ def chaxun_font(common_headers):
 @allure.epic("API自动化")
 @allure.feature("字体接口")
 @allure.story("进行字体上传、查询、删除验证")
+@pytest.mark.api
 def test_font_check(common_headers):
     record_list = chaxun_font(common_headers).get("recordList", [])
     target_font_name = "HFIntimate"

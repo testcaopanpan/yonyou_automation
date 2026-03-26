@@ -1,0 +1,11 @@
+2026-03-26 18:14:17,906 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-26 18:14:17,907 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_054.zip
+2026-03-26 18:14:17,907 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_054.zip
+2026-03-26 18:14:18,075 - automation_test - INFO - 响应 Content-Type: application/octet-stream
+2026-03-26 18:14:18,076 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-26 18:14:18,076 - automation_test - INFO - HTTP状态码: 200
+2026-03-26 18:14:18,076 - automation_test - INFO - 响应内容长度: 38878
+2026-03-26 18:14:18,077 - automation_test - INFO - 响应数据已保存到: D:\python_workspace\yonyou_automation\test_cases\test_api\temp_output_DYMB_054.zip
+2026-03-26 18:14:18,078 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_054.zip的对比result结果
+2026-03-26 18:14:18,098 - automation_test - INFO - result.txt内容: Document:DYMB_029\DYMB_029.pdfThe comparison result is:inconsistent, reason:Inconsistent comparison content
+

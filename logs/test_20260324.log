@@ -1,0 +1,932 @@
+2026-03-24 10:09:59,115 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:11:43,794 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 10:29:42,496 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:30:20,130 - automation_test - INFO - 开始复制系统模板
+2026-03-24 10:30:44,766 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 10:34:39,541 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:35:17,606 - automation_test - INFO - 开始复制系统模板
+2026-03-24 10:35:41,818 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 10:37:45,134 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:38:21,099 - automation_test - INFO - 开始复制系统模板
+2026-03-24 10:38:44,727 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 10:39:22,538 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:40:01,182 - automation_test - INFO - 开始复制系统模板
+2026-03-24 10:40:06,786 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 10:43:38,585 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_ui/test_ui_template_list.py::test_template_status']
+2026-03-24 10:44:22,403 - automation_test - INFO - 开始复制系统模板
+2026-03-24 10:44:26,932 - automation_test - INFO - 新增复制模板验证通过
+2026-03-24 10:44:26,933 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-24 10:44:26,993 - automation_test - INFO - 模板启停验证
+2026-03-24 10:44:27,354 - automation_test - INFO - 点击停用按钮
+2026-03-24 10:44:27,965 - automation_test - INFO - 点击启动按钮
+2026-03-24 10:44:28,996 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-24 10:44:28,996 - automation_test - INFO - 模板默认标签验证
+2026-03-24 10:44:28,997 - automation_test - INFO - 设置默认
+2026-03-24 10:44:29,808 - automation_test - INFO - 取消默认设置
+2026-03-24 10:44:33,963 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-24 10:44:35,505 - automation_test - INFO - 新增打印模板删除完成
+2026-03-24 10:44:35,512 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 11:00:57,693 - automation_test - INFO - 开始执行 pytest：['-v', '--html=reports\\test_report_20260324_110057.html', '--self-contained-html', '--alluredir=reports\\allure_results\\20260324_110057', '--junitxml=reports\\junit_result_20260324_110057.xml']
+2026-03-24 11:01:09,413 - automation_test - INFO - 请求URL: https://jsonplaceholder.typicode.com/todos/1
+2026-03-24 11:01:09,414 - automation_test - INFO - 请求头: {'Content-Type': 'application/json'}
+2026-03-24 11:01:09,414 - automation_test - INFO - 响应状态码: 200
+2026-03-24 11:01:09,415 - automation_test - INFO - 响应内容: {
+  "userId": 1,
+  "id": 1,
+  "title": "delectus aut autem",
+  "completed": false
+}
+2026-03-24 11:01:45,382 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 11:01:45,625 - automation_test - INFO - 请求状态码是：200
+2026-03-24 11:01:45,625 - automation_test - INFO - 请求结果的响应体如下：
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"48c7124e2662b371"}
+2026-03-24 11:01:45,627 - automation_test - INFO - 当前字体不是目标字体。
+2026-03-24 11:01:45,646 - automation_test - INFO - 调用上传接口: https://c2.yonyoucloud.com/iuap-apcom-print/u8cprint/font/v2/uploadFont
+2026-03-24 11:01:45,647 - automation_test - INFO - 上传文件: E:/Users/caopanpan/Downloads/HFIntimate-2.ttf
+2026-03-24 11:01:45,900 - automation_test - INFO - 请求状态码是：200
+2026-03-24 11:01:45,901 - automation_test - INFO - 请求结果的响应体如下：
+{"status":1,"code":1,"message":"OK","data":{"current":1,"pageSize":1000,"total":1,"pageCount":1,"recordList":[{"id":"2487535476191264775","code":"FONT2487535476191264775834","name":"香蕉宽毛刷灵感体","ytenantId":"w1a1kdwu","orderNum":2,"fontIndex":51,"status":null,"fileType":"ttf","source":null,"creator":"9cd15c57-f4e4-46d8-89f3-b10df37121c4","creatorName":"应用平台测试管理员","createTime":"2026-03-06 16:54:03","modifier":null,"modifyTime":null,"modifierName":null}]},"extra":{"protocol":"1"},"displayCode":null,"detailMsg":null,"level":null,"traceId":"9728a75fcf44918b"}
+2026-03-24 11:01:54,248 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 11:01:54,360 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 11:01:54,361 - automation_test - INFO - 请求响应结果是:adf0bcc1-69a1-4067-a75a-bea4b5a7cdfa
+2026-03-24 11:01:56,521 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 11:01:56,524 - automation_test - INFO - 获取的可用模板列表为['u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 11:01:56,634 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 11:01:56,635 - automation_test - INFO - 请求响应结果是:ecbb4e21-b064-4d42-9994-d04498206a61
+2026-03-24 11:01:58,424 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 11:01:58,426 - automation_test - INFO - 获取的可用模板列表为['u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 11:01:58,427 - automation_test - INFO - 开始循环进行打印模板的预览接口请求，共142个模板
+2026-03-24 11:01:59,041 - automation_test - INFO - u8c1768286989628模板打印预览请求的响应状态码为200
+2026-03-24 11:01:59,043 - automation_test - ERROR - ✗ 模板 u8c1768286989628 异常: argument of type 'bool' is not iterable
+2026-03-24 11:01:59,670 - automation_test - INFO - u8c2444516534017064964模板打印预览请求的响应状态码为200
+2026-03-24 11:01:59,671 - automation_test - ERROR - ✗ 模板 u8c2444516534017064964 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:00,264 - automation_test - INFO - u8c1767512784478模板打印预览请求的响应状态码为200
+2026-03-24 11:02:00,265 - automation_test - ERROR - ✗ 模板 u8c1767512784478 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:00,868 - automation_test - INFO - u8c2435413179027161094模板打印预览请求的响应状态码为200
+2026-03-24 11:02:00,869 - automation_test - ERROR - ✗ 模板 u8c2435413179027161094 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:01,454 - automation_test - INFO - u8c2409752982813933571模板打印预览请求的响应状态码为200
+2026-03-24 11:02:01,455 - automation_test - ERROR - ✗ 模板 u8c2409752982813933571 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:02,058 - automation_test - INFO - u8c1761329163000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:02,059 - automation_test - ERROR - ✗ 模板 u8c1761329163000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:02,649 - automation_test - INFO - u8c2389109351354728454模板打印预览请求的响应状态码为200
+2026-03-24 11:02:02,650 - automation_test - ERROR - ✗ 模板 u8c2389109351354728454 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:03,233 - automation_test - INFO - u8c1761324315138模板打印预览请求的响应状态码为200
+2026-03-24 11:02:03,234 - automation_test - ERROR - ✗ 模板 u8c1761324315138 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:03,819 - automation_test - INFO - u8c2389067870560583689模板打印预览请求的响应状态码为200
+2026-03-24 11:02:03,820 - automation_test - ERROR - ✗ 模板 u8c2389067870560583689 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:04,406 - automation_test - INFO - u8c1760582703000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:04,407 - automation_test - ERROR - ✗ 模板 u8c1760582703000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:04,991 - automation_test - INFO - u8c2330000336319676425模板打印预览请求的响应状态码为200
+2026-03-24 11:02:04,992 - automation_test - ERROR - ✗ 模板 u8c2330000336319676425 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:05,580 - automation_test - INFO - u8c1752860041000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:05,582 - automation_test - ERROR - ✗ 模板 u8c1752860041000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:06,184 - automation_test - INFO - u8c1752860009000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:06,185 - automation_test - ERROR - ✗ 模板 u8c1752860009000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:06,772 - automation_test - INFO - u8c2292249429227864069模板打印预览请求的响应状态码为200
+2026-03-24 11:02:06,773 - automation_test - ERROR - ✗ 模板 u8c2292249429227864069 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:07,355 - automation_test - INFO - u8c2276904705144127495模板打印预览请求的响应状态码为200
+2026-03-24 11:02:07,356 - automation_test - ERROR - ✗ 模板 u8c2276904705144127495 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:07,928 - automation_test - INFO - u8c2276904705144127496模板打印预览请求的响应状态码为200
+2026-03-24 11:02:07,929 - automation_test - ERROR - ✗ 模板 u8c2276904705144127496 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:08,515 - automation_test - INFO - u8c2276904705144127497模板打印预览请求的响应状态码为200
+2026-03-24 11:02:08,516 - automation_test - ERROR - ✗ 模板 u8c2276904705144127497 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:09,117 - automation_test - INFO - u8c2276904705144127498模板打印预览请求的响应状态码为200
+2026-03-24 11:02:09,118 - automation_test - ERROR - ✗ 模板 u8c2276904705144127498 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:09,716 - automation_test - INFO - u8c1748019697000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:09,717 - automation_test - ERROR - ✗ 模板 u8c1748019697000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:10,320 - automation_test - INFO - u8c1745319511000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:10,321 - automation_test - ERROR - ✗ 模板 u8c1745319511000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:10,895 - automation_test - INFO - u8c2251365480965603329模板打印预览请求的响应状态码为200
+2026-03-24 11:02:10,898 - automation_test - ERROR - ✗ 模板 u8c2251365480965603329 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:11,487 - automation_test - INFO - u8c1744792894000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:11,488 - automation_test - ERROR - ✗ 模板 u8c1744792894000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:12,072 - automation_test - INFO - u8c1744622252000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:12,073 - automation_test - ERROR - ✗ 模板 u8c1744622252000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:12,656 - automation_test - INFO - u8c1744622212000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:12,657 - automation_test - ERROR - ✗ 模板 u8c1744622212000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:13,246 - automation_test - INFO - u8c1744622167000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:13,248 - automation_test - ERROR - ✗ 模板 u8c1744622167000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:13,829 - automation_test - INFO - u8c1744622122000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:13,830 - automation_test - ERROR - ✗ 模板 u8c1744622122000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:14,415 - automation_test - INFO - u8c1744622082000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:14,416 - automation_test - ERROR - ✗ 模板 u8c1744622082000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:15,020 - automation_test - INFO - u8c1744609139000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:15,021 - automation_test - ERROR - ✗ 模板 u8c1744609139000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:15,609 - automation_test - INFO - u8c2243551621200478208模板打印预览请求的响应状态码为200
+2026-03-24 11:02:15,610 - automation_test - ERROR - ✗ 模板 u8c2243551621200478208 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:16,195 - automation_test - INFO - u8c2243551621200478209模板打印预览请求的响应状态码为200
+2026-03-24 11:02:16,197 - automation_test - ERROR - ✗ 模板 u8c2243551621200478209 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:16,783 - automation_test - INFO - u8c2243551621200478210模板打印预览请求的响应状态码为200
+2026-03-24 11:02:16,784 - automation_test - ERROR - ✗ 模板 u8c2243551621200478210 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:17,357 - automation_test - INFO - u8c2243551621200478211模板打印预览请求的响应状态码为200
+2026-03-24 11:02:17,358 - automation_test - ERROR - ✗ 模板 u8c2243551621200478211 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:17,925 - automation_test - INFO - u8c2243551621200478212模板打印预览请求的响应状态码为200
+2026-03-24 11:02:17,925 - automation_test - ERROR - ✗ 模板 u8c2243551621200478212 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:18,511 - automation_test - INFO - u8c2243551621200478213模板打印预览请求的响应状态码为200
+2026-03-24 11:02:18,513 - automation_test - ERROR - ✗ 模板 u8c2243551621200478213 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:19,095 - automation_test - INFO - u8c2243551621200478214模板打印预览请求的响应状态码为200
+2026-03-24 11:02:19,096 - automation_test - ERROR - ✗ 模板 u8c2243551621200478214 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:19,682 - automation_test - INFO - u8c2243551621200478215模板打印预览请求的响应状态码为200
+2026-03-24 11:02:19,683 - automation_test - ERROR - ✗ 模板 u8c2243551621200478215 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:20,269 - automation_test - INFO - u8c2243551621200478216模板打印预览请求的响应状态码为200
+2026-03-24 11:02:20,270 - automation_test - ERROR - ✗ 模板 u8c2243551621200478216 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:20,854 - automation_test - INFO - u8c2243551621200478217模板打印预览请求的响应状态码为200
+2026-03-24 11:02:20,855 - automation_test - ERROR - ✗ 模板 u8c2243551621200478217 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:21,443 - automation_test - INFO - u8c2243551621200478218模板打印预览请求的响应状态码为200
+2026-03-24 11:02:21,444 - automation_test - ERROR - ✗ 模板 u8c2243551621200478218 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:22,032 - automation_test - INFO - u8c2243551621200478219模板打印预览请求的响应状态码为200
+2026-03-24 11:02:22,033 - automation_test - ERROR - ✗ 模板 u8c2243551621200478219 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:22,616 - automation_test - INFO - u8c2241281722406666246模板打印预览请求的响应状态码为200
+2026-03-24 11:02:22,617 - automation_test - ERROR - ✗ 模板 u8c2241281722406666246 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:23,202 - automation_test - INFO - u8c2241281722406666247模板打印预览请求的响应状态码为200
+2026-03-24 11:02:23,203 - automation_test - ERROR - ✗ 模板 u8c2241281722406666247 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:23,790 - automation_test - INFO - u8c2240364935846559747模板打印预览请求的响应状态码为200
+2026-03-24 11:02:23,791 - automation_test - ERROR - ✗ 模板 u8c2240364935846559747 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:24,379 - automation_test - INFO - u8c1742573609526模板打印预览请求的响应状态码为200
+2026-03-24 11:02:24,381 - automation_test - ERROR - ✗ 模板 u8c1742573609526 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:24,965 - automation_test - INFO - u8c1742572898000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:24,966 - automation_test - ERROR - ✗ 模板 u8c1742572898000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:25,551 - automation_test - INFO - u8c2227993127944192005模板打印预览请求的响应状态码为200
+2026-03-24 11:02:25,552 - automation_test - ERROR - ✗ 模板 u8c2227993127944192005 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:26,141 - automation_test - INFO - u8c2227993127944192006模板打印预览请求的响应状态码为200
+2026-03-24 11:02:26,142 - automation_test - ERROR - ✗ 模板 u8c2227993127944192006 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:26,731 - automation_test - INFO - u8c2227993127944192007模板打印预览请求的响应状态码为200
+2026-03-24 11:02:26,732 - automation_test - ERROR - ✗ 模板 u8c2227993127944192007 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:27,313 - automation_test - INFO - u8c2227993127944192008模板打印预览请求的响应状态码为200
+2026-03-24 11:02:27,314 - automation_test - ERROR - ✗ 模板 u8c2227993127944192008 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:27,901 - automation_test - INFO - u8c2227993127944192009模板打印预览请求的响应状态码为200
+2026-03-24 11:02:27,902 - automation_test - ERROR - ✗ 模板 u8c2227993127944192009 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:28,491 - automation_test - INFO - u8c2227993127944192010模板打印预览请求的响应状态码为200
+2026-03-24 11:02:28,492 - automation_test - ERROR - ✗ 模板 u8c2227993127944192010 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:29,079 - automation_test - INFO - u8c2227993127944192011模板打印预览请求的响应状态码为200
+2026-03-24 11:02:29,080 - automation_test - ERROR - ✗ 模板 u8c2227993127944192011 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:29,663 - automation_test - INFO - u8c2227993127944192012模板打印预览请求的响应状态码为200
+2026-03-24 11:02:29,664 - automation_test - ERROR - ✗ 模板 u8c2227993127944192012 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:30,256 - automation_test - INFO - u8c2227993127944192013模板打印预览请求的响应状态码为200
+2026-03-24 11:02:30,257 - automation_test - ERROR - ✗ 模板 u8c2227993127944192013 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:30,841 - automation_test - INFO - u8c2227993127944192014模板打印预览请求的响应状态码为200
+2026-03-24 11:02:30,842 - automation_test - ERROR - ✗ 模板 u8c2227993127944192014 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:31,440 - automation_test - INFO - u8c2227993127944192015模板打印预览请求的响应状态码为200
+2026-03-24 11:02:31,441 - automation_test - ERROR - ✗ 模板 u8c2227993127944192015 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:32,042 - automation_test - INFO - u8c2227993127944192016模板打印预览请求的响应状态码为200
+2026-03-24 11:02:32,043 - automation_test - ERROR - ✗ 模板 u8c2227993127944192016 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:32,629 - automation_test - INFO - u8c2197556378335707139模板打印预览请求的响应状态码为200
+2026-03-24 11:02:32,630 - automation_test - ERROR - ✗ 模板 u8c2197556378335707139 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:33,230 - automation_test - INFO - u8c2197556378335707140模板打印预览请求的响应状态码为200
+2026-03-24 11:02:33,235 - automation_test - ERROR - ✗ 模板 u8c2197556378335707140 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:33,833 - automation_test - INFO - u8c2184146803244400641模板打印预览请求的响应状态码为200
+2026-03-24 11:02:33,834 - automation_test - ERROR - ✗ 模板 u8c2184146803244400641 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:34,423 - automation_test - INFO - u8c2181232977180098562模板打印预览请求的响应状态码为200
+2026-03-24 11:02:34,424 - automation_test - ERROR - ✗ 模板 u8c2181232977180098562 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:35,012 - automation_test - INFO - u8c1737123402000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:35,013 - automation_test - ERROR - ✗ 模板 u8c1737123402000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:35,602 - automation_test - INFO - u8c1737103189000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:35,603 - automation_test - ERROR - ✗ 模板 u8c1737103189000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:36,190 - automation_test - INFO - u8c2174176629375893505模板打印预览请求的响应状态码为200
+2026-03-24 11:02:36,191 - automation_test - ERROR - ✗ 模板 u8c2174176629375893505 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:36,827 - automation_test - INFO - u8c1733589268000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:36,829 - automation_test - ERROR - ✗ 模板 u8c1733589268000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:37,413 - automation_test - INFO - u8c1732341275000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:37,414 - automation_test - ERROR - ✗ 模板 u8c1732341275000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:37,997 - automation_test - INFO - u8c1732301417000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:37,998 - automation_test - ERROR - ✗ 模板 u8c1732301417000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:38,584 - automation_test - INFO - u8c1732301109000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:38,585 - automation_test - ERROR - ✗ 模板 u8c1732301109000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:39,170 - automation_test - INFO - u8c1732292573000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:39,171 - automation_test - ERROR - ✗ 模板 u8c1732292573000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:39,755 - automation_test - INFO - u8c1732095637000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:39,756 - automation_test - ERROR - ✗ 模板 u8c1732095637000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:40,325 - automation_test - INFO - u8c2127394668782551048模板打印预览请求的响应状态码为200
+2026-03-24 11:02:40,326 - automation_test - ERROR - ✗ 模板 u8c2127394668782551048 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:40,904 - automation_test - INFO - u8c1730861270000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:40,905 - automation_test - ERROR - ✗ 模板 u8c1730861270000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:41,488 - automation_test - INFO - u8c2121808410958626822模板打印预览请求的响应状态码为200
+2026-03-24 11:02:41,489 - automation_test - ERROR - ✗ 模板 u8c2121808410958626822 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:42,104 - automation_test - INFO - u8c1728749724000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:42,105 - automation_test - ERROR - ✗ 模板 u8c1728749724000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:42,688 - automation_test - INFO - u8c2109231209119744007模板打印预览请求的响应状态码为200
+2026-03-24 11:02:42,689 - automation_test - ERROR - ✗ 模板 u8c2109231209119744007 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:43,288 - automation_test - INFO - u8c2107796604154544133模板打印预览请求的响应状态码为200
+2026-03-24 11:02:43,289 - automation_test - ERROR - ✗ 模板 u8c2107796604154544133 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:43,859 - automation_test - INFO - u8c1727618784000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:43,860 - automation_test - ERROR - ✗ 模板 u8c1727618784000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:44,445 - automation_test - INFO - u8c1727615671000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:44,446 - automation_test - ERROR - ✗ 模板 u8c1727615671000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:45,037 - automation_test - INFO - u8c1727543790000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:45,038 - automation_test - ERROR - ✗ 模板 u8c1727543790000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:45,612 - automation_test - INFO - u8c1727530087000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:45,613 - automation_test - ERROR - ✗ 模板 u8c1727530087000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:46,214 - automation_test - INFO - u8c2098153543582613508模板打印预览请求的响应状态码为200
+2026-03-24 11:02:46,215 - automation_test - ERROR - ✗ 模板 u8c2098153543582613508 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:46,802 - automation_test - INFO - u8c1727450400000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:46,803 - automation_test - ERROR - ✗ 模板 u8c1727450400000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:47,384 - automation_test - INFO - u8c2098076259921166337模板打印预览请求的响应状态码为200
+2026-03-24 11:02:47,385 - automation_test - ERROR - ✗ 模板 u8c2098076259921166337 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:47,973 - automation_test - INFO - u8c1726802489000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:47,974 - automation_test - ERROR - ✗ 模板 u8c1726802489000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:48,559 - automation_test - INFO - u8c1725873627000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:48,560 - automation_test - ERROR - ✗ 模板 u8c1725873627000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:49,146 - automation_test - INFO - u8c1725542446000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:49,147 - automation_test - ERROR - ✗ 模板 u8c1725542446000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:49,727 - automation_test - INFO - u8c1722519141000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:49,729 - automation_test - ERROR - ✗ 模板 u8c1722519141000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:50,318 - automation_test - INFO - u8c1721417020000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:50,319 - automation_test - ERROR - ✗ 模板 u8c1721417020000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:50,915 - automation_test - INFO - u8c1721414634000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:50,916 - automation_test - ERROR - ✗ 模板 u8c1721414634000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:51,517 - automation_test - INFO - u8c1721406425000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:51,518 - automation_test - ERROR - ✗ 模板 u8c1721406425000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:52,089 - automation_test - INFO - u8c1719328017000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:52,090 - automation_test - ERROR - ✗ 模板 u8c1719328017000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:52,672 - automation_test - INFO - u8c1719327778000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:52,673 - automation_test - ERROR - ✗ 模板 u8c1719327778000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:53,261 - automation_test - INFO - u8c2028263662467153927模板打印预览请求的响应状态码为200
+2026-03-24 11:02:53,262 - automation_test - ERROR - ✗ 模板 u8c2028263662467153927 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:53,847 - automation_test - INFO - u8c1719285378000模板打印预览请求的响应状态码为200
+2026-03-24 11:02:53,848 - automation_test - ERROR - ✗ 模板 u8c1719285378000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:54,422 - automation_test - INFO - u8c2027407855876833284模板打印预览请求的响应状态码为200
+2026-03-24 11:02:54,423 - automation_test - ERROR - ✗ 模板 u8c2027407855876833284 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:55,008 - automation_test - INFO - u8c2027407855876833285模板打印预览请求的响应状态码为200
+2026-03-24 11:02:55,009 - automation_test - ERROR - ✗ 模板 u8c2027407855876833285 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:55,591 - automation_test - INFO - u8c2027407855876833286模板打印预览请求的响应状态码为200
+2026-03-24 11:02:55,592 - automation_test - ERROR - ✗ 模板 u8c2027407855876833286 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:56,192 - automation_test - INFO - u8c2027407855876833287模板打印预览请求的响应状态码为200
+2026-03-24 11:02:56,193 - automation_test - ERROR - ✗ 模板 u8c2027407855876833287 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:56,781 - automation_test - INFO - u8c2027407855876833288模板打印预览请求的响应状态码为200
+2026-03-24 11:02:56,782 - automation_test - ERROR - ✗ 模板 u8c2027407855876833288 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:57,365 - automation_test - INFO - u8c2027407855876833289模板打印预览请求的响应状态码为200
+2026-03-24 11:02:57,366 - automation_test - ERROR - ✗ 模板 u8c2027407855876833289 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:57,964 - automation_test - INFO - u8c2027407855876833290模板打印预览请求的响应状态码为200
+2026-03-24 11:02:57,965 - automation_test - ERROR - ✗ 模板 u8c2027407855876833290 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:58,552 - automation_test - INFO - u8c2027407855876833291模板打印预览请求的响应状态码为200
+2026-03-24 11:02:58,553 - automation_test - ERROR - ✗ 模板 u8c2027407855876833291 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:59,134 - automation_test - INFO - u8c2027407855876833292模板打印预览请求的响应状态码为200
+2026-03-24 11:02:59,135 - automation_test - ERROR - ✗ 模板 u8c2027407855876833292 异常: argument of type 'bool' is not iterable
+2026-03-24 11:02:59,705 - automation_test - INFO - u8c2027407855876833293模板打印预览请求的响应状态码为200
+2026-03-24 11:02:59,706 - automation_test - ERROR - ✗ 模板 u8c2027407855876833293 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:00,290 - automation_test - INFO - u8c2027407855876833294模板打印预览请求的响应状态码为200
+2026-03-24 11:03:00,291 - automation_test - ERROR - ✗ 模板 u8c2027407855876833294 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:00,891 - automation_test - INFO - u8c2027407855876833295模板打印预览请求的响应状态码为200
+2026-03-24 11:03:00,892 - automation_test - ERROR - ✗ 模板 u8c2027407855876833295 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:01,463 - automation_test - INFO - u8c2027407855876833296模板打印预览请求的响应状态码为200
+2026-03-24 11:03:01,464 - automation_test - ERROR - ✗ 模板 u8c2027407855876833296 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:02,048 - automation_test - INFO - u8c2027407855876833297模板打印预览请求的响应状态码为200
+2026-03-24 11:03:02,049 - automation_test - ERROR - ✗ 模板 u8c2027407855876833297 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:02,640 - automation_test - INFO - u8c2027407855876833298模板打印预览请求的响应状态码为200
+2026-03-24 11:03:02,641 - automation_test - ERROR - ✗ 模板 u8c2027407855876833298 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:03,245 - automation_test - INFO - u8c2027407855876833299模板打印预览请求的响应状态码为200
+2026-03-24 11:03:03,247 - automation_test - ERROR - ✗ 模板 u8c2027407855876833299 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:03,845 - automation_test - INFO - u8c2027407855876833300模板打印预览请求的响应状态码为200
+2026-03-24 11:03:03,846 - automation_test - ERROR - ✗ 模板 u8c2027407855876833300 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:04,430 - automation_test - INFO - u8c2027407855876833301模板打印预览请求的响应状态码为200
+2026-03-24 11:03:04,431 - automation_test - ERROR - ✗ 模板 u8c2027407855876833301 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:05,031 - automation_test - INFO - u8c2027407855876833302模板打印预览请求的响应状态码为200
+2026-03-24 11:03:05,032 - automation_test - ERROR - ✗ 模板 u8c2027407855876833302 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:05,619 - automation_test - INFO - u8c2027407855876833303模板打印预览请求的响应状态码为200
+2026-03-24 11:03:05,620 - automation_test - ERROR - ✗ 模板 u8c2027407855876833303 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:06,219 - automation_test - INFO - u8c2027407855876833304模板打印预览请求的响应状态码为200
+2026-03-24 11:03:06,220 - automation_test - ERROR - ✗ 模板 u8c2027407855876833304 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:06,795 - automation_test - INFO - u8c2027407855876833305模板打印预览请求的响应状态码为200
+2026-03-24 11:03:06,796 - automation_test - ERROR - ✗ 模板 u8c2027407855876833305 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:07,376 - automation_test - INFO - u8c2027407855876833306模板打印预览请求的响应状态码为200
+2026-03-24 11:03:07,378 - automation_test - ERROR - ✗ 模板 u8c2027407855876833306 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:07,946 - automation_test - INFO - u8c2027407855876833307模板打印预览请求的响应状态码为200
+2026-03-24 11:03:07,947 - automation_test - ERROR - ✗ 模板 u8c2027407855876833307 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:08,544 - automation_test - INFO - u8c2027407855876833308模板打印预览请求的响应状态码为200
+2026-03-24 11:03:08,545 - automation_test - ERROR - ✗ 模板 u8c2027407855876833308 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:09,139 - automation_test - INFO - u8c2027407855876833309模板打印预览请求的响应状态码为200
+2026-03-24 11:03:09,140 - automation_test - ERROR - ✗ 模板 u8c2027407855876833309 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:09,740 - automation_test - INFO - u8c2027407855876833310模板打印预览请求的响应状态码为200
+2026-03-24 11:03:09,741 - automation_test - ERROR - ✗ 模板 u8c2027407855876833310 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:10,328 - automation_test - INFO - u8c2027407855876833311模板打印预览请求的响应状态码为200
+2026-03-24 11:03:10,329 - automation_test - ERROR - ✗ 模板 u8c2027407855876833311 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:10,917 - automation_test - INFO - u8c2027407855876833312模板打印预览请求的响应状态码为200
+2026-03-24 11:03:10,918 - automation_test - ERROR - ✗ 模板 u8c2027407855876833312 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:11,508 - automation_test - INFO - u8c2027407855876833313模板打印预览请求的响应状态码为200
+2026-03-24 11:03:11,509 - automation_test - ERROR - ✗ 模板 u8c2027407855876833313 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:12,125 - automation_test - INFO - u8c2027407855876833314模板打印预览请求的响应状态码为200
+2026-03-24 11:03:12,127 - automation_test - ERROR - ✗ 模板 u8c2027407855876833314 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:12,715 - automation_test - INFO - u8c2027407855876833315模板打印预览请求的响应状态码为200
+2026-03-24 11:03:12,716 - automation_test - ERROR - ✗ 模板 u8c2027407855876833315 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:13,298 - automation_test - INFO - u8c2027407855876833316模板打印预览请求的响应状态码为200
+2026-03-24 11:03:13,299 - automation_test - ERROR - ✗ 模板 u8c2027407855876833316 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:13,882 - automation_test - INFO - u8c2027407855876833317模板打印预览请求的响应状态码为200
+2026-03-24 11:03:13,883 - automation_test - ERROR - ✗ 模板 u8c2027407855876833317 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:14,467 - automation_test - INFO - u8c2027407855876833318模板打印预览请求的响应状态码为200
+2026-03-24 11:03:14,468 - automation_test - ERROR - ✗ 模板 u8c2027407855876833318 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:15,054 - automation_test - INFO - u8c2027407855876833319模板打印预览请求的响应状态码为200
+2026-03-24 11:03:15,055 - automation_test - ERROR - ✗ 模板 u8c2027407855876833319 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:15,624 - automation_test - INFO - u8c2027407855876833320模板打印预览请求的响应状态码为200
+2026-03-24 11:03:15,626 - automation_test - ERROR - ✗ 模板 u8c2027407855876833320 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:16,215 - automation_test - INFO - u8c2027407855876833321模板打印预览请求的响应状态码为200
+2026-03-24 11:03:16,216 - automation_test - ERROR - ✗ 模板 u8c2027407855876833321 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:16,801 - automation_test - INFO - u8c2027407855876833322模板打印预览请求的响应状态码为200
+2026-03-24 11:03:16,802 - automation_test - ERROR - ✗ 模板 u8c2027407855876833322 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:17,393 - automation_test - INFO - u8c2027407855876833323模板打印预览请求的响应状态码为200
+2026-03-24 11:03:17,394 - automation_test - ERROR - ✗ 模板 u8c2027407855876833323 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:17,982 - automation_test - INFO - u8c2027407855876833324模板打印预览请求的响应状态码为200
+2026-03-24 11:03:17,983 - automation_test - ERROR - ✗ 模板 u8c2027407855876833324 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:18,552 - automation_test - INFO - u8c2027407855876833325模板打印预览请求的响应状态码为200
+2026-03-24 11:03:18,553 - automation_test - ERROR - ✗ 模板 u8c2027407855876833325 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:19,122 - automation_test - INFO - u8c2027407855876833326模板打印预览请求的响应状态码为200
+2026-03-24 11:03:19,123 - automation_test - ERROR - ✗ 模板 u8c2027407855876833326 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:19,694 - automation_test - INFO - u8c2027407855876833327模板打印预览请求的响应状态码为200
+2026-03-24 11:03:19,695 - automation_test - ERROR - ✗ 模板 u8c2027407855876833327 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:20,276 - automation_test - INFO - u8c2027407855876833328模板打印预览请求的响应状态码为200
+2026-03-24 11:03:20,277 - automation_test - ERROR - ✗ 模板 u8c2027407855876833328 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:20,864 - automation_test - INFO - u8c1714271717000模板打印预览请求的响应状态码为200
+2026-03-24 11:03:20,865 - automation_test - ERROR - ✗ 模板 u8c1714271717000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:21,447 - automation_test - INFO - u8c1689834375000模板打印预览请求的响应状态码为200
+2026-03-24 11:03:21,448 - automation_test - ERROR - ✗ 模板 u8c1689834375000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:22,033 - automation_test - INFO - u8c1659075352000模板打印预览请求的响应状态码为200
+2026-03-24 11:03:22,034 - automation_test - ERROR - ✗ 模板 u8c1659075352000 异常: argument of type 'bool' is not iterable
+2026-03-24 11:03:22,034 - automation_test - INFO - 成功的打印模板清单如下[]
+2026-03-24 11:03:22,034 - automation_test - INFO - 失败的打印模板清单如下['u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 11:03:42,135 - automation_test - INFO - 开始复制系统模板
+2026-03-24 11:03:46,466 - automation_test - INFO - 新增复制模板验证通过
+2026-03-24 11:03:46,466 - automation_test - INFO - 验证新增模板为已启用状态
+2026-03-24 11:03:46,492 - automation_test - INFO - 模板启停验证
+2026-03-24 11:03:46,810 - automation_test - INFO - 点击停用按钮
+2026-03-24 11:03:47,401 - automation_test - INFO - 点击启动按钮
+2026-03-24 11:03:48,187 - automation_test - INFO - 打印模板的启停状态切换验证通过
+2026-03-24 11:03:48,188 - automation_test - INFO - 模板默认标签验证
+2026-03-24 11:03:48,188 - automation_test - INFO - 设置默认
+2026-03-24 11:03:48,935 - automation_test - INFO - 取消默认设置
+2026-03-24 11:03:52,636 - automation_test - INFO - 打印模板的默认标签配置取消验证通过
+2026-03-24 11:03:54,152 - automation_test - INFO - 新增打印模板删除完成
+2026-03-24 11:04:03,909 - automation_test - INFO - 这条用例仅作打印模板模板属性默认值检查
+2026-03-24 11:04:03,910 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-24 11:04:05,667 - automation_test - INFO - 复制系统模板
+2026-03-24 11:04:06,141 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-24 11:04:06,970 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-24 11:04:10,862 - automation_test - INFO - 验证模板编码框不可编辑
+2026-03-24 11:04:10,898 - automation_test - INFO - 验证模板名称与新增该模板配置的名称一致
+2026-03-24 11:04:13,933 - automation_test - INFO - 验证横向矩阵默认值为1
+2026-03-24 11:04:16,966 - automation_test - INFO - 验证总想矩阵默认值为1
+2026-03-24 11:04:19,991 - automation_test - INFO - 验证循环主体为【暂无】
+2026-03-24 11:04:23,029 - automation_test - INFO - 验证多页面打印方式默认值为【按单据】
+2026-03-24 11:04:26,055 - automation_test - INFO - 单据间隔打印默认关闭验证
+2026-03-24 11:04:29,095 - automation_test - INFO - 双面打印默认关闭验证
+2026-03-24 11:04:32,117 - automation_test - INFO - 仅打印有效审批意见默认关闭验证
+2026-03-24 11:04:35,143 - automation_test - INFO - 不打印无效抢占审批默认关闭验证
+2026-03-24 11:04:38,168 - automation_test - INFO - 不打印自动跳过审批默认关闭验证
+2026-03-24 11:04:41,195 - automation_test - INFO - 打印模板设计器模板属性默认值验证通过
+2026-03-24 11:04:41,324 - automation_test - INFO - 执行打印模板的删除操作
+2026-03-24 11:04:43,056 - automation_test - INFO - 新增打印模板删除完成
+2026-03-24 11:04:52,613 - automation_test - INFO - 该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证
+2026-03-24 11:04:52,614 - automation_test - INFO - 用例前置：检查当前预用模板是否存在，存在就删掉
+2026-03-24 11:04:55,176 - automation_test - INFO - 修改复制模板名称并确定
+2026-03-24 11:04:55,940 - automation_test - INFO - 进入打印模板设计器浏览器页面
+2026-03-24 11:04:57,611 - automation_test - INFO - 等待并删除画布上已经配置好的列表控件
+2026-03-24 11:04:59,714 - automation_test - INFO - 系统预置的列表在画布删除成功
+2026-03-24 11:04:59,729 - automation_test - INFO - 获取到列表控件
+2026-03-24 11:04:59,745 - automation_test - INFO - 获取到画布
+2026-03-24 11:05:00,034 - automation_test - INFO - x坐标是296
+2026-03-24 11:05:00,043 - automation_test - INFO - y坐标是180
+2026-03-24 11:05:00,533 - automation_test - INFO - 列表控件完成向画布拖入操作
+2026-03-24 11:05:00,534 - automation_test - INFO - 验证列表设置弹窗弹出正常
+2026-03-24 11:05:10,984 - automation_test - INFO - 开始配置列表的三个指定字段
+2026-03-24 11:05:11,011 - automation_test - INFO - 搜索并选择字段【开工日期】
+2026-03-24 11:05:14,875 - automation_test - INFO - 开始验证第一个字段选择是否正常
+2026-03-24 11:05:14,888 - automation_test - INFO - 搜索并选择字段【完工日期】
+2026-03-24 11:05:18,410 - automation_test - INFO - 开始验证第二个字段选择是否正常
+2026-03-24 11:05:18,428 - automation_test - INFO - 搜索并选择字段【生产数量】
+2026-03-24 11:05:22,337 - automation_test - INFO - 开始验证第三个字段选择是否正常
+2026-03-24 11:05:22,355 - automation_test - INFO - 点击确定保存列表
+2026-03-24 11:05:25,642 - automation_test - INFO - 开始验证新增列表是否展示正常
+2026-03-24 11:05:25,677 - automation_test - INFO - 验证列表默认没有开启承前过次页，且开启设置正常
+2026-03-24 11:05:25,708 - automation_test - INFO - 开启承前过次开关
+2026-03-24 11:05:28,962 - automation_test - INFO - 验证开启后承前页、过次页两行出现
+2026-03-24 11:05:29,621 - automation_test - INFO - 这是登录的teardown方法
+2026-03-24 11:05:34,640 - automation_test - INFO - pytest 执行结束，退出码：1
+2026-03-24 11:05:34,736 - automation_test - INFO - 网络连接正常
+2026-03-24 11:05:38,577 - automation_test - INFO - 测试报告邮件已发送
+2026-03-24 17:27:43,062 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_api/test_print_api.py::test_pdf_compare']
+2026-03-24 17:29:17,246 - automation_test - INFO - 执行 pytest，参数：['test_cases/test_api/test_print_api.py::test_pdf_compare']
+2026-03-24 17:49:55,435 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-24 17:49:55,611 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 17:49:55,612 - automation_test - INFO - 请求响应结果是:c8f9955e-1645-4aa9-b5d2-235caa630fee
+2026-03-24 17:49:59,639 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 17:49:59,643 - automation_test - INFO - 获取的可用模板列表为['u8c1774321495000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 17:49:59,743 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 17:49:59,745 - automation_test - INFO - 请求响应结果是:141b4493-6f28-4d77-82f3-3c23c4e66c44
+2026-03-24 17:50:01,882 - automation_test - INFO - 请求的响应状态码是200
+2026-03-24 17:50:01,887 - automation_test - INFO - 获取的可用模板列表为['u8c1774321495000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 17:50:01,889 - automation_test - INFO - 开始循环进行打印模板的预览接口请求，共143个模板
+2026-03-24 17:50:02,478 - automation_test - INFO - u8c1774321495000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:02,480 - automation_test - ERROR - ✗ 模板 u8c1774321495000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:03,075 - automation_test - INFO - u8c1768286989628模板打印预览请求的响应状态码为200
+2026-03-24 17:50:03,076 - automation_test - ERROR - ✗ 模板 u8c1768286989628 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:03,659 - automation_test - INFO - u8c2444516534017064964模板打印预览请求的响应状态码为200
+2026-03-24 17:50:03,660 - automation_test - ERROR - ✗ 模板 u8c2444516534017064964 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:04,243 - automation_test - INFO - u8c1767512784478模板打印预览请求的响应状态码为200
+2026-03-24 17:50:04,244 - automation_test - ERROR - ✗ 模板 u8c1767512784478 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:04,863 - automation_test - INFO - u8c2435413179027161094模板打印预览请求的响应状态码为200
+2026-03-24 17:50:04,864 - automation_test - ERROR - ✗ 模板 u8c2435413179027161094 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:05,452 - automation_test - INFO - u8c2409752982813933571模板打印预览请求的响应状态码为200
+2026-03-24 17:50:05,453 - automation_test - ERROR - ✗ 模板 u8c2409752982813933571 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:06,054 - automation_test - INFO - u8c1761329163000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:06,055 - automation_test - ERROR - ✗ 模板 u8c1761329163000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:06,641 - automation_test - INFO - u8c2389109351354728454模板打印预览请求的响应状态码为200
+2026-03-24 17:50:06,642 - automation_test - ERROR - ✗ 模板 u8c2389109351354728454 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:07,222 - automation_test - INFO - u8c1761324315138模板打印预览请求的响应状态码为200
+2026-03-24 17:50:07,223 - automation_test - ERROR - ✗ 模板 u8c1761324315138 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:07,794 - automation_test - INFO - u8c2389067870560583689模板打印预览请求的响应状态码为200
+2026-03-24 17:50:07,795 - automation_test - ERROR - ✗ 模板 u8c2389067870560583689 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:08,382 - automation_test - INFO - u8c1760582703000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:08,383 - automation_test - ERROR - ✗ 模板 u8c1760582703000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:08,966 - automation_test - INFO - u8c2330000336319676425模板打印预览请求的响应状态码为200
+2026-03-24 17:50:08,967 - automation_test - ERROR - ✗ 模板 u8c2330000336319676425 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:09,554 - automation_test - INFO - u8c1752860041000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:09,555 - automation_test - ERROR - ✗ 模板 u8c1752860041000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:10,137 - automation_test - INFO - u8c1752860009000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:10,138 - automation_test - ERROR - ✗ 模板 u8c1752860009000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:10,739 - automation_test - INFO - u8c2292249429227864069模板打印预览请求的响应状态码为200
+2026-03-24 17:50:10,740 - automation_test - ERROR - ✗ 模板 u8c2292249429227864069 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:11,331 - automation_test - INFO - u8c2276904705144127495模板打印预览请求的响应状态码为200
+2026-03-24 17:50:11,332 - automation_test - ERROR - ✗ 模板 u8c2276904705144127495 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:11,921 - automation_test - INFO - u8c2276904705144127496模板打印预览请求的响应状态码为200
+2026-03-24 17:50:11,922 - automation_test - ERROR - ✗ 模板 u8c2276904705144127496 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:12,511 - automation_test - INFO - u8c2276904705144127497模板打印预览请求的响应状态码为200
+2026-03-24 17:50:12,512 - automation_test - ERROR - ✗ 模板 u8c2276904705144127497 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:13,097 - automation_test - INFO - u8c2276904705144127498模板打印预览请求的响应状态码为200
+2026-03-24 17:50:13,098 - automation_test - ERROR - ✗ 模板 u8c2276904705144127498 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:13,691 - automation_test - INFO - u8c1748019697000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:13,692 - automation_test - ERROR - ✗ 模板 u8c1748019697000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:14,263 - automation_test - INFO - u8c1745319511000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:14,264 - automation_test - ERROR - ✗ 模板 u8c1745319511000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:14,855 - automation_test - INFO - u8c2251365480965603329模板打印预览请求的响应状态码为200
+2026-03-24 17:50:14,856 - automation_test - ERROR - ✗ 模板 u8c2251365480965603329 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:15,427 - automation_test - INFO - u8c1744792894000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:15,428 - automation_test - ERROR - ✗ 模板 u8c1744792894000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:16,019 - automation_test - INFO - u8c1744622252000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:16,020 - automation_test - ERROR - ✗ 模板 u8c1744622252000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:16,609 - automation_test - INFO - u8c1744622212000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:16,610 - automation_test - ERROR - ✗ 模板 u8c1744622212000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:17,197 - automation_test - INFO - u8c1744622167000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:17,198 - automation_test - ERROR - ✗ 模板 u8c1744622167000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:17,784 - automation_test - INFO - u8c1744622122000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:17,785 - automation_test - ERROR - ✗ 模板 u8c1744622122000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:18,370 - automation_test - INFO - u8c1744622082000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:18,371 - automation_test - ERROR - ✗ 模板 u8c1744622082000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:18,961 - automation_test - INFO - u8c1744609139000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:18,962 - automation_test - ERROR - ✗ 模板 u8c1744609139000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:19,554 - automation_test - INFO - u8c2243551621200478208模板打印预览请求的响应状态码为200
+2026-03-24 17:50:19,555 - automation_test - ERROR - ✗ 模板 u8c2243551621200478208 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:20,144 - automation_test - INFO - u8c2243551621200478209模板打印预览请求的响应状态码为200
+2026-03-24 17:50:20,145 - automation_test - ERROR - ✗ 模板 u8c2243551621200478209 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:20,733 - automation_test - INFO - u8c2243551621200478210模板打印预览请求的响应状态码为200
+2026-03-24 17:50:20,734 - automation_test - ERROR - ✗ 模板 u8c2243551621200478210 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:21,332 - automation_test - INFO - u8c2243551621200478211模板打印预览请求的响应状态码为200
+2026-03-24 17:50:21,333 - automation_test - ERROR - ✗ 模板 u8c2243551621200478211 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:21,922 - automation_test - INFO - u8c2243551621200478212模板打印预览请求的响应状态码为200
+2026-03-24 17:50:21,923 - automation_test - ERROR - ✗ 模板 u8c2243551621200478212 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:22,511 - automation_test - INFO - u8c2243551621200478213模板打印预览请求的响应状态码为200
+2026-03-24 17:50:22,512 - automation_test - ERROR - ✗ 模板 u8c2243551621200478213 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:23,099 - automation_test - INFO - u8c2243551621200478214模板打印预览请求的响应状态码为200
+2026-03-24 17:50:23,100 - automation_test - ERROR - ✗ 模板 u8c2243551621200478214 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:23,674 - automation_test - INFO - u8c2243551621200478215模板打印预览请求的响应状态码为200
+2026-03-24 17:50:23,675 - automation_test - ERROR - ✗ 模板 u8c2243551621200478215 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:24,259 - automation_test - INFO - u8c2243551621200478216模板打印预览请求的响应状态码为200
+2026-03-24 17:50:24,260 - automation_test - ERROR - ✗ 模板 u8c2243551621200478216 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:24,858 - automation_test - INFO - u8c2243551621200478217模板打印预览请求的响应状态码为200
+2026-03-24 17:50:24,859 - automation_test - ERROR - ✗ 模板 u8c2243551621200478217 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:25,432 - automation_test - INFO - u8c2243551621200478218模板打印预览请求的响应状态码为200
+2026-03-24 17:50:25,433 - automation_test - ERROR - ✗ 模板 u8c2243551621200478218 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:26,021 - automation_test - INFO - u8c2243551621200478219模板打印预览请求的响应状态码为200
+2026-03-24 17:50:26,021 - automation_test - ERROR - ✗ 模板 u8c2243551621200478219 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:26,610 - automation_test - INFO - u8c2241281722406666246模板打印预览请求的响应状态码为200
+2026-03-24 17:50:26,611 - automation_test - ERROR - ✗ 模板 u8c2241281722406666246 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:27,207 - automation_test - INFO - u8c2241281722406666247模板打印预览请求的响应状态码为200
+2026-03-24 17:50:27,208 - automation_test - ERROR - ✗ 模板 u8c2241281722406666247 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:27,783 - automation_test - INFO - u8c2240364935846559747模板打印预览请求的响应状态码为200
+2026-03-24 17:50:27,784 - automation_test - ERROR - ✗ 模板 u8c2240364935846559747 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:28,367 - automation_test - INFO - u8c1742573609526模板打印预览请求的响应状态码为200
+2026-03-24 17:50:28,367 - automation_test - ERROR - ✗ 模板 u8c1742573609526 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:28,955 - automation_test - INFO - u8c1742572898000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:28,956 - automation_test - ERROR - ✗ 模板 u8c1742572898000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:29,526 - automation_test - INFO - u8c2227993127944192005模板打印预览请求的响应状态码为200
+2026-03-24 17:50:29,527 - automation_test - ERROR - ✗ 模板 u8c2227993127944192005 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:30,114 - automation_test - INFO - u8c2227993127944192006模板打印预览请求的响应状态码为200
+2026-03-24 17:50:30,115 - automation_test - ERROR - ✗ 模板 u8c2227993127944192006 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:30,689 - automation_test - INFO - u8c2227993127944192007模板打印预览请求的响应状态码为200
+2026-03-24 17:50:30,690 - automation_test - ERROR - ✗ 模板 u8c2227993127944192007 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:31,281 - automation_test - INFO - u8c2227993127944192008模板打印预览请求的响应状态码为200
+2026-03-24 17:50:31,282 - automation_test - ERROR - ✗ 模板 u8c2227993127944192008 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:31,855 - automation_test - INFO - u8c2227993127944192009模板打印预览请求的响应状态码为200
+2026-03-24 17:50:31,856 - automation_test - ERROR - ✗ 模板 u8c2227993127944192009 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:32,445 - automation_test - INFO - u8c2227993127944192010模板打印预览请求的响应状态码为200
+2026-03-24 17:50:32,446 - automation_test - ERROR - ✗ 模板 u8c2227993127944192010 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:33,030 - automation_test - INFO - u8c2227993127944192011模板打印预览请求的响应状态码为200
+2026-03-24 17:50:33,031 - automation_test - ERROR - ✗ 模板 u8c2227993127944192011 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:33,606 - automation_test - INFO - u8c2227993127944192012模板打印预览请求的响应状态码为200
+2026-03-24 17:50:33,607 - automation_test - ERROR - ✗ 模板 u8c2227993127944192012 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:34,210 - automation_test - INFO - u8c2227993127944192013模板打印预览请求的响应状态码为200
+2026-03-24 17:50:34,211 - automation_test - ERROR - ✗ 模板 u8c2227993127944192013 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:34,796 - automation_test - INFO - u8c2227993127944192014模板打印预览请求的响应状态码为200
+2026-03-24 17:50:34,797 - automation_test - ERROR - ✗ 模板 u8c2227993127944192014 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:35,379 - automation_test - INFO - u8c2227993127944192015模板打印预览请求的响应状态码为200
+2026-03-24 17:50:35,380 - automation_test - ERROR - ✗ 模板 u8c2227993127944192015 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:35,968 - automation_test - INFO - u8c2227993127944192016模板打印预览请求的响应状态码为200
+2026-03-24 17:50:35,969 - automation_test - ERROR - ✗ 模板 u8c2227993127944192016 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:36,554 - automation_test - INFO - u8c2197556378335707139模板打印预览请求的响应状态码为200
+2026-03-24 17:50:36,555 - automation_test - ERROR - ✗ 模板 u8c2197556378335707139 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:37,129 - automation_test - INFO - u8c2197556378335707140模板打印预览请求的响应状态码为200
+2026-03-24 17:50:37,129 - automation_test - ERROR - ✗ 模板 u8c2197556378335707140 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:37,715 - automation_test - INFO - u8c2184146803244400641模板打印预览请求的响应状态码为200
+2026-03-24 17:50:37,715 - automation_test - ERROR - ✗ 模板 u8c2184146803244400641 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:38,285 - automation_test - INFO - u8c2181232977180098562模板打印预览请求的响应状态码为200
+2026-03-24 17:50:38,286 - automation_test - ERROR - ✗ 模板 u8c2181232977180098562 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:38,872 - automation_test - INFO - u8c1737123402000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:38,872 - automation_test - ERROR - ✗ 模板 u8c1737123402000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:39,472 - automation_test - INFO - u8c1737103189000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:39,473 - automation_test - ERROR - ✗ 模板 u8c1737103189000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:40,060 - automation_test - INFO - u8c2174176629375893505模板打印预览请求的响应状态码为200
+2026-03-24 17:50:40,061 - automation_test - ERROR - ✗ 模板 u8c2174176629375893505 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:40,646 - automation_test - INFO - u8c1733589268000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:40,647 - automation_test - ERROR - ✗ 模板 u8c1733589268000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:41,220 - automation_test - INFO - u8c1732341275000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:41,221 - automation_test - ERROR - ✗ 模板 u8c1732341275000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:41,838 - automation_test - INFO - u8c1732301417000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:41,838 - automation_test - ERROR - ✗ 模板 u8c1732301417000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:42,422 - automation_test - INFO - u8c1732301109000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:42,423 - automation_test - ERROR - ✗ 模板 u8c1732301109000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:43,006 - automation_test - INFO - u8c1732292573000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:43,007 - automation_test - ERROR - ✗ 模板 u8c1732292573000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:43,597 - automation_test - INFO - u8c1732095637000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:43,598 - automation_test - ERROR - ✗ 模板 u8c1732095637000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:44,196 - automation_test - INFO - u8c2127394668782551048模板打印预览请求的响应状态码为200
+2026-03-24 17:50:44,197 - automation_test - ERROR - ✗ 模板 u8c2127394668782551048 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:44,797 - automation_test - INFO - u8c1730861270000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:44,798 - automation_test - ERROR - ✗ 模板 u8c1730861270000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:45,399 - automation_test - INFO - u8c2121808410958626822模板打印预览请求的响应状态码为200
+2026-03-24 17:50:45,400 - automation_test - ERROR - ✗ 模板 u8c2121808410958626822 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:45,984 - automation_test - INFO - u8c1728749724000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:45,985 - automation_test - ERROR - ✗ 模板 u8c1728749724000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:46,573 - automation_test - INFO - u8c2109231209119744007模板打印预览请求的响应状态码为200
+2026-03-24 17:50:46,574 - automation_test - ERROR - ✗ 模板 u8c2109231209119744007 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:47,165 - automation_test - INFO - u8c2107796604154544133模板打印预览请求的响应状态码为200
+2026-03-24 17:50:47,166 - automation_test - ERROR - ✗ 模板 u8c2107796604154544133 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:47,817 - automation_test - INFO - u8c1727618784000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:47,818 - automation_test - ERROR - ✗ 模板 u8c1727618784000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:48,404 - automation_test - INFO - u8c1727615671000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:48,405 - automation_test - ERROR - ✗ 模板 u8c1727615671000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:49,024 - automation_test - INFO - u8c1727543790000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:49,025 - automation_test - ERROR - ✗ 模板 u8c1727543790000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:49,614 - automation_test - INFO - u8c1727530087000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:49,615 - automation_test - ERROR - ✗ 模板 u8c1727530087000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:50,204 - automation_test - INFO - u8c2098153543582613508模板打印预览请求的响应状态码为200
+2026-03-24 17:50:50,205 - automation_test - ERROR - ✗ 模板 u8c2098153543582613508 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:50,800 - automation_test - INFO - u8c1727450400000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:50,800 - automation_test - ERROR - ✗ 模板 u8c1727450400000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:51,402 - automation_test - INFO - u8c2098076259921166337模板打印预览请求的响应状态码为200
+2026-03-24 17:50:51,403 - automation_test - ERROR - ✗ 模板 u8c2098076259921166337 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:51,988 - automation_test - INFO - u8c1726802489000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:51,988 - automation_test - ERROR - ✗ 模板 u8c1726802489000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:52,563 - automation_test - INFO - u8c1725873627000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:52,564 - automation_test - ERROR - ✗ 模板 u8c1725873627000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:53,135 - automation_test - INFO - u8c1725542446000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:53,136 - automation_test - ERROR - ✗ 模板 u8c1725542446000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:53,719 - automation_test - INFO - u8c1722519141000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:53,720 - automation_test - ERROR - ✗ 模板 u8c1722519141000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:54,315 - automation_test - INFO - u8c1721417020000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:54,316 - automation_test - ERROR - ✗ 模板 u8c1721417020000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:54,905 - automation_test - INFO - u8c1721414634000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:54,906 - automation_test - ERROR - ✗ 模板 u8c1721414634000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:55,501 - automation_test - INFO - u8c1721406425000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:55,502 - automation_test - ERROR - ✗ 模板 u8c1721406425000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:56,091 - automation_test - INFO - u8c1719328017000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:56,092 - automation_test - ERROR - ✗ 模板 u8c1719328017000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:56,679 - automation_test - INFO - u8c1719327778000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:56,681 - automation_test - ERROR - ✗ 模板 u8c1719327778000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:57,253 - automation_test - INFO - u8c2028263662467153927模板打印预览请求的响应状态码为200
+2026-03-24 17:50:57,254 - automation_test - ERROR - ✗ 模板 u8c2028263662467153927 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:57,838 - automation_test - INFO - u8c1719285378000模板打印预览请求的响应状态码为200
+2026-03-24 17:50:57,839 - automation_test - ERROR - ✗ 模板 u8c1719285378000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:58,426 - automation_test - INFO - u8c2027407855876833284模板打印预览请求的响应状态码为200
+2026-03-24 17:50:58,427 - automation_test - ERROR - ✗ 模板 u8c2027407855876833284 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:59,014 - automation_test - INFO - u8c2027407855876833285模板打印预览请求的响应状态码为200
+2026-03-24 17:50:59,015 - automation_test - ERROR - ✗ 模板 u8c2027407855876833285 异常: argument of type 'bool' is not iterable
+2026-03-24 17:50:59,607 - automation_test - INFO - u8c2027407855876833286模板打印预览请求的响应状态码为200
+2026-03-24 17:50:59,608 - automation_test - ERROR - ✗ 模板 u8c2027407855876833286 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:00,197 - automation_test - INFO - u8c2027407855876833287模板打印预览请求的响应状态码为200
+2026-03-24 17:51:00,198 - automation_test - ERROR - ✗ 模板 u8c2027407855876833287 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:00,795 - automation_test - INFO - u8c2027407855876833288模板打印预览请求的响应状态码为200
+2026-03-24 17:51:00,796 - automation_test - ERROR - ✗ 模板 u8c2027407855876833288 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:01,385 - automation_test - INFO - u8c2027407855876833289模板打印预览请求的响应状态码为200
+2026-03-24 17:51:01,386 - automation_test - ERROR - ✗ 模板 u8c2027407855876833289 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:01,994 - automation_test - INFO - u8c2027407855876833290模板打印预览请求的响应状态码为200
+2026-03-24 17:51:01,995 - automation_test - ERROR - ✗ 模板 u8c2027407855876833290 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:02,628 - automation_test - INFO - u8c2027407855876833291模板打印预览请求的响应状态码为200
+2026-03-24 17:51:02,629 - automation_test - ERROR - ✗ 模板 u8c2027407855876833291 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:03,213 - automation_test - INFO - u8c2027407855876833292模板打印预览请求的响应状态码为200
+2026-03-24 17:51:03,215 - automation_test - ERROR - ✗ 模板 u8c2027407855876833292 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:03,829 - automation_test - INFO - u8c2027407855876833293模板打印预览请求的响应状态码为200
+2026-03-24 17:51:03,830 - automation_test - ERROR - ✗ 模板 u8c2027407855876833293 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:04,417 - automation_test - INFO - u8c2027407855876833294模板打印预览请求的响应状态码为200
+2026-03-24 17:51:04,418 - automation_test - ERROR - ✗ 模板 u8c2027407855876833294 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:05,022 - automation_test - INFO - u8c2027407855876833295模板打印预览请求的响应状态码为200
+2026-03-24 17:51:05,023 - automation_test - ERROR - ✗ 模板 u8c2027407855876833295 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:05,607 - automation_test - INFO - u8c2027407855876833296模板打印预览请求的响应状态码为200
+2026-03-24 17:51:05,608 - automation_test - ERROR - ✗ 模板 u8c2027407855876833296 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:06,207 - automation_test - INFO - u8c2027407855876833297模板打印预览请求的响应状态码为200
+2026-03-24 17:51:06,208 - automation_test - ERROR - ✗ 模板 u8c2027407855876833297 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:06,810 - automation_test - INFO - u8c2027407855876833298模板打印预览请求的响应状态码为200
+2026-03-24 17:51:06,811 - automation_test - ERROR - ✗ 模板 u8c2027407855876833298 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:07,398 - automation_test - INFO - u8c2027407855876833299模板打印预览请求的响应状态码为200
+2026-03-24 17:51:07,400 - automation_test - ERROR - ✗ 模板 u8c2027407855876833299 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:07,982 - automation_test - INFO - u8c2027407855876833300模板打印预览请求的响应状态码为200
+2026-03-24 17:51:07,983 - automation_test - ERROR - ✗ 模板 u8c2027407855876833300 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:08,567 - automation_test - INFO - u8c2027407855876833301模板打印预览请求的响应状态码为200
+2026-03-24 17:51:08,568 - automation_test - ERROR - ✗ 模板 u8c2027407855876833301 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:09,167 - automation_test - INFO - u8c2027407855876833302模板打印预览请求的响应状态码为200
+2026-03-24 17:51:09,172 - automation_test - ERROR - ✗ 模板 u8c2027407855876833302 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:09,760 - automation_test - INFO - u8c2027407855876833303模板打印预览请求的响应状态码为200
+2026-03-24 17:51:09,762 - automation_test - ERROR - ✗ 模板 u8c2027407855876833303 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:10,387 - automation_test - INFO - u8c2027407855876833304模板打印预览请求的响应状态码为200
+2026-03-24 17:51:10,416 - automation_test - ERROR - ✗ 模板 u8c2027407855876833304 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:11,006 - automation_test - INFO - u8c2027407855876833305模板打印预览请求的响应状态码为200
+2026-03-24 17:51:11,008 - automation_test - ERROR - ✗ 模板 u8c2027407855876833305 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:11,600 - automation_test - INFO - u8c2027407855876833306模板打印预览请求的响应状态码为200
+2026-03-24 17:51:11,601 - automation_test - ERROR - ✗ 模板 u8c2027407855876833306 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:12,191 - automation_test - INFO - u8c2027407855876833307模板打印预览请求的响应状态码为200
+2026-03-24 17:51:12,192 - automation_test - ERROR - ✗ 模板 u8c2027407855876833307 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:13,104 - automation_test - INFO - u8c2027407855876833308模板打印预览请求的响应状态码为200
+2026-03-24 17:51:13,107 - automation_test - ERROR - ✗ 模板 u8c2027407855876833308 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:13,709 - automation_test - INFO - u8c2027407855876833309模板打印预览请求的响应状态码为200
+2026-03-24 17:51:13,710 - automation_test - ERROR - ✗ 模板 u8c2027407855876833309 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:14,334 - automation_test - INFO - u8c2027407855876833310模板打印预览请求的响应状态码为200
+2026-03-24 17:51:14,335 - automation_test - ERROR - ✗ 模板 u8c2027407855876833310 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:14,934 - automation_test - INFO - u8c2027407855876833311模板打印预览请求的响应状态码为200
+2026-03-24 17:51:14,936 - automation_test - ERROR - ✗ 模板 u8c2027407855876833311 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:15,523 - automation_test - INFO - u8c2027407855876833312模板打印预览请求的响应状态码为200
+2026-03-24 17:51:15,524 - automation_test - ERROR - ✗ 模板 u8c2027407855876833312 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:16,102 - automation_test - INFO - u8c2027407855876833313模板打印预览请求的响应状态码为200
+2026-03-24 17:51:16,103 - automation_test - ERROR - ✗ 模板 u8c2027407855876833313 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:16,749 - automation_test - INFO - u8c2027407855876833314模板打印预览请求的响应状态码为200
+2026-03-24 17:51:16,749 - automation_test - ERROR - ✗ 模板 u8c2027407855876833314 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:17,449 - automation_test - INFO - u8c2027407855876833315模板打印预览请求的响应状态码为200
+2026-03-24 17:51:17,450 - automation_test - ERROR - ✗ 模板 u8c2027407855876833315 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:18,115 - automation_test - INFO - u8c2027407855876833316模板打印预览请求的响应状态码为200
+2026-03-24 17:51:18,116 - automation_test - ERROR - ✗ 模板 u8c2027407855876833316 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:18,763 - automation_test - INFO - u8c2027407855876833317模板打印预览请求的响应状态码为200
+2026-03-24 17:51:18,764 - automation_test - ERROR - ✗ 模板 u8c2027407855876833317 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:19,353 - automation_test - INFO - u8c2027407855876833318模板打印预览请求的响应状态码为200
+2026-03-24 17:51:19,353 - automation_test - ERROR - ✗ 模板 u8c2027407855876833318 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:19,943 - automation_test - INFO - u8c2027407855876833319模板打印预览请求的响应状态码为200
+2026-03-24 17:51:19,944 - automation_test - ERROR - ✗ 模板 u8c2027407855876833319 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:20,533 - automation_test - INFO - u8c2027407855876833320模板打印预览请求的响应状态码为200
+2026-03-24 17:51:20,534 - automation_test - ERROR - ✗ 模板 u8c2027407855876833320 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:21,115 - automation_test - INFO - u8c2027407855876833321模板打印预览请求的响应状态码为200
+2026-03-24 17:51:21,115 - automation_test - ERROR - ✗ 模板 u8c2027407855876833321 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:21,698 - automation_test - INFO - u8c2027407855876833322模板打印预览请求的响应状态码为200
+2026-03-24 17:51:21,699 - automation_test - ERROR - ✗ 模板 u8c2027407855876833322 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:22,272 - automation_test - INFO - u8c2027407855876833323模板打印预览请求的响应状态码为200
+2026-03-24 17:51:22,272 - automation_test - ERROR - ✗ 模板 u8c2027407855876833323 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:22,872 - automation_test - INFO - u8c2027407855876833324模板打印预览请求的响应状态码为200
+2026-03-24 17:51:22,872 - automation_test - ERROR - ✗ 模板 u8c2027407855876833324 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:23,460 - automation_test - INFO - u8c2027407855876833325模板打印预览请求的响应状态码为200
+2026-03-24 17:51:23,461 - automation_test - ERROR - ✗ 模板 u8c2027407855876833325 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:24,044 - automation_test - INFO - u8c2027407855876833326模板打印预览请求的响应状态码为200
+2026-03-24 17:51:24,045 - automation_test - ERROR - ✗ 模板 u8c2027407855876833326 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:24,654 - automation_test - INFO - u8c2027407855876833327模板打印预览请求的响应状态码为200
+2026-03-24 17:51:24,654 - automation_test - ERROR - ✗ 模板 u8c2027407855876833327 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:25,259 - automation_test - INFO - u8c2027407855876833328模板打印预览请求的响应状态码为200
+2026-03-24 17:51:25,259 - automation_test - ERROR - ✗ 模板 u8c2027407855876833328 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:25,832 - automation_test - INFO - u8c1714271717000模板打印预览请求的响应状态码为200
+2026-03-24 17:51:25,833 - automation_test - ERROR - ✗ 模板 u8c1714271717000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:26,434 - automation_test - INFO - u8c1689834375000模板打印预览请求的响应状态码为200
+2026-03-24 17:51:26,435 - automation_test - ERROR - ✗ 模板 u8c1689834375000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:27,024 - automation_test - INFO - u8c1659075352000模板打印预览请求的响应状态码为200
+2026-03-24 17:51:27,025 - automation_test - ERROR - ✗ 模板 u8c1659075352000 异常: argument of type 'bool' is not iterable
+2026-03-24 17:51:27,025 - automation_test - INFO - 成功的打印模板清单如下[]
+2026-03-24 17:51:27,026 - automation_test - INFO - 失败的打印模板清单如下['u8c1774321495000', 'u8c1768286989628', 'u8c2444516534017064964', 'u8c1767512784478', 'u8c2435413179027161094', 'u8c2409752982813933571', 'u8c1761329163000', 'u8c2389109351354728454', 'u8c1761324315138', 'u8c2389067870560583689', 'u8c1760582703000', 'u8c2330000336319676425', 'u8c1752860041000', 'u8c1752860009000', 'u8c2292249429227864069', 'u8c2276904705144127495', 'u8c2276904705144127496', 'u8c2276904705144127497', 'u8c2276904705144127498', 'u8c1748019697000', 'u8c1745319511000', 'u8c2251365480965603329', 'u8c1744792894000', 'u8c1744622252000', 'u8c1744622212000', 'u8c1744622167000', 'u8c1744622122000', 'u8c1744622082000', 'u8c1744609139000', 'u8c2243551621200478208', 'u8c2243551621200478209', 'u8c2243551621200478210', 'u8c2243551621200478211', 'u8c2243551621200478212', 'u8c2243551621200478213', 'u8c2243551621200478214', 'u8c2243551621200478215', 'u8c2243551621200478216', 'u8c2243551621200478217', 'u8c2243551621200478218', 'u8c2243551621200478219', 'u8c2241281722406666246', 'u8c2241281722406666247', 'u8c2240364935846559747', 'u8c1742573609526', 'u8c1742572898000', 'u8c2227993127944192005', 'u8c2227993127944192006', 'u8c2227993127944192007', 'u8c2227993127944192008', 'u8c2227993127944192009', 'u8c2227993127944192010', 'u8c2227993127944192011', 'u8c2227993127944192012', 'u8c2227993127944192013', 'u8c2227993127944192014', 'u8c2227993127944192015', 'u8c2227993127944192016', 'u8c2197556378335707139', 'u8c2197556378335707140', 'u8c2184146803244400641', 'u8c2181232977180098562', 'u8c1737123402000', 'u8c1737103189000', 'u8c2174176629375893505', 'u8c1733589268000', 'u8c1732341275000', 'u8c1732301417000', 'u8c1732301109000', 'u8c1732292573000', 'u8c1732095637000', 'u8c2127394668782551048', 'u8c1730861270000', 'u8c2121808410958626822', 'u8c1728749724000', 'u8c2109231209119744007', 'u8c2107796604154544133', 'u8c1727618784000', 'u8c1727615671000', 'u8c1727543790000', 'u8c1727530087000', 'u8c2098153543582613508', 'u8c1727450400000', 'u8c2098076259921166337', 'u8c1726802489000', 'u8c1725873627000', 'u8c1725542446000', 'u8c1722519141000', 'u8c1721417020000', 'u8c1721414634000', 'u8c1721406425000', 'u8c1719328017000', 'u8c1719327778000', 'u8c2028263662467153927', 'u8c1719285378000', 'u8c2027407855876833284', 'u8c2027407855876833285', 'u8c2027407855876833286', 'u8c2027407855876833287', 'u8c2027407855876833288', 'u8c2027407855876833289', 'u8c2027407855876833290', 'u8c2027407855876833291', 'u8c2027407855876833292', 'u8c2027407855876833293', 'u8c2027407855876833294', 'u8c2027407855876833295', 'u8c2027407855876833296', 'u8c2027407855876833297', 'u8c2027407855876833298', 'u8c2027407855876833299', 'u8c2027407855876833300', 'u8c2027407855876833301', 'u8c2027407855876833302', 'u8c2027407855876833303', 'u8c2027407855876833304', 'u8c2027407855876833305', 'u8c2027407855876833306', 'u8c2027407855876833307', 'u8c2027407855876833308', 'u8c2027407855876833309', 'u8c2027407855876833310', 'u8c2027407855876833311', 'u8c2027407855876833312', 'u8c2027407855876833313', 'u8c2027407855876833314', 'u8c2027407855876833315', 'u8c2027407855876833316', 'u8c2027407855876833317', 'u8c2027407855876833318', 'u8c2027407855876833319', 'u8c2027407855876833320', 'u8c2027407855876833321', 'u8c2027407855876833322', 'u8c2027407855876833323', 'u8c2027407855876833324', 'u8c2027407855876833325', 'u8c2027407855876833326', 'u8c2027407855876833327', 'u8c2027407855876833328', 'u8c1714271717000', 'u8c1689834375000', 'u8c1659075352000']
+2026-03-24 17:51:27,249 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:27,252 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_001.zip的对比result结果
+2026-03-24 17:51:28,187 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:28,190 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_002.zip的对比result结果
+2026-03-24 17:51:28,677 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:28,679 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_003.zip的对比result结果
+2026-03-24 17:51:29,108 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:29,111 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_004.zip的对比result结果
+2026-03-24 17:51:29,622 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:29,625 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_005.zip的对比result结果
+2026-03-24 17:51:30,010 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:30,013 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_006.zip的对比result结果
+2026-03-24 17:51:30,401 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:30,403 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_007.zip的对比result结果
+2026-03-24 17:51:30,799 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:30,801 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_008.zip的对比result结果
+2026-03-24 17:51:31,215 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:31,217 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_009.zip的对比result结果
+2026-03-24 17:51:31,570 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:31,572 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_010.zip的对比result结果
+2026-03-24 17:51:31,932 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:31,934 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_011.zip的对比result结果
+2026-03-24 17:51:32,351 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:32,353 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_012.zip的对比result结果
+2026-03-24 17:51:32,814 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:32,817 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_013.zip的对比result结果
+2026-03-24 17:51:33,243 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:33,248 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_014.zip的对比result结果
+2026-03-24 17:51:33,775 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:33,780 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_015.zip的对比result结果
+2026-03-24 17:51:34,382 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:34,390 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_016.zip的对比result结果
+2026-03-24 17:51:35,333 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:35,592 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_017.zip的对比result结果
+2026-03-24 17:51:36,871 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:37,061 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_018.zip的对比result结果
+2026-03-24 17:51:39,386 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:39,904 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_019.zip的对比result结果
+2026-03-24 17:51:41,584 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:41,792 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_020.zip的对比result结果
+2026-03-24 17:51:43,126 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:43,479 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_021.zip的对比result结果
+2026-03-24 17:51:45,115 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:45,436 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_022.zip的对比result结果
+2026-03-24 17:51:46,704 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:47,079 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_023.zip的对比result结果
+2026-03-24 17:51:48,508 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:48,555 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_024.zip的对比result结果
+2026-03-24 17:51:49,819 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:49,875 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_025.zip的对比result结果
+2026-03-24 17:51:50,983 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:51,169 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_026.zip的对比result结果
+2026-03-24 17:51:52,255 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:52,260 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_027.zip的对比result结果
+2026-03-24 17:51:52,788 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:52,790 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_028.zip的对比result结果
+2026-03-24 17:51:53,238 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:53,241 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_029.zip的对比result结果
+2026-03-24 17:51:53,674 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:53,678 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_035.zip的对比result结果
+2026-03-24 17:51:54,078 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:54,080 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_036.zip的对比result结果
+2026-03-24 17:51:54,446 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:54,449 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_037.zip的对比result结果
+2026-03-24 17:51:54,835 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:54,837 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_038.zip的对比result结果
+2026-03-24 17:51:55,358 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:55,360 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_040.zip的对比result结果
+2026-03-24 17:51:55,786 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:55,788 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_041.zip的对比result结果
+2026-03-24 17:51:56,360 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:56,365 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_042.zip的对比result结果
+2026-03-24 17:51:56,837 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:56,839 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_043.zip的对比result结果
+2026-03-24 17:51:57,323 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:57,325 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_044.zip的对比result结果
+2026-03-24 17:51:57,740 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:57,742 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_045.zip的对比result结果
+2026-03-24 17:51:58,427 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:58,430 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_046.zip的对比result结果
+2026-03-24 17:51:59,034 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:59,037 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_047.zip的对比result结果
+2026-03-24 17:51:59,492 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:59,494 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_048.zip的对比result结果
+2026-03-24 17:51:59,914 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:51:59,916 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_050.zip的对比result结果
+2026-03-24 17:52:00,400 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:00,406 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_051.zip的对比result结果
+2026-03-24 17:52:00,885 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:00,887 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_052.zip的对比result结果
+2026-03-24 17:52:01,380 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:01,382 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_053.zip的对比result结果
+2026-03-24 17:52:01,765 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:01,767 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_054.zip的对比result结果
+2026-03-24 17:52:02,159 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:02,160 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_055.zip的对比result结果
+2026-03-24 17:52:02,541 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:02,544 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_056.zip的对比result结果
+2026-03-24 17:52:03,027 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:03,030 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_057.zip的对比result结果
+2026-03-24 17:52:03,493 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:03,495 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_058.zip的对比result结果
+2026-03-24 17:52:03,882 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:03,884 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_059.zip的对比result结果
+2026-03-24 17:52:04,283 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:04,285 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_060.zip的对比result结果
+2026-03-24 17:52:04,716 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:04,718 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_061.zip的对比result结果
+2026-03-24 17:52:05,134 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:05,137 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_062.zip的对比result结果
+2026-03-24 17:52:05,653 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:05,656 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_063.zip的对比result结果
+2026-03-24 17:52:06,079 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:06,082 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_064.zip的对比result结果
+2026-03-24 17:52:06,513 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:06,515 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_065.zip的对比result结果
+2026-03-24 17:52:06,935 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:06,937 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_066.zip的对比result结果
+2026-03-24 17:52:07,566 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:07,569 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_067.zip的对比result结果
+2026-03-24 17:52:08,093 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:08,095 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_068.zip的对比result结果
+2026-03-24 17:52:08,655 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:08,657 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_069.zip的对比result结果
+2026-03-24 17:52:09,074 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:09,076 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_070.zip的对比result结果
+2026-03-24 17:52:09,447 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:09,449 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_071.zip的对比result结果
+2026-03-24 17:52:09,824 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:09,826 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_072.zip的对比result结果
+2026-03-24 17:52:10,209 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:10,212 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_073.zip的对比result结果
+2026-03-24 17:52:10,626 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:10,647 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_074.zip的对比result结果
+2026-03-24 17:52:11,053 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:11,055 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_075.zip的对比result结果
+2026-03-24 17:52:11,416 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:11,418 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_076.zip的对比result结果
+2026-03-24 17:52:11,806 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:11,808 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_077.zip的对比result结果
+2026-03-24 17:52:12,211 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:12,214 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_078.zip的对比result结果
+2026-03-24 17:52:12,611 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:12,614 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_079.zip的对比result结果
+2026-03-24 17:52:13,008 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:13,010 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_080.zip的对比result结果
+2026-03-24 17:52:13,442 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:13,444 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_081.zip的对比result结果
+2026-03-24 17:52:13,849 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:13,851 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_082.zip的对比result结果
+2026-03-24 17:52:14,217 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:14,227 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_083.zip的对比result结果
+2026-03-24 17:52:14,672 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:14,675 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_084.zip的对比result结果
+2026-03-24 17:52:15,096 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:15,098 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_085.zip的对比result结果
+2026-03-24 17:52:15,489 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:15,492 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_086.zip的对比result结果
+2026-03-24 17:52:15,896 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:15,898 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_087.zip的对比result结果
+2026-03-24 17:52:16,270 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:16,272 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_088.zip的对比result结果
+2026-03-24 17:52:16,662 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:16,665 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_089.zip的对比result结果
+2026-03-24 17:52:17,104 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:17,106 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_090.zip的对比result结果
+2026-03-24 17:52:17,528 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:17,530 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_091.zip的对比result结果
+2026-03-24 17:52:17,926 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:17,928 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_092.zip的对比result结果
+2026-03-24 17:52:18,353 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:18,355 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_093.zip的对比result结果
+2026-03-24 17:52:18,731 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:18,736 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_094.zip的对比result结果
+2026-03-24 17:52:19,159 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:19,161 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_095.zip的对比result结果
+2026-03-24 17:52:19,566 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:19,568 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_096.zip的对比result结果
+2026-03-24 17:52:19,923 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:19,973 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_097.zip的对比result结果
+2026-03-24 17:52:20,366 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:20,368 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_098.zip的对比result结果
+2026-03-24 17:52:20,772 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:20,775 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_099.zip的对比result结果
+2026-03-24 17:52:21,138 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:21,140 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_100.zip的对比result结果
+2026-03-24 17:52:21,489 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:21,491 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_101.zip的对比result结果
+2026-03-24 17:52:21,878 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:21,880 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_102.zip的对比result结果
+2026-03-24 17:52:22,317 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:22,323 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_103.zip的对比result结果
+2026-03-24 17:52:22,762 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:22,764 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_104.zip的对比result结果
+2026-03-24 17:52:23,178 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:23,180 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_105.zip的对比result结果
+2026-03-24 17:52:23,673 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:23,675 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_106.zip的对比result结果
+2026-03-24 17:52:24,094 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:24,097 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_107.zip的对比result结果
+2026-03-24 17:52:24,533 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:24,535 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_108.zip的对比result结果
+2026-03-24 17:52:24,980 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:24,983 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_109.zip的对比result结果
+2026-03-24 17:52:25,394 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:25,396 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_110.zip的对比result结果
+2026-03-24 17:52:25,810 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:25,812 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_111.zip的对比result结果
+2026-03-24 17:52:26,339 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:26,341 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_112.zip的对比result结果
+2026-03-24 17:52:26,759 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:26,762 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_113.zip的对比result结果
+2026-03-24 17:52:27,217 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:27,219 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_114.zip的对比result结果
+2026-03-24 17:52:27,631 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:27,633 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_115.zip的对比result结果
+2026-03-24 17:52:28,074 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:28,076 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_116.zip的对比result结果
+2026-03-24 17:52:28,533 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:28,535 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_117.zip的对比result结果
+2026-03-24 17:52:28,916 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:28,918 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_118.zip的对比result结果
+2026-03-24 17:52:29,319 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:29,321 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_119.zip的对比result结果
+2026-03-24 17:52:29,714 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:29,716 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_120.zip的对比result结果
+2026-03-24 17:52:30,159 - automation_test - INFO - 保存响应数据到本地文件
+2026-03-24 17:52:30,181 - automation_test - INFO - 提取E:\compare\compare_json\DYMB_121.zip的对比result结果
+2026-03-24 17:52:30,485 - automation_test - INFO - 这是登录的teardown方法

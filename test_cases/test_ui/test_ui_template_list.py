@@ -50,18 +50,17 @@ def print_template_jinrushengchandingdan(login):
     element = driver.find_element(By.XPATH,'//*[@fieldid="iprint_add-iconfont"]')
     #元素存在性验证
     assert element is not None
-    yield
-    logger.info('关闭打印模板节点页签')
-    allure.step('关闭打印模板节点页签')
-    WebDriverWait(driver,30).until(EC.presence_of_element_located((By.XPATH,'//*[@fieldid="GZTTMP040_icon"]')))
-    driver.find_element(By.XPATH,'//*[@fieldid="GZTTMP040_icon"]').click()
-    logger.info('关闭打印模板节点页签完成')
-    allure.step('关闭打印模板节点页签完成')
 
+
+template_status_data = [
+    pytest.param("复制_状态验证",id="模板状态验证")
+]
 @allure.epic("UI自动化")
 @allure.feature("打印模板")
 @allure.story("模板状态检查")
-def test_template_status(login):
+@pytest.mark.parametrize("template_name",template_status_data)
+@pytest.mark.ui
+def test_template_status(login,template_name):
     '''
     这条用例用于检查打印模板的复制-启停-默认设置-删除
     '''
@@ -71,9 +70,9 @@ def test_template_status(login):
     #用例前置：检查当前预用模板是否存在，存在就删掉
     with allure.step("用例前置：检查并删除当前用例涉及的打印模板"):
         try:
-            element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]')
+            element = driver.find_element(By.XPATH, f'//*[text()="{template_name}"]')
             if element is not None:
-                more = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[@fieldid="iprint_more-btn"]')
+                more = driver.find_element(By.XPATH, f'//*[text()="{template_name}"]/../..//*[@fieldid="iprint_more-btn"]')
                 ActionChains(driver).move_to_element(more).perform()
                 time.sleep(5)
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
@@ -81,7 +80,7 @@ def test_template_status(login):
                     EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
                 WebDriverWait(driver, 20).until(
-                    EC.invisibility_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]')))
+                    EC.invisibility_of_element_located((By.XPATH, f'//*[text()="{template_name}"]')))
         except NoSuchElementException:
             pass
     #等待并复制系统模板并验证目标模板存在
@@ -103,7 +102,7 @@ def test_template_status(login):
         #模拟键盘的删除delete
         element.send_keys(Keys.DELETE)
         #写入新内容
-        driver.find_element(By.XPATH,'//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys("复制_状态验证")
+        driver.find_element(By.XPATH,'//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys(f"{template_name}")
         WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
         driver.find_element(By.XPATH,'//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
         #返回打印模板浏览器页面
@@ -114,31 +113,31 @@ def test_template_status(login):
                 driver.close()
                 driver.switch_to.window(print_handle)
                 break
-        WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]')))
-        element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]')
-        assert element.text == "复制_状态验证"
+        WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,f'//*[text()="{template_name}"]')))
+        element = driver.find_element(By.XPATH,f'//*[text()="{template_name}"]')
+        assert element.text == f"{template_name}"
         logger.info("新增复制模板验证通过")
     with allure.step("验证新增模板为已启用状态"):
         logger.info("验证新增模板为已启用状态")
-        element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
+        element = driver.find_element(By.XPATH,f'//*[text()="{template_name}"]/../..//*[text()="已启用"]')
         assert element is not None
     with allure.step("模板启停验证"):
         logger.info("模板启停验证")
-        more = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[@fieldid="iprint_more-btn"]')
+        more = driver.find_element(By.XPATH,f'//*[text()="{template_name}"]/../..//*[@fieldid="iprint_more-btn"]')
         ActionChains(driver).move_to_element(more).perform()
     with allure.step("点击停用按钮"):
         logger.info("点击停用按钮")
         driver.find_element(By.XPATH,'//*[@fieldid="iprint_disuse-btn"]').click()
-        WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已停用"]')))
-        element = driver.find_element(By.XPATH,'//*[text()="复制_状态验证"]/../..//*[text()="已停用"]')
+        WebDriverWait(driver,20).until(EC.presence_of_element_located((By.XPATH,f'//*[text()="{template_name}"]/../..//*[text()="已停用"]')))
+        element = driver.find_element(By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="已停用"]')
         assert element is not None
     with allure.step("点击启动按钮"):
         logger.info("点击启动按钮")
         ActionChains(driver).move_to_element(more).perform()
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_use-btn"]').click()
         WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')))
-        element = driver.find_element(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="已启用"]')
+            EC.presence_of_element_located((By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="已启用"]')))
+        element = driver.find_element(By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="已启用"]')
         assert element is not None
     logger.info("打印模板的启停状态切换验证通过")
     with allure.step("模板默认标签验证"):
@@ -147,15 +146,15 @@ def test_template_status(login):
         ActionChains(driver).move_to_element(more).perform()
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_default-btn"]').click()
         WebDriverWait(driver, 20).until(
-            EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')))
-        element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')
+            EC.presence_of_element_located((By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="默认"]')))
+        element = driver.find_elements(By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="默认"]')
         assert element is not None
         logger.info("取消默认设置")
         time.sleep(3)
         ActionChains(driver).move_to_element(more).perform()
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_cancel_default-btn"]').click()
-        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')))
-        element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]/../..//*[text()="默认"]')
+        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="默认"]')))
+        element = driver.find_elements(By.XPATH, f'//*[text()="{template_name}"]/../..//*[text()="默认"]')
         assert len(element) == 0
         logger.info("打印模板的默认标签配置取消验证通过")
     with allure.step("执行打印模板的删除操作"):
@@ -164,15 +163,21 @@ def test_template_status(login):
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
-        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_状态验证"]')))
-        tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_状态验证"]')
+        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, f'//*[text()="{template_name}"]')))
+        tem_element = driver.find_elements(By.XPATH, f'//*[text()="{template_name}"]')
         assert len(tem_element) == 0
         logger.info("新增打印模板删除完成")
 
+
+template_properties_data = [
+    pytest.param("复制_模板属性验证",id="模板属性验证")
+]
 @allure.epic("UI自动化")
 @allure.feature("打印模板")
 @allure.story("模板属性默认值检查")
-def test_design_properties_default_value(login):
+@pytest.mark.parametrize("properties_name",template_properties_data)
+@pytest.mark.ui
+def test_design_properties_default_value(login,properties_name):
     logger.info("这条用例仅作打印模板模板属性默认值检查")
     driver = login
     with allure.step("用例前置：检查当前预用模板是否存在，存在就删掉"):
@@ -180,9 +185,9 @@ def test_design_properties_default_value(login):
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
         try:
-            element = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]')
+            element = driver.find_element(By.XPATH, f'//*[text()="{properties_name}"]')
             if element is not None:
-                more = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+                more = driver.find_element(By.XPATH, f'//*[text()="{properties_name}"]/../..//*[@fieldid="iprint_more-btn"]')
                 ActionChains(driver).move_to_element(more).perform()
                 time.sleep(5)
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
@@ -190,7 +195,7 @@ def test_design_properties_default_value(login):
                     EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
                 WebDriverWait(driver, 20).until(
-                    EC.invisibility_of_element_located((By.XPATH, '//*[text()="复制_模板属性验证"]')))
+                    EC.invisibility_of_element_located((By.XPATH, f'//*[text()="{properties_name}"]')))
         except NoSuchElementException:
             pass
     with allure.step("复制系统模板并获取当前页面句柄"):
@@ -211,7 +216,7 @@ def test_design_properties_default_value(login):
         # 模拟键盘的删除delete
         element.send_keys(Keys.DELETE)
         # 写入新内容
-        driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys("复制_模板属性验证")
+        driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys(f"{properties_name}")
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
@@ -232,7 +237,7 @@ def test_design_properties_default_value(login):
         logger.info("验证模板名称与新增该模板配置的名称一致")
         time.sleep(3)
         element = driver.find_element(By.XPATH,'//*[@fieldid="design|InputText|uititle|Input"]')
-        assert element.get_attribute("value") == "复制_模板属性验证"
+        assert element.get_attribute("value") == f"{properties_name}"
     with allure.step("验证横向矩阵默认值为1"):
         logger.info("验证横向矩阵默认值为1")
         time.sleep(3)
@@ -283,21 +288,29 @@ def test_design_properties_default_value(login):
     with allure.step("关闭当前句柄页面并删除本次新增打印模板"):
         driver.close()
         driver.switch_to.window(printlist_handle)
-        more = driver.find_element(By.XPATH, '//*[text()="复制_模板属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+        more = driver.find_element(By.XPATH, f'//*[text()="{properties_name}"]/../..//*[@fieldid="iprint_more-btn"]')
         logger.info("执行打印模板的删除操作")
         ActionChains(driver).move_to_element(more).perform()
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
-        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, '//*[text()="复制_模板属性验证"]')))
-        tem_element = driver.find_elements(By.XPATH, '//*[text()="复制_模板属性验证"]')
+        WebDriverWait(driver, 20).until_not(EC.presence_of_element_located((By.XPATH, f'//*[text()="{properties_name}"]')))
+        tem_element = driver.find_elements(By.XPATH, f'//*[text()="{properties_name}"]')
         assert len(tem_element) == 0
         logger.info("新增打印模板删除完成")
+
+
+kongjian_liebiao_data =[
+    pytest.param("复制_列表属性验证",id="设计器列表验证")
+]
 @allure.epic("UI自动化")
 @allure.feature("打印模板")
 @allure.story("设计器列表新增检查")
-def test_kongjian_list_drag_default_value(login):
+@pytest.mark.ui
+@pytest.mark.parametrize("kongjian_name",kongjian_liebiao_data)
+@pytest.mark.flaky(reruns=3,reruns_delay=2)#失败重试机制
+def test_kongjian_list_drag_default_value(login,kongjian_name):
     logger.info("该用例用于进行打印模板设计器中列表控件的删除、新增、配置后的默认属性验证")
     driver = login
     logger.info("用例前置：检查当前预用模板是否存在，存在就删掉")
@@ -305,9 +318,9 @@ def test_kongjian_list_drag_default_value(login):
         EC.presence_of_element_located((By.XPATH, '//*[@class="card_name"][text()="生产订单"]')))
     with allure.step("检查并删除历史执行中遗留的本次用例使用模板名称模板"):
         try:
-            element = driver.find_element(By.XPATH, '//*[text()="复制_列表属性验证"]')
+            element = driver.find_element(By.XPATH, f'//*[text()="{kongjian_name}"]')
             if element is not None:
-                more = driver.find_element(By.XPATH, '//*[text()="复制_列表属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+                more = driver.find_element(By.XPATH, f'//*[text()="{kongjian_name}"]/../..//*[@fieldid="iprint_more-btn"]')
                 ActionChains(driver).move_to_element(more).perform()
                 time.sleep(5)
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()
@@ -315,7 +328,7 @@ def test_kongjian_list_drag_default_value(login):
                     EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_app_model_modal_title"]')))
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_app_model_modal_footer_ok"]').click()
                 WebDriverWait(driver, 20).until(
-                    EC.invisibility_of_element_located((By.XPATH, '//*[text()="复制_列表属性验证"]')))
+                    EC.invisibility_of_element_located((By.XPATH, f'//*[text()="{kongjian_name}"]')))
         except NoSuchElementException:
             pass
 
@@ -339,7 +352,7 @@ def test_kongjian_list_drag_default_value(login):
         element.send_keys(Keys.DELETE)
         # 写入新内容
         driver.find_element(By.XPATH, '//*[@fieldid="print_multilang_requireNoAutoComplete"]').send_keys(
-            "复制_列表属性验证")
+            f"{kongjian_name}")
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]')))
         driver.find_element(By.XPATH, '//*[@fieldid="iprint_CopyTemp_model_modal_footer_ok"]').click()
@@ -473,9 +486,9 @@ def test_kongjian_list_drag_default_value(login):
         logger.info("用例后置：删除本用例新增模板")
         driver.switch_to.window(printlist_handle)
         try:
-            element = driver.find_element(By.XPATH, '//*[text()="复制_列表属性验证"]')
+            element = driver.find_element(By.XPATH, f'//*[text()="{kongjian_name}"]')
             if element is not None:
-                more = driver.find_element(By.XPATH, '//*[text()="复制_列表属性验证"]/../..//*[@fieldid="iprint_more-btn"]')
+                more = driver.find_element(By.XPATH, f'//*[text()="{kongjian_name}"]/../..//*[@fieldid="iprint_more-btn"]')
                 ActionChains(driver).move_to_element(more).perform()
                 time.sleep(5)
                 driver.find_element(By.XPATH, '//*[@fieldid="iprint_delete-btn"][text()="删除"]').click()

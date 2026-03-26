@@ -1,0 +1,61 @@
+2026-03-25 10:05:29,493 - automation_test - INFO - 从D://python_workspace//yonyou_automation//data.csv加载了114条测试数据
+2026-03-25 10:06:49,894 - automation_test - INFO - 将字典型cookie结构转化成字符串型
+2026-03-25 10:06:50,021 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:06:50,022 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_001.zip
+2026-03-25 10:06:50,023 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_001.zip
+2026-03-25 10:06:54,220 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:06:54,221 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"45b540b0604e8848","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:06:55,020 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:06:55,021 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_002.zip
+2026-03-25 10:06:55,022 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_002.zip
+2026-03-25 10:06:58,521 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:06:58,522 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"0e077e6f2b8b97c5","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:06:58,762 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:06:58,762 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_003.zip
+2026-03-25 10:06:58,763 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_003.zip
+2026-03-25 10:07:02,214 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:02,215 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"ef0167ddbff6ec35","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:02,417 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:02,418 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_004.zip
+2026-03-25 10:07:02,418 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_004.zip
+2026-03-25 10:07:05,902 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:05,903 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"537638c1a2483e8e","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:06,172 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:06,173 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_005.zip
+2026-03-25 10:07:06,174 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_005.zip
+2026-03-25 10:07:09,789 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:09,789 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"b62dee92c536a21e","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:10,022 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:10,024 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_006.zip
+2026-03-25 10:07:10,024 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_006.zip
+2026-03-25 10:07:13,471 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:13,471 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"d7abf18e8941ac2e","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:13,822 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:13,823 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_007.zip
+2026-03-25 10:07:13,824 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_007.zip
+2026-03-25 10:07:17,884 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:17,884 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"8928c0c32c01340d","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:18,211 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:18,211 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_008.zip
+2026-03-25 10:07:18,212 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_008.zip
+2026-03-25 10:07:21,667 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:21,667 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"40aa224b57ed6ca1","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:21,909 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:21,910 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_009.zip
+2026-03-25 10:07:21,910 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_009.zip
+2026-03-25 10:07:25,664 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:25,664 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"c27f6de15cf34013","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:25,917 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:25,917 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_010.zip
+2026-03-25 10:07:25,918 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_010.zip
+2026-03-25 10:07:29,341 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:29,341 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"9db4379aebed3d44","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:29,575 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:29,576 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_011.zip
+2026-03-25 10:07:29,576 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_011.zip
+2026-03-25 10:07:33,029 - automation_test - INFO - 响应 Content-Type: application/json; charset=UTF-8
+2026-03-25 10:07:33,029 - automation_test - ERROR - 预期ZIP类型响应，实际返回 Content-Type=application/json; charset=UTF-8，响应前200字符：{"msg":"Current request is not a multipart request","traceId":"65cbcb2871eb2bd5","level":0,"displayCode":"000-542-000000","message":"Current request is not a multipart request","status":0}
+2026-03-25 10:07:33,268 - automation_test - INFO - 发送PDF对比请求，URL: https://c2.yonyoucloud.com/iuap-apcom-print/iuap-print-pdf/pdf/generate/compare
+2026-03-25 10:07:33,269 - automation_test - INFO - 文件1: E:\compare\compare_json\DYMB_012.zip
+2026-03-25 10:07:33,269 - automation_test - INFO - 文件2: E:\compare\compare_pdf\DYMB_012.zip
+2026-03-25 10:07:34,891 - automation_test - INFO - 这是登录的teardown方法
